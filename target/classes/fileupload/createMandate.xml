@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:awl:emdd:tech:xsd:mndt.data.managmnt.001" xmlns:emdd="urn:awl:emdd:tech:xsd:common.001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:awl:emdd:tech:xsd:mndt.data.managmnt.001 emdd.mndt.data.managmnt.001.xsd">
+    <MndtData>
+        <GrpHdr>
+            <emdd:MsgId>XML-MANDATE-CREATION-replace_id</emdd:MsgId>
+            <emdd:CreDtTm>2014-03-01T02:30:10</emdd:CreDtTm>
+            <emdd:NbOfTxs>5</emdd:NbOfTxs>
+        </GrpHdr>
+        <MndtDataTxInf idx="1">
+            <MndtCreat>
+                <CdtrMndtInf>
+                    <Sci>FR65ZZZ222522</Sci>
+                    <Nm>SNCF</Nm>
+                </CdtrMndtInf>
+                <MndtPpInfo>
+                    <UniqMdtRef>
+                        <UMR>AAMFA10000DB47EFE9AFF92A96738E00000</UMR>
+                    </UniqMdtRef>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <DtOfSgntr>2014-02-27</DtOfSgntr>
+                    <CityOfSgntr>LILLE</CityOfSgntr>
+                    <Cntrct>TGVPR00008673</Cntrct>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>HENRARD</Nm>
+                            <PrvtId ExtrId="190855"/>
+                        </DbtrId>
+                        <PstlAdr>
+                            <emdd:StrtNm>121 RUE DE RIVOLI</emdd:StrtNm>
+                            <emdd:PstCd>59800</emdd:PstCd>
+                            <emdd:City>LILLE</emdd:City>
+                            <emdd:Ctry>FR</emdd:Ctry>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <emdd:AcctId>
+                            <emdd:IBAN>FR2430002088000000046313B87</emdd:IBAN>
+                        </emdd:AcctId>
+                        <emdd:FinInstnId>
+                            <emdd:BIC>CRLYFRPPXXX</emdd:BIC>
+                        </emdd:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+            </MndtCreat>
+        </MndtDataTxInf>
+        <MndtDataTxInf idx="2">
+            <MndtCreat>
+                <CdtrMndtInf>
+                    <Sci>FR65ZZZ222522</Sci>
+                    <Nm>SNCF</Nm>
+                </CdtrMndtInf>
+                <MndtPpInfo>
+                    <UniqMdtRef>
+                        <UMR>AAMFA1000041CF2D67C1589F7F9E2000000</UMR>
+                    </UniqMdtRef>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <DtOfSgntr>2014-02-26</DtOfSgntr>
+                    <CityOfSgntr>SANTES</CityOfSgntr>
+                    <Cntrct>TGVPR00008692</Cntrct>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>VAUBAN</Nm>
+                            <PrvtId ExtrId="199211"/>
+                        </DbtrId>
+                        <PstlAdr>
+                            <emdd:StrtNm>165 RUE MARX DORMOY;WATRELOT</emdd:StrtNm>
+                            <emdd:PstCd>59211</emdd:PstCd>
+                            <emdd:City>SANTES</emdd:City>
+                            <emdd:Ctry>FR</emdd:Ctry>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <emdd:AcctId>
+                            <emdd:IBAN>FR7612280000030479335174714</emdd:IBAN>
+                        </emdd:AcctId>
+                        <emdd:FinInstnId>
+                            <emdd:BIC>SORMFR2NXXX</emdd:BIC>
+                        </emdd:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+            </MndtCreat>
+        </MndtDataTxInf>
+        <MndtDataTxInf idx="3">
+            <MndtCreat>
+                <CdtrMndtInf>
+                    <Sci>FR65ZZZ222522</Sci>
+                    <Nm>SNCF</Nm>
+                </CdtrMndtInf>
+                <MndtPpInfo>
+                    <UniqMdtRef>
+                        <UMR>AAMFA10000546CB34B6406D7B1D50500000</UMR>
+                    </UniqMdtRef>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <DtOfSgntr>2014-02-24</DtOfSgntr>
+                    <CityOfSgntr>SAINT OUEN</CityOfSgntr>
+                    <Cntrct>TGVPR00008679</Cntrct>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>SARL AJTATION</Nm>
+                            <PrvtId ExtrId="193297"/>
+                        </DbtrId>
+                        <PstlAdr>
+                            <emdd:StrtNm>96  RUE DES ROSIERS;MARCHE PAUL BERT ALLEE 2 STAND 131</emdd:StrtNm>
+                            <emdd:PstCd>93400</emdd:PstCd>
+                            <emdd:City>SAINT OUEN</emdd:City>
+                            <emdd:Ctry>FR</emdd:Ctry>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <emdd:AcctId>
+                            <emdd:IBAN>FR7619406370318147786400185</emdd:IBAN>
+                        </emdd:AcctId>
+                        <emdd:FinInstnId>
+                            <emdd:BIC>AGRIFRPP894</emdd:BIC>
+                        </emdd:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+            </MndtCreat>
+        </MndtDataTxInf>
+        <MndtDataTxInf idx="4">
+            <MndtCreat>
+                <CdtrMndtInf>
+                    <Sci>FR65ZZZ222522</Sci>
+                    <Nm>SNCF</Nm>
+                </CdtrMndtInf>
+                <MndtPpInfo>
+                    <UniqMdtRef>
+                        <UMR>AAMFA1000037406AA9098BBCEAFD7700000</UMR>
+                    </UniqMdtRef>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <DtOfSgntr>2014-02-17</DtOfSgntr>
+                    <CityOfSgntr>VILLE DOMMANGE</CityOfSgntr>
+                    <Cntrct>TGVPR00008668</Cntrct>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>GORCE FETY</Nm>
+                            <PrvtId ExtrId="182433"/>
+                        </DbtrId>
+                        <PstlAdr>
+                            <emdd:StrtNm>33 RUE DE L AURORE</emdd:StrtNm>
+                            <emdd:PstCd>51390</emdd:PstCd>
+                            <emdd:City>VILLE DOMMANGE</emdd:City>
+                            <emdd:Ctry>FR</emdd:Ctry>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <emdd:AcctId>
+                            <emdd:IBAN>FR7611899001240002599864537</emdd:IBAN>
+                        </emdd:AcctId>
+                        <emdd:FinInstnId>
+                            <emdd:BIC>CMCIFR2AXXX</emdd:BIC>
+                        </emdd:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+            </MndtCreat>
+        </MndtDataTxInf>
+        <MndtDataTxInf idx="5">
+            <MndtCreat>
+                <CdtrMndtInf>
+                    <Sci>FR65ZZZ222522</Sci>
+                    <Nm>SNCF</Nm>
+                </CdtrMndtInf>
+                <MndtPpInfo>
+                    <UniqMdtRef>
+                        <UMR>AAMFA100003134095662F80649429E00000</UMR>
+                    </UniqMdtRef>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <DtOfSgntr>2014-02-21</DtOfSgntr>
+                    <CityOfSgntr>LAGNY SUR MARNE</CityOfSgntr>
+                    <Cntrct>TGVPR00008694</Cntrct>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>BLANQUET</Nm>
+                            <PrvtId ExtrId="199748"/>
+                        </DbtrId>
+                        <PstlAdr>
+                            <emdd:StrtNm>60 RUE SAINT LAURENT</emdd:StrtNm>
+                            <emdd:PstCd>77400</emdd:PstCd>
+                            <emdd:City>LAGNY SUR MARNE</emdd:City>
+                            <emdd:Ctry>FR</emdd:Ctry>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <emdd:AcctId>
+                            <emdd:IBAN>FR7618306000415951288100041</emdd:IBAN>
+                        </emdd:AcctId>
+                        <emdd:FinInstnId>
+                            <emdd:BIC>AGRIFRPP883</emdd:BIC>
+                        </emdd:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+            </MndtCreat>
+        </MndtDataTxInf>
+    </MndtData>
+</Document>

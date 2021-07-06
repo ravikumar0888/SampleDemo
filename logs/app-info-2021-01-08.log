@@ -1,0 +1,174 @@
+[INFO ] 2021-01-08 09:09:56.481 [TestNG-test=Regression-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 09:09:57.664 [TestNG-test=Regression-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 09:09:57.673 [TestNG-test=Regression-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 09:09:57.673 [TestNG-test=Regression-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 09:10:09.284 [TestNG-test=Regression-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 09:10:11.051 [TestNG-test=Regression-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-08 09:10:54.966 [TestNG-test=Regression-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-01-08 09:10:54.995 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:10:55.372 [TestNG-test=Regression-1] UserActions - Link: ' By.xpath: (//input[@id='agreetermsSms'])|(//input[@id='agreetermsEmail'])' clicked
+[INFO ] 2021-01-08 09:10:55.372 [TestNG-test=Regression-1] SignStep2Page - creditor id  S_Money_Signature
+[INFO ] 2021-01-08 09:10:55.372 [TestNG-test=Regression-1] SignStep2Page - transdcation 137241
+[INFO ] 2021-01-08 09:10:59.726 [TestNG-test=Regression-1] RestEndPoints - Session status is: {"type":"SMS","otpCode":"2127","nbAttempts":"0","nbFailed":"0","state":"INITIALIZED","useSMTPRelayForOTP":"false"}
+[INFO ] 2021-01-08 09:10:59.797 [TestNG-test=Regression-1] RestEndPoints - OTP is 2127
+[INFO ] 2021-01-08 09:11:01.135 [TestNG-test=Regression-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '2127' entered
+[INFO ] 2021-01-08 09:11:01.388 [TestNG-test=Regression-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked
+[INFO ] 2021-01-08 09:11:01.594 [TestNG-test=Regression-1] UserActions - Button: By.id: dlpdf clicked
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\artifacts (3).zip
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\CPSAT_RaviMuraiAutomationTester.doc
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\desktop.ini
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\download
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Handover
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Handover.7z
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HOMELOAN.pdf
+[INFO ] 2021-01-08 09:11:01.626 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HomeLoanAndDeclaration.zip
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\LICDetails.pdf
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MatchMakingPdf.pdf
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Meeting6Dec2020.pdf
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.docx
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.pdf
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\New Document 4.pdf
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Rone Na Dijiyega (Jaan Tere Naam) 320Kbps.mp3
+[INFO ] 2021-01-08 09:11:01.634 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\~WRL0001.tmp
+[INFO ] 2021-01-08 09:11:01.795 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:12:28.850 [TestNG-test=Regression-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 09:12:29.851 [TestNG-test=Regression-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 09:12:29.851 [TestNG-test=Regression-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 09:12:29.851 [TestNG-test=Regression-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 09:12:38.678 [TestNG-test=Regression-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 09:13:14.722 [TestNG-test=Regression-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-08 09:16:10.807 [TestNG-test=Regression-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-01-08 09:16:53.570 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:17:05.788 [TestNG-test=Regression-1] UserActions - Link: ' By.xpath: (//input[@id='agreetermsSms'])|(//input[@id='agreetermsEmail'])' clicked
+[INFO ] 2021-01-08 09:17:09.050 [TestNG-test=Regression-1] SignStep2Page - creditor id  S_Money_Signature
+[INFO ] 2021-01-08 09:17:10.796 [TestNG-test=Regression-1] SignStep2Page - transdcation 108615
+[INFO ] 2021-01-08 09:17:52.938 [TestNG-test=Regression-1] RestEndPoints - Session status is: {"type":"SMS","otpCode":"6152","nbAttempts":"0","nbFailed":"0","state":"INITIALIZED","useSMTPRelayForOTP":"false"}
+[INFO ] 2021-01-08 09:17:53.150 [TestNG-test=Regression-1] RestEndPoints - OTP is 6152
+[INFO ] 2021-01-08 09:18:03.547 [TestNG-test=Regression-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '6152' entered
+[INFO ] 2021-01-08 09:18:27.293 [TestNG-test=Regression-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked
+[INFO ] 2021-01-08 09:20:14.509 [TestNG-test=Regression-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 09:20:15.465 [TestNG-test=Regression-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 09:20:15.465 [TestNG-test=Regression-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 09:20:15.465 [TestNG-test=Regression-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 09:20:24.983 [TestNG-test=Regression-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 09:20:27.382 [TestNG-test=Regression-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-08 09:21:03.423 [TestNG-test=Regression-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-01-08 09:21:16.602 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:21:30.071 [TestNG-test=Regression-1] UserActions - Link: ' By.xpath: (//input[@id='agreetermsSms'])|(//input[@id='agreetermsEmail'])' clicked
+[INFO ] 2021-01-08 09:21:41.324 [TestNG-test=Regression-1] SignStep2Page - creditor id  S_Money_Signature
+[INFO ] 2021-01-08 09:21:41.959 [TestNG-test=Regression-1] SignStep2Page - transdcation 143265
+[INFO ] 2021-01-08 09:22:22.050 [TestNG-test=Regression-1] RestEndPoints - Session status is: {"type":"SMS","otpCode":"5519","nbAttempts":"0","nbFailed":"0","state":"INITIALIZED","useSMTPRelayForOTP":"false"}
+[INFO ] 2021-01-08 09:22:22.280 [TestNG-test=Regression-1] RestEndPoints - OTP is 5519
+[INFO ] 2021-01-08 09:22:32.412 [TestNG-test=Regression-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '5519' entered
+[INFO ] 2021-01-08 09:22:56.352 [TestNG-test=Regression-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked
+[INFO ] 2021-01-08 09:23:35.452 [TestNG-test=Regression-1] UserActions - Button: By.id: dlpdf clicked
+[INFO ] 2021-01-08 09:23:35.503 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:23:35.511 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\artifacts (3).zip
+[INFO ] 2021-01-08 09:23:35.511 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\CPSAT_RaviMuraiAutomationTester.doc
+[INFO ] 2021-01-08 09:23:35.519 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\desktop.ini
+[INFO ] 2021-01-08 09:23:35.519 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\download
+[INFO ] 2021-01-08 09:23:35.519 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Handover
+[INFO ] 2021-01-08 09:23:35.527 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Handover.7z
+[INFO ] 2021-01-08 09:23:35.527 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HOMELOAN.pdf
+[INFO ] 2021-01-08 09:23:35.527 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HomeLoanAndDeclaration.zip
+[INFO ] 2021-01-08 09:23:35.527 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\LICDetails.pdf
+[INFO ] 2021-01-08 09:23:35.535 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MatchMakingPdf.pdf
+[INFO ] 2021-01-08 09:23:35.535 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Meeting6Dec2020.pdf
+[INFO ] 2021-01-08 09:23:35.535 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.docx
+[INFO ] 2021-01-08 09:23:35.535 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.pdf
+[INFO ] 2021-01-08 09:23:35.535 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\New Document 4.pdf
+[INFO ] 2021-01-08 09:23:35.535 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Rone Na Dijiyega (Jaan Tere Naam) 320Kbps.mp3
+[INFO ] 2021-01-08 09:23:35.535 [TestNG-test=Regression-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\~WRL0001.tmp
+[INFO ] 2021-01-08 09:23:36.663 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:23:45.509 [TestNG-test=Regression-1] UserActions - Button: By.name: buttonReturnCreditorSite clicked
+[INFO ] 2021-01-08 09:27:13.947 [TestNG-test=Regression-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 09:27:14.907 [TestNG-test=Regression-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 09:27:14.907 [TestNG-test=Regression-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 09:27:14.907 [TestNG-test=Regression-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 09:27:24.684 [TestNG-test=Regression-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 09:27:33.569 [TestNG-test=Regression-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-01-08 09:27:34.183 [TestNG-test=Regression-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-01-08 09:28:07.622 [TestNG-test=Regression-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-01-08 09:28:11.761 [TestNG-test=Regression-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-08 09:28:12.144 [TestNG-test=Regression-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:28:12.145 [TestNG-test=Regression-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2021-01-08 09:35:53.831 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 09:35:54.811 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 09:35:54.811 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 09:35:54.811 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 09:36:04.554 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 09:36:07.702 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-08 09:38:04.247 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 09:38:05.194 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 09:38:05.194 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 09:38:05.209 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 09:38:14.914 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 09:38:17.543 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-08 09:38:44.266 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStNum'. Value '123' entered
+[INFO ] 2021-01-08 09:38:44.785 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStName'. Value 'Strasse1' entered
+[INFO ] 2021-01-08 09:38:45.274 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressPostCode'. Value '456789' entered
+[INFO ] 2021-01-08 09:38:45.773 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressCity'. Value 'Lyon' entered
+[INFO ] 2021-01-08 09:38:52.901 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-01-08 09:57:54.734 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 09:57:55.636 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 09:57:55.654 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 09:57:55.654 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 09:58:04.827 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 09:58:10.512 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-01-08 09:58:11.142 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-01-08 09:58:11.539 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-01-08 09:58:16.610 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-08 09:58:27.427 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:58:27.428 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2021-01-08 09:58:38.723 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-01-08 09:58:43.098 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 09:58:43.144 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text found at webelement MANDATE-REFERENCE000000000000000800 
+[INFO ] 2021-01-08 09:58:43.191 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text found at webelement 3692-165136 
+[INFO ] 2021-01-08 10:00:31.324 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 10:00:32.377 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 10:00:32.392 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 10:00:32.392 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 10:00:42.405 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 10:01:11.873 [TestNG-test=Regression for SPS-SDD Event Report-1] RestEndPoints - {"url":"https://ssl-sps-rct-sign-service.aw.atos.net/signature/?t=b6a98029-15d2c-2260-1346158-4576-5349474e-9050-e3b12de62079&tCh=g%2BpDkAljSm3ORpyJTQ%2BxBTsBRwkLzaK3CZaidhAXvHU%3D","umr":null,"signSessionValidity":null}
+[INFO ] 2021-01-08 10:01:22.763 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userName'. Value 'Prakhar' entered
+[INFO ] 2021-01-08 10:01:23.460 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStNum'. Value '123' entered
+[INFO ] 2021-01-08 10:01:23.991 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: (//input[@id='userPhoneNumberEditableField'])|(//input[@id='userPhoneNumberField'])'. Value '+33612345678' entered
+[INFO ] 2021-01-08 10:01:24.606 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStName'. Value 'Strasse1' entered
+[INFO ] 2021-01-08 10:01:25.165 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressPostCode'. Value '456789' entered
+[INFO ] 2021-01-08 10:01:25.800 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressCity'. Value 'Lyon' entered
+[INFO ] 2021-01-08 10:01:26.363 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.name: partnersConsentChecked clicked
+[INFO ] 2021-01-08 10:01:33.553 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.name: confirm clicked
+[INFO ] 2021-01-08 10:01:33.965 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: (//input[@id='agreetermsSms'])|(//input[@id='agreetermsEmail'])' clicked
+[INFO ] 2021-01-08 10:01:37.028 [TestNG-test=Regression for SPS-SDD Event Report-1] RestEndPoints - Session status is: {"type":"EMAIL","otpCode":"7500","nbAttempts":"0","nbFailed":"0","state":"INITIALIZED","useSMTPRelayForOTP":"false"}
+[INFO ] 2021-01-08 10:01:37.065 [TestNG-test=Regression for SPS-SDD Event Report-1] RestEndPoints - OTP is 7500
+[INFO ] 2021-01-08 10:01:37.698 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '7500' entered
+[INFO ] 2021-01-08 10:01:37.902 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked
+[INFO ] 2021-01-08 10:01:38.112 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: dlpdf clicked
+[INFO ] 2021-01-08 10:01:38.135 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 10:01:38.137 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\artifacts (3).zip
+[INFO ] 2021-01-08 10:01:38.138 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\CPSAT_RaviMuraiAutomationTester.doc
+[INFO ] 2021-01-08 10:01:38.138 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\desktop.ini
+[INFO ] 2021-01-08 10:01:38.138 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\download
+[INFO ] 2021-01-08 10:01:38.138 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Handover
+[INFO ] 2021-01-08 10:01:38.138 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Handover.7z
+[INFO ] 2021-01-08 10:01:38.139 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HOMELOAN.pdf
+[INFO ] 2021-01-08 10:01:38.139 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HomeLoanAndDeclaration.zip
+[INFO ] 2021-01-08 10:01:38.139 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\LICDetails.pdf
+[INFO ] 2021-01-08 10:01:38.139 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000268.pdf
+[INFO ] 2021-01-08 10:01:38.139 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MatchMakingPdf.pdf
+[INFO ] 2021-01-08 10:01:38.140 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Meeting6Dec2020.pdf
+[INFO ] 2021-01-08 10:01:38.140 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.docx
+[INFO ] 2021-01-08 10:01:38.140 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.pdf
+[INFO ] 2021-01-08 10:01:38.140 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\New Document 4.pdf
+[INFO ] 2021-01-08 10:01:38.140 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Rone Na Dijiyega (Jaan Tere Naam) 320Kbps.mp3
+[INFO ] 2021-01-08 10:01:38.141 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\~WRL0001.tmp
+[INFO ] 2021-01-08 10:01:38.788 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-08 10:07:29.400 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-08 10:07:30.359 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-08 10:07:30.359 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-08 10:07:30.359 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-08 10:07:40.145 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-08 10:07:42.762 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-08 10:08:13.454 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-01-08 10:08:33.173 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......

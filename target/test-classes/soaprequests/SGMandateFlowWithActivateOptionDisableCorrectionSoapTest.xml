@@ -1,0 +1,34 @@
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:urn="urn:net:awl:sps:sign:ws.v10"
+	xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10"
+	xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10"
+	xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10"
+	xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header />
+	<soapenv:Body>
+		<urn:InitSessionRequest>
+			<urn1:creditorId>spsCreditorSG3</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>${transactionId}</urn1:transactionId>
+				<urn1:validation>false</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>true</urn1:skipSummaryPage>
+				<urn1:agreementScheme>EMAIL</urn1:agreementScheme>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

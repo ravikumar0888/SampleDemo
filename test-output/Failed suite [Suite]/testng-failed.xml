@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Failed suite [Suite]]" parallel="methods">
+  <listeners>
+    <listener class-name="datamanagement.CustomTestNGReporter"/>
+  </listeners>
+  <test thread-count="1" verbose="10" name="Regression(failed)(failed)" parallel="methods">
+    <parameter name="environment" value="RCI"/>
+    <parameter name="browser" value="chromelocal"/>
+    <classes>
+      <class name="documentSignatureTest.SGMandateFlowMandatoryFiledBlankTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="SGMandateFlowMandatoryFiledBlank"/>
+        </methods>
+      </class> <!-- documentSignatureTest.SGMandateFlowMandatoryFiledBlankTest -->
+      <class name="documentSignatureTest.SGMandateFlowWithActivateOptionTrueSoapTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="restoreCreditorConfig"/>
+          <include name="SGMandateFlowWithActivateOptionTrue"/>
+        </methods>
+      </class> <!-- documentSignatureTest.SGMandateFlowWithActivateOptionTrueSoapTest -->
+      <class name="documentSignatureTest.DSReuseMandateFlowTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="restoreCreditorConfig"/>
+          <include name="testSetup"/>
+          <include name="DSReuseMandateFlow"/>
+          <include name="removeconfig"/>
+        </methods>
+      </class> <!-- documentSignatureTest.DSReuseMandateFlowTest -->
+      <class name="documentSignatureTest.SGMandateFlowWithActivateOptionTrueTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="SGMandateFlowWithActivateOptionTrue"/>
+        </methods>
+      </class> <!-- documentSignatureTest.SGMandateFlowWithActivateOptionTrueTest -->
+      <class name="documentSignatureTest.SMoneyWithEmailAgreementTypeSoapTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="sMoneyWithEmailAgreementType"/>
+        </methods>
+      </class> <!-- documentSignatureTest.SMoneyWithEmailAgreementTypeSoapTest -->
+      <class name="documentSignatureTest.DSReuseUndefinedFlowTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="DSReuseUndefinedFlow"/>
+          <include name="restoreCreditorConfig"/>
+        </methods>
+      </class> <!-- documentSignatureTest.DSReuseUndefinedFlowTest -->
+      <class name="documentSignatureTest.SMoneyWithPostalAddrSoapTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="sMoneyWithPostalAddress"/>
+        </methods>
+      </class> <!-- documentSignatureTest.SMoneyWithPostalAddrSoapTest -->
+      <class name="documentSignatureTest.SGMandateFlowMandatoryFiledBlankSoapTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="SGMandateFlowMandatoryFiledBlank"/>
+        </methods>
+      </class> <!-- documentSignatureTest.SGMandateFlowMandatoryFiledBlankSoapTest -->
+      <class name="documentSignatureTest.Rest_DSGetMandatePDFNegativeFlowTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="Rest_DSGetMandatePDFNegativeFlow"/>
+        </methods>
+      </class> <!-- documentSignatureTest.Rest_DSGetMandatePDFNegativeFlowTest -->
+      <class name="documentSignatureTest.SGMandateFlowSoapTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="SGMandateFlow"/>
+        </methods>
+      </class> <!-- documentSignatureTest.SGMandateFlowSoapTest -->
+      <class name="documentSignatureTest.Rest_DSGetMandatePDFPositiveFlowTest">
+        <methods>
+          <include name="Rest_DSGetMandatePDFPositiveFlow"/>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- documentSignatureTest.Rest_DSGetMandatePDFPositiveFlowTest -->
+    </classes>
+  </test> <!-- Regression(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

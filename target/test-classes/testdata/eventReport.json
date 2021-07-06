@@ -1,0 +1,10 @@
+{
+   "createEventReport":{
+      "email":"ravikumar.murai@atos.net",
+      "entity":"ZTestEventReportOrg"
+   },
+   "createEventReportSCT":{
+      "email":"ravikumar.murai@atos.net",
+      "entity":"ZTestSCTEventOrg"
+   }
+}

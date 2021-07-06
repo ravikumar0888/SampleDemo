@@ -1,0 +1,471 @@
+[INFO ] 2020-11-04 07:04:01.788 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 07:04:02.882 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 07:04:02.899 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 07:04:02.899 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 07:04:19.989 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 07:04:32.617 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2020-11-04 07:04:33.470 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '104994' entered
+[INFO ] 2020-11-04 07:04:33.907 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2020-11-04 07:04:34.444 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2020-11-04 07:04:34.466 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 07:04:35.219 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '171268' entered
+[INFO ] 2020-11-04 07:04:36.128 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2020-11-04 07:04:36.849 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2020-11-04 07:04:37.552 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2020-11-04 07:04:38.271 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2020-11-04 07:04:39.128 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2020-11-04 07:04:40.021 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2020-11-04 07:04:40.735 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-11-04 07:04:41.373 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-11-04 07:04:42.587 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2020-11-04 07:04:43.424 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2020-11-04 07:04:44.305 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2020-11-04 07:04:52.575 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-11-04 07:04:57.341 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2020-11-04 07:05:03.744 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2020-11-04 07:05:03.787 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 07:05:04.196 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: agreetermsEmail' clicked
+[INFO ] 2020-11-04 07:05:04.199 [TestNG-test=Regression for SPS-SCT Event Report-1] SignStep2Page - creditor id  spsCreditorSG3
+[INFO ] 2020-11-04 07:05:04.200 [TestNG-test=Regression for SPS-SCT Event Report-1] SignStep2Page - transdcation 104994
+[INFO ] 2020-11-04 07:05:06.609 [TestNG-test=Regression for SPS-SCT Event Report-1] DSConnection - Connected through SSH
+[INFO ] 2020-11-04 07:05:06.618 [TestNG-test=Regression for SPS-SCT Event Report-1] DSConnection - Port Forwarded: Assigned port 8000
+[INFO ] 2020-11-04 07:05:09.276 [TestNG-test=Regression for SPS-SCT Event Report-1] DSConnection - Closing SSH Connection
+[INFO ] 2020-11-04 07:05:09.288 [TestNG-test=Regression for SPS-SCT Event Report-1] SignStep2Page - OTP successfully retrieved
+[INFO ] 2020-11-04 07:05:09.998 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '5251' entered
+[INFO ] 2020-11-04 07:05:17.731 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked
+[INFO ] 2020-11-04 07:05:18.055 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.id: dlpdf clicked
+[INFO ] 2020-11-04 07:05:18.058 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\7z1900-x64.exe
+[INFO ] 2020-11-04 07:05:18.062 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\bookmar
+[INFO ] 2020-11-04 07:05:18.063 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\bookmar.zip
+[INFO ] 2020-11-04 07:05:18.064 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\certificate
+[INFO ] 2020-11-04 07:05:18.065 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\certificate.zip
+[INFO ] 2020-11-04 07:05:18.065 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\CHESS_2.0_Corporate_Onboarding_User_Guide_revised2.pdf
+[INFO ] 2020-11-04 07:05:18.065 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\chromedriver_win32
+[INFO ] 2020-11-04 07:05:18.066 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\chromedriver_win32.zip
+[INFO ] 2020-11-04 07:05:18.066 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\CPSAT_RaviMuraiAutomationTester.doc
+[INFO ] 2020-11-04 07:05:18.067 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\desktop.ini
+[INFO ] 2020-11-04 07:05:18.067 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 113846.pdf
+[INFO ] 2020-11-04 07:05:18.067 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 114514.pdf
+[INFO ] 2020-11-04 07:05:18.067 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 118183.pdf
+[INFO ] 2020-11-04 07:05:18.068 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 118516.pdf
+[INFO ] 2020-11-04 07:05:18.068 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 121884.pdf
+[INFO ] 2020-11-04 07:05:18.069 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 124877.pdf
+[INFO ] 2020-11-04 07:05:18.069 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 128219.pdf
+[INFO ] 2020-11-04 07:05:18.071 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 130514.pdf
+[INFO ] 2020-11-04 07:05:18.071 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 134873.pdf
+[INFO ] 2020-11-04 07:05:18.071 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 141489.pdf
+[INFO ] 2020-11-04 07:05:18.071 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 144182.pdf
+[INFO ] 2020-11-04 07:05:18.072 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 148525.pdf
+[INFO ] 2020-11-04 07:05:18.072 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 152378.pdf
+[INFO ] 2020-11-04 07:05:18.085 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 154801.pdf
+[INFO ] 2020-11-04 07:05:18.086 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 155255.pdf
+[INFO ] 2020-11-04 07:05:18.086 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 155922.pdf
+[INFO ] 2020-11-04 07:05:18.086 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 168615.pdf
+[INFO ] 2020-11-04 07:05:18.087 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 170811.pdf
+[INFO ] 2020-11-04 07:05:18.087 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 178869.pdf
+[INFO ] 2020-11-04 07:05:18.087 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 188602.pdf
+[INFO ] 2020-11-04 07:05:18.087 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 188810.pdf
+[INFO ] 2020-11-04 07:05:18.087 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 189963.pdf
+[INFO ] 2020-11-04 07:05:18.088 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 191277.pdf
+[INFO ] 2020-11-04 07:05:18.088 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 193619.pdf
+[INFO ] 2020-11-04 07:05:18.088 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\eclipse-inst-win64.exe
+[INFO ] 2020-11-04 07:05:18.088 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\EPFForm13.pdf
+[INFO ] 2020-11-04 07:05:18.089 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\error.log
+[INFO ] 2020-11-04 07:05:18.089 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Git-2.28.0-64-bit (1).exe
+[INFO ] 2020-11-04 07:05:18.089 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Git-2.28.0-64-bit.exe
+[INFO ] 2020-11-04 07:05:18.090 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000154.pdf
+[INFO ] 2020-11-04 07:05:18.090 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000155.pdf
+[INFO ] 2020-11-04 07:05:18.090 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000156.pdf
+[INFO ] 2020-11-04 07:05:18.090 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000157.pdf
+[INFO ] 2020-11-04 07:05:18.091 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000158.pdf
+[INFO ] 2020-11-04 07:05:18.091 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000162.pdf.crdownload
+[INFO ] 2020-11-04 07:05:18.092 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000163.pdf
+[INFO ] 2020-11-04 07:05:18.092 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000164.pdf
+[INFO ] 2020-11-04 07:05:18.093 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000712.pdf
+[INFO ] 2020-11-04 07:05:18.093 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000717.pdf
+[INFO ] 2020-11-04 07:05:18.093 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000718.pdf
+[INFO ] 2020-11-04 07:05:18.096 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000719.pdf
+[INFO ] 2020-11-04 07:05:18.096 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000720.pdf
+[INFO ] 2020-11-04 07:05:18.097 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000721.pdf
+[INFO ] 2020-11-04 07:05:18.098 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000722.pdf
+[INFO ] 2020-11-04 07:05:18.098 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000723.pdf
+[INFO ] 2020-11-04 07:05:18.099 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000724.pdf
+[INFO ] 2020-11-04 07:05:18.099 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000002951.pdf
+[INFO ] 2020-11-04 07:05:18.100 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000002952.pdf
+[INFO ] 2020-11-04 07:05:18.103 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000002953.pdf
+[INFO ] 2020-11-04 07:05:18.104 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000002954.pdf
+[INFO ] 2020-11-04 07:05:18.104 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000002955.pdf
+[INFO ] 2020-11-04 07:05:18.105 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000002957.pdf
+[INFO ] 2020-11-04 07:05:18.105 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000002958.pdf
+[INFO ] 2020-11-04 07:05:18.105 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\mattermost-desktop-setup-4.6.0-win.exe
+[INFO ] 2020-11-04 07:05:18.105 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\meeting-5563801426 (1).ics
+[INFO ] 2020-11-04 07:05:18.106 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\meeting-5563801426.ics
+[INFO ] 2020-11-04 07:05:18.106 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Postman-win64-7.34.0-Setup.exe
+[INFO ] 2020-11-04 07:05:18.106 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\PulseSecureAppLauncher.msi
+[INFO ] 2020-11-04 07:05:18.106 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\SalarySlip.pdf
+[INFO ] 2020-11-04 07:05:18.107 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\SoapUI-x64-5.6.0.exe
+[INFO ] 2020-11-04 07:05:18.107 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\software
+[INFO ] 2020-11-04 07:05:18.107 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\SourceTreeSetup-3.1.2.exe
+[INFO ] 2020-11-04 07:05:18.107 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\SourceTreeSetup-3.3.9 (1).exe
+[INFO ] 2020-11-04 07:05:18.108 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\SourceTreeSetup-3.3.9.exe
+[INFO ] 2020-11-04 07:05:18.109 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Sourcetree_3.1.2_216
+[INFO ] 2020-11-04 07:05:18.109 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Sourcetree_3.1.2_216.zip
+[INFO ] 2020-11-04 07:05:18.110 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\TeX20-Katalon Studio-Chaitanya Deshpande & Ravikumar Murai.mp4
+[INFO ] 2020-11-04 07:05:18.110 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\WiN10BackUp
+[INFO ] 2020-11-04 07:05:18.111 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\WSDL_R20.2_for_SIGN.zip
+[INFO ] 2020-11-04 07:05:18.112 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\ZoomInstaller.exe
+[INFO ] 2020-11-04 07:05:18.112 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\ZoomOutlookPluginSetup.msi
+[INFO ] 2020-11-04 07:05:18.113 [TestNG-test=Regression for SPS-SCT Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Zoom_cm_fnvu8b85fkZ9vvrZo4_mVtqEjH33VONpZ4GVWN06mUc+kSddIoyQrWem@peyvKeltV3x6Pi00_k962cedf8681bad9c_.exe
+[INFO ] 2020-11-04 07:05:27.296 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: buttonReturnCreditorSite clicked
+[INFO ] 2020-11-04 07:06:29.915 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 07:06:30.843 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 07:06:30.845 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 07:06:30.846 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 07:06:47.505 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 07:06:50.004 [TestNG-test=Regression for SPS-SCT Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-11-04 07:08:23.625 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 07:08:25.888 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 07:08:25.898 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 07:08:25.898 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 07:08:44.828 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 07:09:12.065 [TestNG-test=Regression for SPS-SCT Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-11-04 07:17:29.731 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 07:17:30.885 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 07:17:30.888 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 07:17:30.888 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 07:17:47.286 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 07:18:10.785 [TestNG-test=Regression for SPS-SCT Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-11-04 07:31:19.993 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 07:31:20.918 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 07:31:20.920 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 07:31:20.921 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 07:31:33.774 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 07:31:35.297 [TestNG-test=Regression for SPS-SCT Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-11-04 14:09:07.991 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 14:09:09.320 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 14:09:09.323 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 14:09:09.324 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 14:09:22.474 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 14:09:34.194 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-04 14:09:34.673 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-04 14:09:35.082 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-04 14:09:59.153 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 14:10:33.065 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Creditor')]
+[INFO ] 2020-11-04 14:10:33.614 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditor' entered
+[INFO ] 2020-11-04 14:10:34.068 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2020-11-04 14:10:34.590 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2020-11-04 14:10:35.049 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '159263' entered
+[INFO ] 2020-11-04 14:10:37.868 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 14:10:37.970 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [82].
+[INFO ] 2020-11-04 14:10:37.970 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - 82
+[INFO ] 2020-11-04 14:10:37.971 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Value is 82
+[INFO ] 2020-11-04 14:10:38.498 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '82' entered
+[INFO ] 2020-11-04 14:10:46.511 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 14:10:46.512 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - Generate CR NAME is  :- AutomationCreditor - FR82ZZZ159263
+[INFO ] 2020-11-04 14:10:59.497 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[1]/a' clicked
+[INFO ] 2020-11-04 14:11:09.770 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: search clicked
+[INFO ] 2020-11-04 14:11:09.837 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - SCI value istrue
+[INFO ] 2020-11-04 14:11:11.806 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.xpath: //*[@id='resultList']/div[2]/table/tbody/tr/td[5]/a[2]/img clicked
+[INFO ] 2020-11-04 14:11:12.550 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressNumber'. Value '2223456' entered
+[INFO ] 2020-11-04 14:11:13.049 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressPostCode'. Value '411017' entered
+[INFO ] 2020-11-04 14:11:13.467 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressStreet'. Value 'kalewadi' entered
+[INFO ] 2020-11-04 14:11:13.928 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressCity'. Value 'Pune' entered
+[INFO ] 2020-11-04 14:11:17.801 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: search2 clicked
+[INFO ] 2020-11-04 14:11:30.016 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[2]/a' clicked
+[INFO ] 2020-11-04 14:11:30.549 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditorTwo' entered
+[INFO ] 2020-11-04 14:11:30.955 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2020-11-04 14:11:31.372 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2020-11-04 14:11:31.787 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '190219' entered
+[INFO ] 2020-11-04 14:11:35.030 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 14:11:35.136 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [22].
+[INFO ] 2020-11-04 14:11:35.137 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - 22
+[INFO ] 2020-11-04 14:11:35.137 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Value is 22
+[INFO ] 2020-11-04 14:11:35.667 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '22' entered
+[INFO ] 2020-11-04 14:11:37.600 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 14:11:37.601 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - Generate CR NAME is  :- AutomationCreditorTwo - FR22ZZZ190219
+[INFO ] 2020-11-04 14:11:47.500 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[1]/a' clicked
+[INFO ] 2020-11-04 14:11:53.086 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: search clicked
+[INFO ] 2020-11-04 14:11:53.138 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - SCI value istrue
+[INFO ] 2020-11-04 14:12:34.439 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Create Root')]
+[INFO ] 2020-11-04 14:12:34.445 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - New Root name is :AutomationRoot_20201104141234
+[INFO ] 2020-11-04 14:12:35.175 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='label']'. Value 'AutomationRoot_20201104141234' entered
+[INFO ] 2020-11-04 14:12:35.634 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='contractInfoCreat']'. Value '0202234567' entered
+[INFO ] 2020-11-04 14:12:36.080 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='phoneNumberCreation']'. Value '+9881668002' entered
+[INFO ] 2020-11-04 14:12:36.343 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='schemes']' clicked
+[INFO ] 2020-11-04 14:12:36.617 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='sequences_0']' clicked
+[INFO ] 2020-11-04 14:12:37.045 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '23444' entered
+[INFO ] 2020-11-04 14:12:37.464 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'Mokai' entered
+[INFO ] 2020-11-04 14:12:37.872 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2020-11-04 14:12:38.282 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2020-11-04 14:13:20.277 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='divToHideContainer']/div[5]/input[1]' clicked
+[INFO ] 2020-11-04 14:13:28.146 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2020-11-04 14:13:34.345 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 14:13:56.157 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2020-11-04 14:14:12.151 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 14:14:12.152 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - bs value sis ABC
+[INFO ] 2020-11-04 14:14:12.361 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2020-11-04 14:14:14.459 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[2]'. Value 'ABC' entered
+[INFO ] 2020-11-04 14:14:26.195 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[5]/input[1]' clicked
+[INFO ] 2020-11-04 14:14:26.429 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2020-11-04 14:14:27.693 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[3]'. Value 'XYZ' entered
+[INFO ] 2020-11-04 14:14:34.905 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[6]/input[1]' clicked
+[INFO ] 2020-11-04 14:14:35.149 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_0']' clicked
+[INFO ] 2020-11-04 14:14:37.139 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'iban')]'. Value 'FR7618206000103056966400117' entered
+[INFO ] 2020-11-04 14:14:37.604 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'desc')]'. Value 'BankAccount1' entered
+[INFO ] 2020-11-04 14:14:38.071 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'bic')]'. Value 'AGRIFRPP882' entered
+[INFO ] 2020-11-04 14:14:55.225 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='bankAccountForm']/div[4]/input[1]' clicked
+[INFO ] 2020-11-04 14:14:55.521 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_1']' clicked
+[INFO ] 2020-11-04 14:14:56.867 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'email')]'. Value 'test@worldline.com' entered
+[INFO ] 2020-11-04 14:15:14.219 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='emailAddressesForm']/div[4]/input[1]' clicked
+[INFO ] 2020-11-04 14:15:14.221 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - Root save sucessfully ...
+[INFO ] 2020-11-04 14:15:24.424 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='btbartop']/div/a[contains(text(),'Back to Organizations Management')]' clicked
+[INFO ] 2020-11-04 14:15:51.122 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.xpath: .//*[@id='btbartop']/div[2]/a[contains(text(),'Create sub-entity')] clicked
+[INFO ] 2020-11-04 14:15:51.145 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 14:15:51.664 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: label'. Value 'ChildNode_20201104141551' entered
+[INFO ] 2020-11-04 14:15:52.097 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '2223456' entered
+[INFO ] 2020-11-04 14:15:52.601 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'kalewadi' entered
+[INFO ] 2020-11-04 14:15:53.007 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2020-11-04 14:15:53.412 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2020-11-04 14:16:29.055 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: submit clicked
+[INFO ] 2020-11-04 14:16:38.036 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-avail']/option[1]' clicked
+[INFO ] 2020-11-04 14:16:38.227 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2020-11-04 14:16:42.571 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 14:16:42.786 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-avail']/option[1]' clicked
+[INFO ] 2020-11-04 14:16:42.978 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-select']' clicked
+[INFO ] 2020-11-04 14:16:46.488 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 14:16:46.715 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-avail']/option' clicked
+[INFO ] 2020-11-04 14:16:46.930 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-select']' clicked
+[INFO ] 2020-11-04 14:16:52.738 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='bankAccountForm']/div[6]/input[1]' clicked
+[INFO ] 2020-11-04 14:16:58.683 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='btbartop']/div/a[contains(text(),'Back to Organizations Management')]' clicked
+[INFO ] 2020-11-04 14:17:05.142 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.xpath: .//*[@id='btbartop']/div[2]/a[contains(text(),'Create sub-entity')] clicked
+[INFO ] 2020-11-04 14:17:05.175 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 14:17:05.693 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: label'. Value 'ChildNode_20201104141705' entered
+[INFO ] 2020-11-04 14:17:06.187 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '2223456' entered
+[INFO ] 2020-11-04 14:17:06.580 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'kalewadi' entered
+[INFO ] 2020-11-04 14:17:06.986 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2020-11-04 14:17:07.358 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2020-11-04 14:17:36.360 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: submit clicked
+[INFO ] 2020-11-04 14:17:48.114 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-avail']/option[1]' clicked
+[INFO ] 2020-11-04 14:17:48.325 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2020-11-04 14:17:52.746 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 14:17:53.099 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-avail']/option[1]' clicked
+[INFO ] 2020-11-04 14:17:53.336 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-select']' clicked
+[INFO ] 2020-11-04 14:17:56.503 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 14:17:56.812 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-avail']/option' clicked
+[INFO ] 2020-11-04 14:17:57.021 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-select']' clicked
+[INFO ] 2020-11-04 14:18:02.382 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='bankAccountForm']/div[6]/input[1]' clicked
+[INFO ] 2020-11-04 14:29:36.999 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 14:29:38.392 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 14:29:38.395 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 14:29:38.397 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 14:29:59.172 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 14:30:14.763 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 14:30:15.623 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'EventReport@2020' entered
+[INFO ] 2020-11-04 14:30:16.058 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 14:30:19.306 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 14:31:55.680 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 14:31:56.779 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 14:31:56.781 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 14:31:56.782 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 14:32:15.307 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 14:32:29.804 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 14:32:31.096 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'EventReport@2020' entered
+[INFO ] 2020-11-04 14:32:31.530 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 14:32:33.339 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 14:48:28.603 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 14:48:29.536 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 14:48:29.539 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 14:48:29.539 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 14:48:44.226 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 14:48:57.161 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 14:48:58.126 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'EventReport@2020' entered
+[INFO ] 2020-11-04 14:48:58.519 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 14:49:02.292 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:00:50.883 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 15:00:52.171 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 15:00:52.174 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 15:00:52.176 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 15:01:09.118 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 15:01:22.447 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 15:01:24.079 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'EventReport@2020' entered
+[INFO ] 2020-11-04 15:01:24.532 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 15:01:28.320 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:37:39.324 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 15:37:40.296 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 15:37:40.302 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 15:37:40.303 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 15:37:54.657 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 15:38:09.309 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-04 15:38:09.788 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-04 15:38:10.144 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-04 15:39:03.209 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:39:21.196 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Creditor')]
+[INFO ] 2020-11-04 15:39:21.742 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditor' entered
+[INFO ] 2020-11-04 15:39:22.207 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2020-11-04 15:39:22.658 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2020-11-04 15:39:23.074 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '171594' entered
+[INFO ] 2020-11-04 15:39:26.077 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 15:39:26.200 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [49].
+[INFO ] 2020-11-04 15:39:26.200 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - 49
+[INFO ] 2020-11-04 15:39:26.201 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Value is 49
+[INFO ] 2020-11-04 15:39:26.717 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '49' entered
+[INFO ] 2020-11-04 15:39:31.990 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 15:39:31.991 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - Generate CR NAME is  :- AutomationCreditor - FR49ZZZ171594
+[INFO ] 2020-11-04 15:39:45.076 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[1]/a' clicked
+[INFO ] 2020-11-04 15:39:56.001 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: search clicked
+[INFO ] 2020-11-04 15:39:56.063 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - SCI value istrue
+[INFO ] 2020-11-04 15:39:58.006 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.xpath: //*[@id='resultList']/div[2]/table/tbody/tr/td[5]/a[2]/img clicked
+[INFO ] 2020-11-04 15:39:58.602 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressNumber'. Value '2223456' entered
+[INFO ] 2020-11-04 15:39:59.073 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressPostCode'. Value '411017' entered
+[INFO ] 2020-11-04 15:39:59.484 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressStreet'. Value 'kalewadi' entered
+[INFO ] 2020-11-04 15:39:59.940 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: creditorAdress-addressCity'. Value 'Pune' entered
+[INFO ] 2020-11-04 15:40:02.786 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: search2 clicked
+[INFO ] 2020-11-04 15:40:04.811 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[2]/a' clicked
+[INFO ] 2020-11-04 15:40:05.466 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditorTwo' entered
+[INFO ] 2020-11-04 15:40:06.164 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2020-11-04 15:40:06.652 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2020-11-04 15:40:07.089 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '132995' entered
+[INFO ] 2020-11-04 15:40:11.686 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 15:40:11.840 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [54].
+[INFO ] 2020-11-04 15:40:11.841 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - 54
+[INFO ] 2020-11-04 15:40:11.841 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - The correct Value is 54
+[INFO ] 2020-11-04 15:40:12.372 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '54' entered
+[INFO ] 2020-11-04 15:40:20.807 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 15:40:20.808 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - Generate CR NAME is  :- AutomationCreditorTwo - FR54ZZZ132995
+[INFO ] 2020-11-04 15:40:31.182 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[1]/a' clicked
+[INFO ] 2020-11-04 15:40:39.635 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: search clicked
+[INFO ] 2020-11-04 15:40:39.683 [TestNG-test=Regression for SPS-SCT Event Report-1] CreditorPage - SCI value istrue
+[INFO ] 2020-11-04 15:41:09.643 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Create Root')]
+[INFO ] 2020-11-04 15:41:09.649 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - New Root name is :AutomationRoot_20201104154109
+[INFO ] 2020-11-04 15:41:10.235 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='label']'. Value 'AutomationRoot_20201104154109' entered
+[INFO ] 2020-11-04 15:41:10.680 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='contractInfoCreat']'. Value '0202234567' entered
+[INFO ] 2020-11-04 15:41:11.083 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='phoneNumberCreation']'. Value '+9881668002' entered
+[INFO ] 2020-11-04 15:41:11.288 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='schemes']' clicked
+[INFO ] 2020-11-04 15:41:11.507 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='sequences_0']' clicked
+[INFO ] 2020-11-04 15:41:11.917 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '23444' entered
+[INFO ] 2020-11-04 15:41:12.370 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'Mokai' entered
+[INFO ] 2020-11-04 15:41:12.752 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2020-11-04 15:41:13.121 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2020-11-04 15:41:29.431 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='divToHideContainer']/div[5]/input[1]' clicked
+[INFO ] 2020-11-04 15:41:41.693 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2020-11-04 15:41:49.138 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 15:41:55.150 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2020-11-04 15:42:00.071 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 15:42:00.072 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - bs value sis ABC
+[INFO ] 2020-11-04 15:42:00.261 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2020-11-04 15:42:01.650 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[2]'. Value 'ABC' entered
+[INFO ] 2020-11-04 15:42:17.267 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[5]/input[1]' clicked
+[INFO ] 2020-11-04 15:42:17.535 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2020-11-04 15:42:18.815 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[3]'. Value 'XYZ' entered
+[INFO ] 2020-11-04 15:42:30.644 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[6]/input[1]' clicked
+[INFO ] 2020-11-04 15:42:30.854 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_0']' clicked
+[INFO ] 2020-11-04 15:42:32.139 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'iban')]'. Value 'FR7618206000103056966400117' entered
+[INFO ] 2020-11-04 15:42:32.594 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'desc')]'. Value 'BankAccount1' entered
+[INFO ] 2020-11-04 15:42:33.263 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'bic')]'. Value 'AGRIFRPP882' entered
+[INFO ] 2020-11-04 15:42:43.428 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='bankAccountForm']/div[4]/input[1]' clicked
+[INFO ] 2020-11-04 15:42:43.642 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_1']' clicked
+[INFO ] 2020-11-04 15:42:45.777 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'email')]'. Value 'test@worldline.com' entered
+[INFO ] 2020-11-04 15:42:56.269 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='emailAddressesForm']/div[4]/input[1]' clicked
+[INFO ] 2020-11-04 15:42:56.270 [TestNG-test=Regression for SPS-SCT Event Report-1] RootPage - Root save sucessfully ...
+[INFO ] 2020-11-04 15:43:02.531 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='btbartop']/div/a[contains(text(),'Back to Organizations Management')]' clicked
+[INFO ] 2020-11-04 15:43:21.854 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.xpath: .//*[@id='btbartop']/div[2]/a[contains(text(),'Create sub-entity')] clicked
+[INFO ] 2020-11-04 15:43:21.882 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:43:22.355 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: label'. Value 'ChildNode_20201104154321' entered
+[INFO ] 2020-11-04 15:43:22.898 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '2223456' entered
+[INFO ] 2020-11-04 15:43:23.312 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'kalewadi' entered
+[INFO ] 2020-11-04 15:43:23.867 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2020-11-04 15:43:24.312 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2020-11-04 15:44:09.939 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Button: By.name: submit clicked
+[INFO ] 2020-11-04 15:44:14.819 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-avail']/option[1]' clicked
+[INFO ] 2020-11-04 15:44:15.017 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2020-11-04 15:44:19.601 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 15:44:19.821 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-avail']/option[1]' clicked
+[INFO ] 2020-11-04 15:44:20.013 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-select']' clicked
+[INFO ] 2020-11-04 15:44:23.718 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-04 15:45:40.437 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 15:45:40.438 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 15:45:40.440 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 15:45:40.440 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 15:45:46.529 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 15:45:57.349 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 15:45:57.946 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-04 15:45:58.300 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 15:46:21.997 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:46:47.503 [TestNG-test=Regression for SPS-SCT Event Report-1] EventReportPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Event Report')]
+[INFO ] 2020-11-04 15:46:47.525 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:46:48.032 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='eventReportName']'. Value 'EventReport20201104154647' entered
+[INFO ] 2020-11-04 15:46:48.325 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='sendingMailCheckbox']' clicked
+[INFO ] 2020-11-04 15:46:48.845 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='emailAddress']'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2020-11-04 15:46:49.150 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='sendingEmptyFileCheckbox']' clicked
+[INFO ] 2020-11-04 15:46:49.531 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='scopeAlone']' clicked
+[INFO ] 2020-11-04 15:46:50.393 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: eventModifCheckbox' clicked
+[INFO ] 2020-11-04 15:46:50.741 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: eventCreationCheckbox' clicked
+[INFO ] 2020-11-04 15:46:51.130 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: eventStatusCheckbox' clicked
+[INFO ] 2020-11-04 15:47:25.730 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: create' clicked
+[INFO ] 2020-11-04 15:47:28.488 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 15:47:28.489 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 15:47:28.490 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 15:47:28.490 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 15:47:34.296 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 15:47:48.723 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 15:47:49.477 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-04 15:47:49.807 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 15:48:07.461 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:49:17.306 [TestNG-test=Regression for SPS-SCT Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Search')]
+[INFO ] 2020-11-04 15:49:30.203 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 15:49:49.246 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[4]/a[3]/img' clicked
+[INFO ] 2020-11-04 15:49:51.237 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: generateSinceLast' clicked
+[INFO ] 2020-11-04 15:50:03.318 [TestNG-test=Regression for SPS-SCT Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Export Search')]
+[INFO ] 2020-11-04 15:50:03.814 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.id: eventReportName'. Value 'TesteventreportAutomation' entered
+[INFO ] 2020-11-04 15:51:40.434 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-04 15:51:44.127 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[7]/a/img' clicked
+[INFO ] 2020-11-04 15:53:24.156 [TestNG-test=Regression for SPS-SCT Event Report-1] FileManager - lastfile + C:\Users\A687416\Downloads\1313_TesteventreportAutomation_1590727960069.zip
+[INFO ] 2020-11-04 15:53:24.165 [TestNG-test=Regression for SPS-SCT Event Report-1] FileManager - xml file pathC:\Users\A687416\Downloads\1313_TesteventreportAutomation_1590727960069.xml
+[INFO ] 2020-11-04 15:53:25.881 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 15:53:25.881 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 15:53:25.881 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 15:53:25.882 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 15:53:30.966 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 15:53:44.136 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 15:53:44.574 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-04 15:53:44.922 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 15:54:19.723 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:54:59.014 [TestNG-test=Regression for SPS-SCT Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Mandate')]
+[INFO ] 2020-11-04 15:54:59.028 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:54:59.181 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:54:59.724 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='debtorName']'. Value 'automationDebitor' entered
+[INFO ] 2020-11-04 15:55:04.386 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 15:55:04.387 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 15:55:04.387 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 15:55:04.387 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 15:55:09.936 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 15:55:19.421 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 15:55:20.061 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-04 15:55:20.409 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 15:55:46.720 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:56:09.692 [TestNG-test=Regression for SPS-SCT Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Mandate')]
+[INFO ] 2020-11-04 15:56:09.703 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:56:09.870 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:56:10.436 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='debtorName']'. Value 'automationDebitor' entered
+[INFO ] 2020-11-04 15:56:16.110 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 15:56:16.110 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 15:56:16.111 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 15:56:16.111 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 15:56:20.954 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 15:56:31.847 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 15:56:32.382 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-04 15:56:32.727 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 15:56:46.315 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-04 15:57:16.240 [TestNG-test=Regression for SPS-SCT Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Mandate')]
+[INFO ] 2020-11-04 15:57:16.254 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:57:16.420 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-04 15:57:16.995 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='debtorName']'. Value 'automationDebitor' entered
+[INFO ] 2020-11-04 16:01:06.571 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-04 16:01:06.576 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-04 16:01:06.578 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-04 16:01:06.579 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-04 16:01:20.943 [TestNG-test=Regression for SPS-SCT Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-04 16:02:21.738 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-04 16:02:22.573 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-04 16:02:22.956 [TestNG-test=Regression for SPS-SCT Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-04 16:02:42.180 [TestNG-test=Regression for SPS-SCT Event Report-1] UserActions - Link: ' By.id: bthp' clicked

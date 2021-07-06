@@ -1,0 +1,17 @@
+{
+	"CardPaymentSucess": {
+		"cardNumber": "5017679100900100",
+		"cardMonth": " 04-April",
+		"cardYear": "2022",
+		"cardCVV": "600",
+		"cardPassword": "00000000"
+	},
+	"CardPaymentUnSucess": {
+		"cardNumber": "5017679100900605",
+		"cardMonth": " 04-April",
+		"cardYear": "2022",
+		"cardCVV": "650",
+		"cardPassword": "00000000"
+	}
+}
+

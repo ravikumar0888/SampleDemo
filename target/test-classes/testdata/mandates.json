@@ -1,0 +1,101 @@
+{
+	"EditMandate": {
+		"CreditorEntity": "zTestSUP",
+		"SCI": "Automation Creditor BE 2 - BE20ZZZ987654321",
+		"BusinessCode": "TTT",
+		"postalCode": "450001",
+		"city": "Pune",
+		"streetName": "Kiwale",
+		"country": "France",
+		"debtorName": "automationDebitor",
+		"IBAN": "FR7612548029981234567890161",
+		"invlaidUMR": "MANDATE-REFERENCE000000000012345090",
+		"invaliddebtorName": "teisngdidskejffsadsgafajkgdsjfdjsfdskfjdfsadfsajdfsdafsdafdsfadsafdsafdsfds",
+		"invalidEmail": "worldline.com",
+		"invalidphoneNumber": "avctest",
+		"invalidpostalCode": "abcdadhfuenfjhdujjjj",
+		"invaliddebtorIBAN": "FR1234567890123456789012346",
+		"invalidUMR": "MANDATE-REFERENCE000000000000000070123456789044444",
+		"newdebtorName": "TestAutomationDebitor",
+		"newdebtorIBAN": "FR7630007999990401171803149",
+		"newpostalCode": "444108",
+		"newcity": "Akola",
+		"newstreetName": "Opp to Dmart",
+		"mode": "Default channel",
+		"email": "wordline@gmail.com",
+		"phykey": "Test123"
+	},
+	"CreateMandate": {
+		"CreditorEntity": "zTestSUP",
+		"SCI": "Automation Creditor BE 2 - BE20ZZZ987654321",
+		"BusinessCode": "TTT"
+	},
+	"MandateSerch": {
+		"CreditorEntity": "zTestSUP",
+		"City": "Pune1",
+		"AutomaticUMRGeneration": false,
+		"status": "Active",
+		"payment": "Periodic",
+		"sequenceType": "RCUR"
+	},
+	"CreateMandateComplete": {
+		"CreditorEntity": "zTestSUP",
+		"SCI": "Automation Creditor BE 2 - BE20ZZZ987654321",
+		"BusinessCode": "TTT",
+		"postalCode": "450001",
+		"city": "Pune",
+		"streetName": "Kiwale",
+		"country": "France",
+		"debtorName": "automationDebitor",
+		"IBAN": "FR7630007999990401171803149"
+	},
+	"EventReportMandate": {
+		"CreditorEntity": "ZTestEventReportOrg",
+		"debtorName": "automationDebitor",
+		"email": "wordline@gmail.com",
+		"streetName": "Kiwale",
+		"phonenumberEr": "+336121278678",
+		"City": "Pune1",
+		"IBAN": "FR7612548029981234567890161",
+		"postalCode": "450001"
+	},
+	"OnlyMandate": {
+		"CreditorEntity": "ZtestMandateMangement",
+		"SCI": "AutomationCreditorTwo - FR30ZZZ173585",
+		"BusinessCode": "PQR",
+		"debtorName": "PureMandateDebitor",
+		"email": "wordline@gmail.com",
+		"streetName": "Kiwale",
+		"phonenumberEr": "+336121278678",
+		"IBAN": "FR7612548029981234567890161",
+		"postalCode": "450001",
+		"city": "Pune",
+		"country": "France",
+		"sequenceType": "OOFF"
+	},
+	"MandateRCRR": {
+		"CreditorEntity": "ZtestMandateMangement",
+		"SCI": "AutomationCreditorTwo - FR30ZZZ173585",
+		"BusinessCode": "PQR",
+		"debtorName": "PureMandateDebitor",
+		"email": "wordline@gmail.com",
+		"streetName": "Kiwale",
+		"phonenumberEr": "+336121278678",
+		"IBAN": "FR7612548029981234567890161",
+		"postalCode": "450001",
+		"city": "Pune",
+		"country": "France",
+		"sequenceType": "RCUR",
+		"updateCreditorName": "UpdatecreditorName",
+		"updateIBAN":"FR7611315000010401083440805"
+		
+	},
+	"MandateSerchRest": {
+		"CreditorEntity": "ztestDoS",
+		"City": "Pune1",
+		"AutomaticUMRGeneration": false,
+		"status": "Active",
+		"payment": "Periodic",
+		"sequenceType": "RCUR"
+	}
+}

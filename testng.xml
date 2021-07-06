@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" verbose="10" parallel="methods"
+	thread-count="2">
+	<listeners>
+		<listener class-name="datamanagement.CustomTestNGReporter" />
+	</listeners>
+
+
+
+	<test name="Sanity Tests for SPS">
+
+		<parameter name="browser" value="chromelocal" />
+		<parameter name="environment" value="RCI" />
+
+		<classes>
+			<class name="sanitySPSTest.MinimumImportMandateFIleCSV007Test" />
+		</classes>
+	</test>
+
+
+
+
+
+
+</suite>  
+

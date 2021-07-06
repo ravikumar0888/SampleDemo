@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document xmlns="urn:awl:emdd:tech:xsd:mndt.data.managmnt.001" xmlns:ns2="urn:awl:emdd:tech:xsd:common.001">
+    <MndtData>
+        <GrpHdr>
+            <ns2:MsgId>MsgId-test-replace_id</ns2:MsgId>
+            <ns2:CreDtTm>2013-05-23T11:41:15.196+02:00</ns2:CreDtTm>
+            <ns2:NbOfTxs>1</ns2:NbOfTxs>
+        </GrpHdr>
+        <MndtDataTxInf idx="1">
+            <MndtCreat>
+                <CdtrMndtInf>
+                    <Sci>FR65ZZZ222522</Sci>
+                    <Nm>Creditor Name 0</Nm>
+                    <BankAccount>
+                        <ns2:AcctId>
+                            <ns2:IBAN>FR7618206000103056966400117</ns2:IBAN>
+                        </ns2:AcctId>
+                        <ns2:FinInstnId>
+                            <ns2:BIC>AGRIFRPP882</ns2:BIC>
+                        </ns2:FinInstnId>
+                    </BankAccount>
+                </CdtrMndtInf>
+                <MndtPpInfo>
+                    <UniqMdtRef>
+                        <UMR>replace_id</UMR>
+                    </UniqMdtRef>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <SeqTp>RCUR</SeqTp>
+                    <MndtTp>BUSINESS</MndtTp>
+                    <DtOfSgntr>2013-05-23+02:00</DtOfSgntr>
+                    <CityOfSgntr>Lille</CityOfSgntr>
+                    <Cntrct>Contract</Cntrct>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>Debtor name 0</Nm>
+                        </DbtrId>
+                        <PstlAdr>
+                            <ns2:City>DEbtor city</ns2:City>
+                            <ns2:Ctry>FR</ns2:Ctry>
+                        </PstlAdr>
+                        <Phone>0152535052</Phone>
+                        <Email>patrick.tourbier@noreply.com</Email>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <ns2:AcctId>
+                            <ns2:IBAN>FR2430002088000000046313B87</ns2:IBAN>
+                        </ns2:AcctId>
+                        <ns2:FinInstnId>
+                            <ns2:BIC>CRLYFRPPXXX</ns2:BIC>
+                        </ns2:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+                <ExistingSEPAMandate>true</ExistingSEPAMandate>
+                <DtOfLastSDDIssued>2020-12-31+02:00</DtOfLastSDDIssued>
+            </MndtCreat>
+        </MndtDataTxInf>
+    </MndtData>
+</Document>

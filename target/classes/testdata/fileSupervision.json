@@ -1,0 +1,53 @@
+{
+		"CSVMandate": {
+		"CreditorEntity": " ROOT_RaviM1",
+		"selectUploadFile": "Mandate files upload",
+		"fileFormat": "CSV mandate management",
+		"activeLabel": "Active",
+		"activeCount": "5",
+		"pendingLabel": "Pending",
+		"pendingCount": "1",
+		"rejectCode": "MDT011"
+		
+			},
+		"XMLMandateCreate": {
+		"CreditorEntity": " ROOT_RaviM1",
+		"selectUploadFile": "Mandate files upload",
+		"fileFormat": "XML mandate management",
+		"activeLabel": "Active",
+		"activeCount": "5",
+		"pendingLabel": "Pending",
+		"pendingCount": null ,
+		"rejectCode": null
+			},
+		"XMLMandateUpdate": {
+		"CreditorEntity": " ROOT_RaviM1",
+		"selectUploadFile": "Mandate files upload",
+		"fileFormat": "XML mandate management",
+		"activeLabel": "Active",
+		"activeCount": "2",
+		"pendingLabel": "Pending",
+		"pendingCount": null,
+		"rejectCode": null
+			},
+		"MND_MWF_004_FIC_MANDATE_XML": {
+		"CreditorEntity": " ROOT_RaviM1",
+		"selectUploadFile": "Mandate files upload",
+		"fileFormat": "XML mandate management",
+		"activeLabel": "Active",
+		"activeCount": "1",
+		"pendingLabel": null,
+		"pendingCount": null,
+		"rejectCode": null
+			},
+		"MND_MWF_004_FIC_CFONB": {
+		"CreditorEntity": " ROOT_RaviM1",
+		"selectUploadFile": "Transaction files upload",
+		"fileFormat": "CFONB - SDD",
+		"activeLabel": "Created",
+		"activeCount": "1",
+		"pendingLabel": null,
+		"pendingCount": null,
+		"rejectCode": null
+			}
+}

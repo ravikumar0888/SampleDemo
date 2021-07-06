@@ -1,0 +1,56 @@
+[INFO ] 2021-01-18 11:10:41.842 [TestNG-test=SPS Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-18 11:10:42.740 [TestNG-test=SPS Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-18 11:10:42.743 [TestNG-test=SPS Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-18 11:10:42.744 [TestNG-test=SPS Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-18 11:10:52.422 [TestNG-test=SPS Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-18 11:11:57.514 [TestNG-test=SPS Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-18 11:11:58.296 [TestNG-test=SPS Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-18 11:11:58.308 [TestNG-test=SPS Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-18 11:11:58.309 [TestNG-test=SPS Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-18 11:12:06.404 [TestNG-test=SPS Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-18 11:12:11.383 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 11:12:11.869 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 11:12:12.267 [TestNG-test=SPS Test-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-18 11:12:21.424 [TestNG-test=SPS Test-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-18 11:12:21.676 [TestNG-test=SPS Test-1] UserActions - Link: ' By.xpath: //*[@id="pageMenu"]/ul/ul/li[1]/span' clicked
+[INFO ] 2021-01-18 11:15:50.259 [TestNG-test=SPS Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-18 11:15:51.048 [TestNG-test=SPS Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-18 11:15:51.050 [TestNG-test=SPS Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-18 11:15:51.051 [TestNG-test=SPS Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-18 11:16:01.780 [TestNG-test=SPS Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-18 11:16:07.720 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 11:16:08.444 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 11:16:08.843 [TestNG-test=SPS Test-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-18 11:16:18.265 [TestNG-test=SPS Test-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-18 11:16:25.870 [TestNG-test=SPS Test-1] UserActions - Link: ' By.xpath: //*[@id="pageMenu"]/ul/ul/li[1]/span' clicked
+[INFO ] 2021-01-18 11:29:23.524 [TestNG-test=SPS Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-18 11:29:24.277 [TestNG-test=SPS Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-18 11:29:24.279 [TestNG-test=SPS Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-18 11:29:24.280 [TestNG-test=SPS Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-18 11:29:32.110 [TestNG-test=SPS Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-18 11:29:37.027 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 11:29:37.520 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 11:29:37.890 [TestNG-test=SPS Test-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-18 11:29:48.799 [TestNG-test=SPS Test-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-18 11:30:16.045 [TestNG-test=SPS Test-1] UserActions - No need to select sub menu option
+[INFO ] 2021-01-18 11:30:16.251 [TestNG-test=SPS Test-1] UsersSearch - Entered Login ID  as mevUser
+[INFO ] 2021-01-18 11:30:25.837 [TestNG-test=SPS Test-1] UsersSearch - Clicked on search button
+[INFO ] 2021-01-18 11:30:34.659 [TestNG-test=SPS Test-1] UsersSearch - clicked on edit user button for userid mevUser
+[INFO ] 2021-01-18 11:30:41.511 [TestNG-test=SPS Test-1] UsersSearch - Clicked on edit group list button
+[INFO ] 2021-01-18 11:30:41.564 [TestNG-test=SPS Test-1] UsersSearch - checkbox value is false
+[INFO ] 2021-01-18 12:22:52.606 [TestNG-test=SPS Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-18 12:22:53.270 [TestNG-test=SPS Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-18 12:22:53.274 [TestNG-test=SPS Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-18 12:22:53.274 [TestNG-test=SPS Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-18 12:23:00.622 [TestNG-test=SPS Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-18 12:23:21.725 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 12:23:22.334 [TestNG-test=SPS Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-18 12:23:22.766 [TestNG-test=SPS Test-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-18 12:23:32.492 [TestNG-test=SPS Test-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-18 12:24:01.506 [TestNG-test=SPS Test-1] UserActions - No need to select sub menu option
+[INFO ] 2021-01-18 12:24:01.744 [TestNG-test=SPS Test-1] UsersSearch - Entered Login ID  as mevUser
+[INFO ] 2021-01-18 12:24:15.296 [TestNG-test=SPS Test-1] UsersSearch - Clicked on search button
+[INFO ] 2021-01-18 12:24:46.010 [TestNG-test=SPS Test-1] UsersSearch - clicked on edit user button for userid mevUser
+[INFO ] 2021-01-18 12:24:51.217 [TestNG-test=SPS Test-1] UsersSearch - Clicked on edit group list button
+[INFO ] 2021-01-18 12:24:51.290 [TestNG-test=SPS Test-1] UsersSearch - checkbox value is false
+[INFO ] 2021-01-18 12:24:51.556 [TestNG-test=SPS Test-1] UserActions - Link: ' By.xpath: //*[@id="maincol"][contains(text(),'Electronic validation of mandates: Access to the mandates creation by the signature module')] ' clicked

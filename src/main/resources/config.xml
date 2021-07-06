@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configuration>
+	<environment>
+		<RCI>
+			<hubURL>http://selenium-hub:4444/wd/hub</hubURL>
+			<!-- <hubURL>http://172.18.0.2:4444/wd/hub</hubURL> -->
+			<URL>https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login</URL>
+			<username>atos</username>
+			<password>atosatos</password>
+			<default_username>atos</default_username>
+			<default_password>atosatos</default_password>
+			<mandateuser_username>mandateuserTest</mandateuser_username>
+			<mandateuser_password>Mandateuser@2020</mandateuser_password>
+			<admin_username>RM_AWL</admin_username>
+			<admin_password>RM_AWL</admin_password>
+			<mev_username>mevUser01</mev_username>
+			<mev_password>mevUser@12345678</mev_password>
+			<eventreport_username>eventreportuser</eventreport_username>
+			<eventreport_password>Spseventreport@2021</eventreport_password>
+			<eventreportsct_username>scteventuser</eventreportsct_username>
+			<eventreportsct_password>EventReport@2020</eventreportsct_password>
+			<signURL>https://spsSignAdmin:spsSignAdmin@ssl-sps-rct-sign-service.aw.atos.net/signature/backoffice/index
+			</signURL>
+			<signusername>spsSignAdmin</signusername>
+			<signpassword>spsSignAdmin</signpassword>
+			<angularbackoffice>https://ssl-sps-sign-service.vm-rct.stg.as8677.net/backoffice/</angularbackoffice>
+			<SSOUser>A757437</SSOUser>
+			<SSOPassword>Qa3swb1218!6</SSOPassword>
+			<signBackOfficeURL>https://spsSignAdmin:spsSignAdmin@ssl-sps-rct-sign-service.aw.atos.net/demo/backoffice/testinitsessionformpage
+			</signBackOfficeURL>
+			<signBackOfficeURLSG>https://spsSignAdmin:spsSignAdmin@ssl-sps-rct-sign-service.aw.atos.net/signature/backoffice/adminpage/edit/spsCreditorSG3
+			</signBackOfficeURLSG>
+			<OKURL>https://127.0.0.1/okURL</OKURL>
+			<soapBaseURL>https://ssl-product-creditor-web.vm-rct.stg.as8677.net/</soapBaseURL>
+			<restBaseURL>https://ssl-product-creditor-web.vm-rct.stg.as8677.net/</restBaseURL>
+			<soapcallURL>https://ssl-sps-rct-sign-service.aw.atos.net/</soapcallURL>
+			<soapUsername>atos</soapUsername>
+			<soapPassword>atosatos</soapPassword>
+			<proxy>proxy-prod-scl.svc.meshcore.net:3128</proxy>
+			<dbUserPassword>Qa3swb1218!6</dbUserPassword>
+			<dbUsername>A757437</dbUsername>
+			<dbhost>55.16.242.224</dbhost>
+			<dbuser>SPS_SIGNATURE</dbuser>
+			<dbremoteHost>bqsps005s</dbremoteHost>
+			<dbpassword>5P5_51GNATUR3</dbpassword>
+			<dbremotePort>3306</dbremotePort>
+			<dblocalPort>8000</dblocalPort>
+			<keystorepwd>creditorA</keystorepwd>
+		</RCI>
+		<PREPROD>
+		
+			<URL>https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login</URL>
+			<username>atos</username>
+			<password>atosatos</password>
+		</PREPROD>
+	</environment>
+
+	<nodeconfig>
+		<chromeDriverPath>src/main/resources/browserdriver/chromedriver.exe
+		</chromeDriverPath>
+		<geckoDriverPath>src/main/resources/browserdriver/geckodriver.exe
+		</geckoDriverPath>
+		<IEDriverPath>src/main/resources/browserdriver/IEDriverServer.exe
+		</IEDriverPath>
+	</nodeconfig>
+</configuration>
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	

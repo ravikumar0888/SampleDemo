@@ -1,0 +1,12 @@
+{
+	"CreateSCT": {
+		"Amount": "10",
+		"EndtoEndid":"12345",
+		"IBAN":"FR7618206000103056966400117",
+		"BIC":"AGRIFRPP882",
+		"SCI":"TestHenriqueCreancier - FR82ZZZ951753",
+		"Businesscode":"ZZZ",
+		"UpdateAmt": "11"
+	}
+	
+}

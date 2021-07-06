@@ -1,0 +1,12 @@
+[INFO ] 2020-12-17 12:20:20.278 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-17 12:20:21.987 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-17 12:20:21.991 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-17 12:20:21.993 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-17 12:20:47.377 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-17 12:20:49.493 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-17 12:27:17.069 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-17 12:27:18.092 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-17 12:27:18.094 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-17 12:27:18.096 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-17 12:27:35.083 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-17 12:27:37.659 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR

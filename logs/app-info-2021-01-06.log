@@ -1,0 +1,75 @@
+[INFO ] 2021-01-06 19:52:52.920 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-06 19:52:54.088 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-06 19:52:54.092 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-06 19:52:54.093 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-06 19:53:06.779 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-06 19:53:08.075 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-01-06 19:53:14.178 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: creditorEmailMandatoryStep1' clicked
+[INFO ] 2021-01-06 19:53:17.752 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-01-06 19:53:17.753 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-01-06 19:53:21.713 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2021-01-06 19:53:22.191 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '137798' entered
+[INFO ] 2021-01-06 19:53:22.424 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2021-01-06 19:53:23.175 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UIR'. Value '197024' entered
+[INFO ] 2021-01-06 19:53:23.659 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2021-01-06 19:53:24.115 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2021-01-06 19:53:24.593 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2021-01-06 19:53:25.032 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2021-01-06 19:53:25.454 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2021-01-06 19:53:25.898 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2021-01-06 19:53:26.350 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2021-01-06 19:53:33.596 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-01-06 19:53:39.358 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2021-01-06 19:53:39.838 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.name: iban'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2021-01-06 19:53:40.397 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: (//input[@id='userPhoneNumberEditableField'])|(//input[@id='userPhoneNumberField'])'. Value '+33612345678' entered
+[INFO ] 2021-01-06 19:53:40.903 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: userMailRequired'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2021-01-06 19:53:48.284 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-01-06 19:53:48.307 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-06 19:53:48.572 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: agreetermsEmail' clicked
+[INFO ] 2021-01-06 19:53:48.573 [TestNG-test=Document Signature Test-1] SignStep2Page - creditor id  spsCreditorSG3
+[INFO ] 2021-01-06 19:53:48.573 [TestNG-test=Document Signature Test-1] SignStep2Page - transdcation 137798
+[INFO ] 2021-01-06 19:54:00.770 [TestNG-test=Document Signature Test-1] RestEndPoints - Session status is: {"type":"EMAIL","otpCode":"4949","nbAttempts":"0","nbFailed":"0","state":"INITIALIZED","useSMTPRelayForOTP":"false"}
+[INFO ] 2021-01-06 19:54:00.869 [TestNG-test=Document Signature Test-1] RestEndPoints - OTP is 4949
+[INFO ] 2021-01-06 19:54:01.604 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '4949' entered
+[INFO ] 2021-01-06 19:54:17.040 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked
+[INFO ] 2021-01-06 19:54:17.319 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: dlpdf clicked
+[INFO ] 2021-01-06 19:54:17.340 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-06 19:54:17.343 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\99240da9-75b8-4e8e-be30-18a764fb6fc3.tmp
+[INFO ] 2021-01-06 19:54:17.343 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\artifacts (1).zip
+[INFO ] 2021-01-06 19:54:17.343 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\artifacts (2).zip
+[INFO ] 2021-01-06 19:54:17.343 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\artifacts.zip
+[INFO ] 2021-01-06 19:54:17.343 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Break out Area.jpg
+[INFO ] 2021-01-06 19:54:17.344 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\ClientGainLossReport (1).pdf
+[INFO ] 2021-01-06 19:54:17.344 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\ClientGainLossReport.pdf
+[INFO ] 2021-01-06 19:54:17.344 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\CPSAT_RaviMuraiAutomationTester.doc
+[INFO ] 2021-01-06 19:54:17.344 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\desktop.ini
+[INFO ] 2021-01-06 19:54:17.345 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Doctor Room.jpg
+[INFO ] 2021-01-06 19:54:17.345 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 137195.pdf
+[INFO ] 2021-01-06 19:54:17.345 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\download
+[INFO ] 2021-01-06 19:54:17.345 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HOMELOAN.pdf
+[INFO ] 2021-01-06 19:54:17.345 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HomeLoanAndDeclaration.zip
+[INFO ] 2021-01-06 19:54:17.346 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\InitiateSingleEntryPaymentSummary30-12-2020.pdf
+[INFO ] 2021-01-06 19:54:17.346 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\LICDetails.pdf
+[INFO ] 2021-01-06 19:54:17.346 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Main Enterance.jpg
+[INFO ] 2021-01-06 19:54:17.346 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000214.pdf
+[INFO ] 2021-01-06 19:54:17.346 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000003005.pdf
+[INFO ] 2021-01-06 19:54:17.347 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MatchMakingPdf.pdf
+[INFO ] 2021-01-06 19:54:17.347 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Meeting Room.jpg
+[INFO ] 2021-01-06 19:54:17.347 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Meeting6Dec2020.pdf
+[INFO ] 2021-01-06 19:54:17.347 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.docx
+[INFO ] 2021-01-06 19:54:17.347 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Net Bills.pdf
+[INFO ] 2021-01-06 19:54:17.347 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\New Document 4.pdf
+[INFO ] 2021-01-06 19:54:17.348 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Office Area 1.jpg
+[INFO ] 2021-01-06 19:54:17.348 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Reception.jpg
+[INFO ] 2021-01-06 19:54:17.348 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Rone Na Dijiyega (Jaan Tere Naam) 320Kbps.mp3
+[INFO ] 2021-01-06 19:54:17.350 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Traning Room.jpg
+[INFO ] 2021-01-06 19:54:17.351 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Wash Room 1.jpg
+[INFO ] 2021-01-06 19:54:17.351 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Wash Room.jpg
+[INFO ] 2021-01-06 19:54:17.351 [TestNG-test=Document Signature Test-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\~WRL0001.tmp
+[INFO ] 2021-01-06 19:54:18.118 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-06 19:54:22.106 [TestNG-test=Document Signature Test-1] UserActions - Button: By.name: buttonReturnCreditorSite clicked
+[INFO ] 2021-01-06 19:54:25.791 [TestNG-test=Document Signature Test-1] UserActions - The browser is on URL: http://127.0.0.1/okURL 
+[INFO ] 2021-01-06 19:54:25.806 [TestNG-test=Document Signature Test-1] UserActions - Current page title is 127.0.0.1
+[INFO ] 2021-01-06 19:54:25.807 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-01-06 19:54:30.211 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: creditorEmailMandatoryStep1' clicked
+[INFO ] 2021-01-06 19:54:36.763 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: confirm' clicked

@@ -1,0 +1,78 @@
+package documentSignatureTest;
+
+import static org.testng.Assert.assertEquals;
+
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.security.KeyStoreException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.apache.ws.security.WSSecurityException;
+import org.testng.annotations.Test;
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
+
+import com.google.gson.internal.LinkedTreeMap;
+
+import datamanagement.JsonManager;
+import datamanagement.XMLManager;
+import io.restassured.response.Response;
+import pagesSpsSign.RestEndPoints;
+import pagesSpsSign.SignStep1Page;
+import pagesSpsSign.SignStep2Page;
+import pagesSpsSign.SignStep3Page;
+import pagesSpsSign.SpsSignBackOfficePage;
+import testbase.BasePage;
+import testdataobjects.BackOfficeInitSession;
+import utilies.GenericFunctions;
+
+public class LDECustomerWithInCorrectSCITest extends BasePage {
+	static Logger logger = LogManager.getLogger(LDECustomerWithInCorrectSCITest.class.getName());
+
+	@Test(enabled = true)
+	public void LDECustomerWithInCorrectSCI() throws ParserConfigurationException, SAXException, IOException,
+			TransformerException, URISyntaxException, KeyStoreException, WSSecurityException {
+
+		RestEndPoints soap = new RestEndPoints();
+		SignStep1Page signStep1 = new SignStep1Page();
+		SignStep2Page signStep2 = new SignStep2Page();
+		SignStep3Page signStep3 = new SignStep3Page();
+		GenericFunctions gf = new GenericFunctions();
+		String transId = gf.randamGenerator();
+		String creditorID = null, inputXml;
+
+		Document doc = XMLManager.getXmlDocument("soaprequests/LDEWithIncurrectSCISoapTest.xml");
+
+		// Replace transaction id etc.
+		doc.getElementsByTagName("urn1:transactionId").item(0).setTextContent(transId);
+		creditorID = doc.getElementsByTagName("urn1:creditorId").item(0).getTextContent();
+
+		Document signedDoc = XMLManager.buildSignedRequest(doc);
+		inputXml = XMLManager.docToStr(signedDoc);
+
+		Response response = soap.soapCallSpsSign(inputXml, "SPSSignature", null);
+		assertEquals(response.statusCode(), 200, "soap requst failed");
+		String URL = XMLManager.getXmlElementsAsString(response.asString(), "Envelope.Body.InitSessionResponse.Sts");
+		
+		System.out.println(URL);
+		
+	/*
+		<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+		  <soap:Body>
+		    <ns7:InitSessionResponse xmlns:ns7="urn:net:awl:sps:sign:ws.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:ws:xsd:Session.v10">
+		      <ns2:response>
+		        <ns3:Sts>RJCT</ns3:Sts>
+		        <ns3:StsCd>CONFIG_ERROR</ns3:StsCd>
+		        <ns3:StsInf>SCI is missing. SCI is required for this particular case, the Creditor has several SCI : FR50ZZZ270613|FR70ZZZ236497</ns3:StsInf>
+		      </ns2:response>
+		    </ns7:InitSessionResponse>
+		  </soap:Body>
+		</soap:Envelope>
+		*/
+		
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"acc_SDD_002_RightsSDDTest": {
+		"adminuser": "admin",
+		"language": "English",
+		"user": "atos",
+		"grouplist": "Validation d'un SDD: Validation d'un SDD",
+		"defaultuser": "default"
+	},
+	"acc_SDD_007_SDDAdvancedSearch": {
+		"language": "English",
+		"defaultuser": "default"
+	},
+	"MandateUpdateBackofficeTest": {
+		"TransactionId": "PSE1234",
+		"CreditorId": "ztestDoS",
+		"UMR": "MANDATE-REFERENCE000000000000000054",
+		"Language": "EN",
+		"UrlOK": "https://en.wikipedia.org/wiki/OK",
+		"UrlKO": "https://en.wikipedia.org/wiki/KO",
+		"UrlCancel": "https://en.wikipedia.org/wiki/Cancel",
+		"Country": "FR",
+		"CheckDigit": "10",
+		"BusinessCode": "ZZZ",
+		"NationalIdentifier": "2345678",
+		"IBAN": "FR7630003007200005026058893"
+		
+	},
+	"DSReuseUndefinedFlowTest": {
+		"Uir": "3692-1749453",
+		"Umr": "MANDATE-REFERENCE000000000000000115"
+		
+	},
+	"DSReuseMandateFlowTest": {
+		"Uir": "3692-184985",
+		"Umr": "MANDATE-REFERENCE000000000000001066"
+		
+	}
+}

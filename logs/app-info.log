@@ -1,0 +1,12 @@
+[INFO ] 2021-03-24 16:29:44.936 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2021-03-24 16:29:45.202 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-03-24 16:29:45.209 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-03-24 16:29:45.209 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-03-24 16:29:50.277 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-03-24 16:29:50.631 [TestNG-test=Sanity Tests for SPS-1] MinimumImportMandateFIleCSV007Test - the file is C:\Users\13545\AppData\Local\Temp\mandate1108982517865010377.csv
+[INFO ] 2021-03-24 16:29:53.074 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-03-24 16:29:53.305 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-03-24 16:29:53.614 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-03-24 16:29:56.261 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-03-24 16:29:59.374 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-24 16:29:59.375 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Upload File')]

@@ -1,0 +1,73 @@
+[INFO ] 2021-01-04 11:00:52.391 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:00:54.336 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:00:54.339 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:00:54.341 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:01:13.454 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:03:44.954 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:03:46.507 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:03:46.524 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:03:46.526 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:04:04.047 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:04:06.912 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 11:12:30.361 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:12:31.482 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:12:31.486 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:12:31.486 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:12:44.954 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:12:47.719 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 11:23:02.527 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:23:03.394 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:23:03.398 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:23:03.399 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:23:13.224 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:24:14.893 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 11:29:18.187 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:29:19.036 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:29:19.040 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:29:19.041 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:29:32.520 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:29:34.378 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 11:31:37.885 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:31:38.866 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:31:38.869 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:31:38.870 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:31:48.361 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:31:51.169 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 11:39:56.529 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:39:58.108 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:39:58.112 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:39:58.114 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:40:13.056 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:40:16.009 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 11:43:40.636 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:43:42.555 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:43:42.558 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:43:42.559 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:43:57.369 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:44:00.750 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 11:47:22.505 [TestNG-test=Tests-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 11:47:24.419 [TestNG-test=Tests-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 11:47:24.422 [TestNG-test=Tests-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 11:47:24.426 [TestNG-test=Tests-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 11:47:50.285 [TestNG-test=Tests-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 11:47:53.439 [TestNG-test=Tests-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-04 13:10:17.975 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 13:10:19.197 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 13:10:19.199 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 13:10:19.200 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 13:10:28.007 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 13:12:29.802 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 13:12:30.682 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 13:12:30.686 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 13:12:30.687 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 13:12:40.373 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 13:24:43.598 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 13:24:44.653 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 13:24:44.657 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 13:24:44.659 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 13:24:54.020 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-04 13:26:16.335 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-04 13:26:17.320 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-04 13:26:17.324 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-04 13:26:17.324 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-04 13:26:26.227 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver

@@ -1,0 +1,157 @@
+[INFO ] 2021-02-05 16:51:05.386 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-05 16:51:06.487 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-05 16:51:06.490 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-05 16:51:06.490 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-05 16:51:19.021 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-05 16:51:20.062 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-02-05 16:51:25.726 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2021-02-05 16:51:26.303 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '153947' entered
+[INFO ] 2021-02-05 16:51:26.616 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2021-02-05 16:51:26.975 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2021-02-05 16:51:27.013 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-05 16:51:27.958 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UIR'. Value '185498' entered
+[INFO ] 2021-02-05 16:51:28.868 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2021-02-05 16:51:29.350 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2021-02-05 16:51:29.792 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2021-02-05 16:51:30.235 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2021-02-05 16:51:30.709 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2021-02-05 16:51:31.206 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2021-02-05 16:51:31.646 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2021-02-05 16:51:32.075 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2021-02-05 16:51:32.764 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2021-02-05 16:51:33.248 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2021-02-05 16:51:33.764 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2021-02-05 16:51:40.361 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-02-05 16:54:09.115 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-05 16:54:09.976 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-05 16:54:09.980 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-05 16:54:09.981 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-05 16:54:19.505 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-05 16:54:21.255 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-02-05 16:54:26.848 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2021-02-05 16:54:27.686 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '185509' entered
+[INFO ] 2021-02-05 16:54:28.005 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2021-02-05 16:54:28.520 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2021-02-05 16:54:28.557 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-05 16:54:30.133 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UIR'. Value '122074' entered
+[INFO ] 2021-02-05 16:54:30.950 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2021-02-05 16:54:31.508 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2021-02-05 16:54:32.095 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2021-02-05 16:54:32.758 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2021-02-05 16:54:33.329 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2021-02-05 16:54:33.937 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2021-02-05 16:54:34.524 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2021-02-05 16:54:35.099 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2021-02-05 16:54:35.933 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2021-02-05 16:54:36.516 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2021-02-05 16:54:37.127 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2021-02-05 16:55:39.027 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-02-05 16:56:54.441 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-05 16:56:55.439 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-05 16:56:55.442 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-05 16:56:55.443 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-05 16:57:04.994 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-05 16:57:06.716 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-02-05 16:57:12.776 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2021-02-05 16:57:13.656 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '158127' entered
+[INFO ] 2021-02-05 16:57:14.141 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2021-02-05 16:57:14.444 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2021-02-05 16:57:14.467 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-05 16:57:15.214 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UIR'. Value '131496' entered
+[INFO ] 2021-02-05 16:57:15.854 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2021-02-05 16:57:16.311 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2021-02-05 16:57:16.774 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2021-02-05 16:57:17.245 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2021-02-05 16:57:17.731 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2021-02-05 16:57:18.229 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2021-02-05 16:57:18.703 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2021-02-05 16:57:19.181 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2021-02-05 16:57:19.870 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2021-02-05 16:57:20.366 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2021-02-05 16:57:20.931 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-02-05 16:58:05.696 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-02-05 16:58:10.598 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2021-02-05 17:19:59.194 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-05 17:20:00.298 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-05 17:20:00.302 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-05 17:20:00.303 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-05 17:20:11.074 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-05 17:20:12.715 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-02-05 17:20:18.836 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2021-02-05 17:20:19.788 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '195829' entered
+[INFO ] 2021-02-05 17:20:20.282 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2021-02-05 17:20:20.566 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2021-02-05 17:20:20.590 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-05 17:20:21.686 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UIR'. Value '155409' entered
+[INFO ] 2021-02-05 17:20:22.587 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2021-02-05 17:20:23.432 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2021-02-05 17:20:24.129 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2021-02-05 17:20:24.831 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2021-02-05 17:20:25.371 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2021-02-05 17:20:25.948 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2021-02-05 17:20:26.480 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2021-02-05 17:20:26.998 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2021-02-05 17:20:27.722 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2021-02-05 17:20:28.301 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2021-02-05 17:20:28.937 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-02-05 17:20:52.385 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-02-05 17:21:05.712 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2021-02-05 17:25:17.788 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-05 17:25:19.295 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-05 17:25:19.308 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-05 17:25:19.308 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-05 17:25:29.955 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-05 17:25:31.647 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-02-05 17:25:38.059 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2021-02-05 17:25:38.713 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '105657' entered
+[INFO ] 2021-02-05 17:25:39.016 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2021-02-05 17:25:39.438 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2021-02-05 17:25:39.461 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-05 17:25:40.583 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UIR'. Value '132511' entered
+[INFO ] 2021-02-05 17:25:41.228 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2021-02-05 17:25:41.729 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2021-02-05 17:25:42.213 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2021-02-05 17:25:42.787 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2021-02-05 17:25:43.291 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2021-02-05 17:25:43.828 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2021-02-05 17:25:44.361 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2021-02-05 17:25:44.901 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2021-02-05 17:25:45.611 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2021-02-05 17:25:46.174 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2021-02-05 17:25:46.812 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-02-05 17:25:53.751 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-02-05 17:25:58.005 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2021-02-05 17:33:32.684 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-05 17:33:33.793 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-05 17:33:33.797 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-05 17:33:33.797 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-05 17:33:46.285 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-05 17:33:47.976 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Old back office environment - RCI
+[INFO ] 2021-02-05 17:33:55.578 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2021-02-05 17:33:56.321 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '147933' entered
+[INFO ] 2021-02-05 17:33:56.659 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2021-02-05 17:33:57.010 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2021-02-05 17:33:57.061 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-05 17:33:58.142 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UIR'. Value '169361' entered
+[INFO ] 2021-02-05 17:33:58.824 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2021-02-05 17:33:59.385 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2021-02-05 17:33:59.893 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2021-02-05 17:34:00.574 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2021-02-05 17:34:01.288 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2021-02-05 17:34:01.839 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2021-02-05 17:34:02.389 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2021-02-05 17:34:02.925 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2021-02-05 17:34:03.711 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2021-02-05 17:34:04.334 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2021-02-05 17:34:04.991 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-02-05 17:34:28.405 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-02-05 17:34:44.311 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2021-02-05 17:35:47.870 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2021-02-05 17:35:47.886 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-05 17:35:48.124 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: agreetermsEmail' clicked
+[INFO ] 2021-02-05 17:35:48.126 [TestNG-test=Document Signature Test-1] SignStep2Page - creditor id  spsCreditorSG3
+[INFO ] 2021-02-05 17:35:48.126 [TestNG-test=Document Signature Test-1] SignStep2Page - transdcation 147933
+[INFO ] 2021-02-05 17:35:59.550 [TestNG-test=Document Signature Test-1] RestEndPoints - Session status is: {"type":"EMAIL","otpCode":"6957","nbAttempts":"0","nbFailed":"0","state":"INITIALIZED","useSMTPRelayForOTP":"false"}
+[INFO ] 2021-02-05 17:35:59.597 [TestNG-test=Document Signature Test-1] RestEndPoints - OTP is 6957
+[INFO ] 2021-02-05 17:36:00.452 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '6957' entered
+[INFO ] 2021-02-05 17:37:01.988 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked

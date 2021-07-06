@@ -1,0 +1,15 @@
+[INFO ] 2021-02-03 15:35:29.348 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-03 15:35:30.741 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-03 15:35:30.745 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-03 15:35:30.746 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-03 15:35:46.289 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-03 21:58:51.376 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-03 21:58:52.847 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-03 21:58:52.847 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-03 21:58:52.862 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-03 21:59:07.063 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-03 22:03:28.668 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-03 22:03:29.494 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-03 22:03:29.494 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-03 22:03:29.494 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-03 22:03:44.092 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver

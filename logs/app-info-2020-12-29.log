@@ -1,0 +1,46 @@
+[INFO ] 2020-12-29 15:41:17.920 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-29 15:41:19.682 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-29 15:41:19.685 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-29 15:41:19.688 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-29 15:41:41.338 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-29 15:45:02.253 [TestNG-test=Regression for SPS-SDD Event Report-1] RestEndPoints - {"url":"https://ssl-sps-sign-service.vm-rct.stg.as8677.net/signature/?t=a0791523-15b19-7450-1343ea9-461c-5349474e-8dc9-7fef59b15e70&tCh=NuzOL%2BMnMmoMm7HXeOErInoTTVFLm%2BBibg4gC2CF7Lg%3D","umr":null,"signSessionValidity":null}
+[INFO ] 2020-12-29 15:45:17.837 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userName'. Value 'Prakhar' entered
+[INFO ] 2020-12-29 15:45:21.453 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStNum'. Value '123' entered
+[INFO ] 2020-12-29 15:45:27.905 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: (//input[@id='userPhoneNumberEditableField'])|(//input[@id='userPhoneNumberField'])'. Value '+33612345678' entered
+[INFO ] 2020-12-29 15:45:31.953 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStName'. Value 'Strasse1' entered
+[INFO ] 2020-12-29 15:45:35.777 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressPostCode'. Value '456789' entered
+[INFO ] 2020-12-29 15:45:39.485 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressCity'. Value 'Lyon' entered
+[INFO ] 2020-12-29 15:45:41.795 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.name: partnersConsentChecked clicked
+[INFO ] 2020-12-29 15:45:53.456 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.name: confirm clicked
+[INFO ] 2020-12-29 16:08:19.517 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-29 16:08:20.897 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-29 16:08:20.899 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-29 16:08:20.900 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-29 16:08:38.001 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-29 16:09:25.072 [TestNG-test=Regression for SPS-SDD Event Report-1] RestEndPoints - {"url":"https://ssl-sps-sign-service.vm-rct.stg.as8677.net/signature/?t=43ad7539-15b1a-c6ff-1343ea9-43be-5349474e-b9d8-0139a71113f1&tCh=CHf4o6idyr5o%2FPW64updygo7Vu2T%2FWSGirp6BXpopks%3D","umr":null,"signSessionValidity":null}
+[INFO ] 2020-12-29 16:09:42.169 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userName'. Value 'Prakhar' entered
+[INFO ] 2020-12-29 16:09:42.921 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStNum'. Value '123' entered
+[INFO ] 2020-12-29 16:09:43.871 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: (//input[@id='userPhoneNumberEditableField'])|(//input[@id='userPhoneNumberField'])'. Value '+33612345678' entered
+[INFO ] 2020-12-29 16:09:44.711 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressStName'. Value 'Strasse1' entered
+[INFO ] 2020-12-29 16:09:45.724 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressPostCode'. Value '456789' entered
+[INFO ] 2020-12-29 16:09:46.690 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.name: userAddressCity'. Value 'Lyon' entered
+[INFO ] 2020-12-29 16:09:47.808 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.name: partnersConsentChecked clicked
+[INFO ] 2020-12-29 16:09:55.128 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.name: confirm clicked
+[INFO ] 2020-12-29 16:09:55.929 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: (//input[@id='agreetermsSms'])|(//input[@id='agreetermsEmail'])' clicked
+[INFO ] 2020-12-29 16:10:00.888 [TestNG-test=Regression for SPS-SDD Event Report-1] RestEndPoints - Session status is: {"type":"EMAIL","otpCode":"8031","nbAttempts":"0","nbFailed":"0","state":"INITIALIZED","useSMTPRelayForOTP":"false"}
+[INFO ] 2020-12-29 16:10:01.051 [TestNG-test=Regression for SPS-SDD Event Report-1] RestEndPoints - OTP is 8031
+[INFO ] 2020-12-29 16:10:02.450 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: (//input[@id='emailConfirmationCode'])|(//input[@id='smsConfirmationCode'])'. Value '8031' entered
+[INFO ] 2020-12-29 16:10:11.824 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: (//input[@id='submitSignEmailMandate'])|(//input[@id='submitSignSMSMandate']) clicked
+[INFO ] 2020-12-29 16:10:13.230 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: dlpdf clicked
+[INFO ] 2020-12-29 16:10:13.234 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\CPSAT_RaviMuraiAutomationTester.doc
+[INFO ] 2020-12-29 16:10:13.235 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\desktop.ini
+[INFO ] 2020-12-29 16:10:13.235 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Document 131826.pdf
+[INFO ] 2020-12-29 16:10:13.235 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\download
+[INFO ] 2020-12-29 16:10:13.236 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HOMELOAN.pdf
+[INFO ] 2020-12-29 16:10:13.236 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\HomeLoanAndDeclaration.zip
+[INFO ] 2020-12-29 16:10:13.237 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\LICDetails.pdf
+[INFO ] 2020-12-29 16:10:13.237 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\MANDATE-REFERENCE000000000000000738.pdf
+[INFO ] 2020-12-29 16:10:13.238 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\New Document 4.pdf
+[INFO ] 2020-12-29 16:10:13.238 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\Rone Na Dijiyega (Jaan Tere Naam) 320Kbps.mp3
+[INFO ] 2020-12-29 16:10:13.239 [TestNG-test=Regression for SPS-SDD Event Report-1] PdfManager - Files in the downloaded directory are C:\Users\A687416\Downloads\~WRL0001.tmp
+[INFO ] 2020-12-29 16:10:32.499 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.name: buttonReturnCreditorSite clicked

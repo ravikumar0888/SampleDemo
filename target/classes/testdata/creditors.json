@@ -1,0 +1,29 @@
+{
+	"Creditor_One": {
+		"Name": "AutomationCreditor",
+		"SCI": "FR",
+		"Address_type": "94",
+		"SCI_CountryCode": "15",
+		"SCI_Number": "2345612",
+		"Street_number": "2223456",
+		"PostalCode": "411017",
+		"StreetName": "kalewadi",
+		"City": "Pune",
+		"Address_typeModified": "Business address",
+		"CountryDropdown": "France"
+	},
+	"Creditor_Two": {
+		"Name": "AutomationCreditorTwo",
+		"SCI": "FR",
+		"Address_type": "94",
+		"Street_number": "2223456",
+		"PostalCode": "411017",
+		"StreetName": "Kalewadi",
+		"City": "Pune",
+		"SCI_CountryCode": "15",
+		"SCI_Number": "2345612",
+		"Address_typeModified": "Business address",
+		"CountryDropdown": "France"
+	}
+}
+

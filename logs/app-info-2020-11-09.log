@@ -1,0 +1,72 @@
+[INFO ] 2020-11-09 23:22:49.255 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-09 23:22:50.719 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-09 23:22:50.723 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-09 23:22:50.725 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-09 23:23:05.173 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-09 23:23:11.755 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-09 23:23:12.401 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-09 23:23:12.812 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-09 23:23:34.119 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-09 23:23:37.489 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Search')]
+[INFO ] 2020-11-09 23:23:39.555 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:23:41.304 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[4]/a[3]/img' clicked
+[INFO ] 2020-11-09 23:23:42.470 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: generateSinceLast' clicked
+[INFO ] 2020-11-09 23:23:53.835 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Export Search')]
+[INFO ] 2020-11-09 23:23:54.460 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: eventReportName'. Value 'TesteventreportAutomation' entered
+[INFO ] 2020-11-09 23:24:02.306 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:24:02.787 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[7]/a/img' clicked
+[INFO ] 2020-11-09 23:27:57.910 [TestNG-test=Regression for SPS-SDD Event Report-1] FileManager - lastfile + C:\Users\A687416\Downloads\1313_TesteventreportAutomation_1604913660074.zip
+[INFO ] 2020-11-09 23:32:33.947 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-09 23:32:34.802 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-09 23:32:34.804 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-09 23:32:34.805 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-09 23:32:51.044 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-09 23:33:00.098 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-09 23:33:01.166 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-09 23:33:01.603 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-09 23:33:16.192 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-09 23:33:19.831 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Search')]
+[INFO ] 2020-11-09 23:33:21.860 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:33:24.037 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[4]/a[3]/img' clicked
+[INFO ] 2020-11-09 23:33:26.243 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: generateSinceLast' clicked
+[INFO ] 2020-11-09 23:33:37.286 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Export Search')]
+[INFO ] 2020-11-09 23:33:37.887 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: eventReportName'. Value 'TesteventreportAutomation' entered
+[INFO ] 2020-11-09 23:33:40.135 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:33:40.627 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[7]/a/img' clicked
+[INFO ] 2020-11-09 23:36:36.426 [TestNG-test=Regression for SPS-SDD Event Report-1] FileManager - lastfile + C:\Users\A687416\Downloads\1313_TesteventreportAutomation_1604913660074 (1).zip
+[INFO ] 2020-11-09 23:41:33.085 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-09 23:41:33.874 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-09 23:41:33.877 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-09 23:41:33.878 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-09 23:41:46.785 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-09 23:41:52.897 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-09 23:41:53.685 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-09 23:41:54.297 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-09 23:42:18.777 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-09 23:42:25.738 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Search')]
+[INFO ] 2020-11-09 23:42:28.426 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:42:30.954 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[4]/a[3]/img' clicked
+[INFO ] 2020-11-09 23:42:31.956 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: generateSinceLast' clicked
+[INFO ] 2020-11-09 23:42:43.827 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Export Search')]
+[INFO ] 2020-11-09 23:42:44.434 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: eventReportName'. Value 'TesteventreportAutomation' entered
+[INFO ] 2020-11-09 23:42:47.913 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:42:48.365 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[7]/a/img' clicked
+[INFO ] 2020-11-09 23:45:28.961 [TestNG-test=Regression for SPS-SDD Event Report-1] FileManager - lastfile + C:\Users\A687416\Downloads\1313_TesteventreportAutomation_1604913660074 (1).zip
+[INFO ] 2020-11-09 23:52:18.139 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-09 23:52:19.264 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-09 23:52:19.268 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-09 23:52:19.269 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-09 23:52:39.195 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-09 23:52:49.893 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'eventreportuser' entered
+[INFO ] 2020-11-09 23:52:50.599 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'Spseventreport@2020' entered
+[INFO ] 2020-11-09 23:52:50.987 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User eventreport logged sucessfully....
+[INFO ] 2020-11-09 23:52:58.883 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-09 23:53:12.247 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Search')]
+[INFO ] 2020-11-09 23:53:14.549 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:53:15.970 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[4]/a[3]/img' clicked
+[INFO ] 2020-11-09 23:53:17.194 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: generateSinceLast' clicked
+[INFO ] 2020-11-09 23:53:29.144 [TestNG-test=Regression for SPS-SDD Event Report-1] MandatePage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Event Report Export Search')]
+[INFO ] 2020-11-09 23:53:29.675 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: eventReportName'. Value 'TesteventreportAutomation' entered
+[INFO ] 2020-11-09 23:53:32.123 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-09 23:53:32.656 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[7]/a/img' clicked
+[INFO ] 2020-11-09 23:56:03.245 [TestNG-test=Regression for SPS-SDD Event Report-1] FileManager - lastfile + C:\Users\A687416\Downloads\1313_TesteventreportAutomation_1604913660074 (1).zip

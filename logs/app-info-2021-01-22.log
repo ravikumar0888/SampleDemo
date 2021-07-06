@@ -1,0 +1,113 @@
+[INFO ] 2021-01-22 09:18:40.728 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-22 09:18:42.008 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-22 09:18:42.011 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-22 09:18:42.012 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-22 09:18:53.511 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-22 09:18:58.945 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-01-22 09:18:59.550 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-01-22 09:18:59.949 [TestNG-test=Document Signature Test-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-01-22 09:19:02.786 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-22 09:19:05.463 [TestNG-test=Document Signature Test-1] CreditorPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Creditor')]
+[INFO ] 2021-01-22 09:19:06.076 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditor' entered
+[INFO ] 2021-01-22 09:19:06.685 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2021-01-22 09:19:07.272 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2021-01-22 09:19:07.752 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '193979' entered
+[INFO ] 2021-01-22 09:19:09.117 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-01-22 09:19:09.224 [TestNG-test=Document Signature Test-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [61].
+[INFO ] 2021-01-22 09:19:09.225 [TestNG-test=Document Signature Test-1] CreditorPage - 61
+[INFO ] 2021-01-22 09:19:09.225 [TestNG-test=Document Signature Test-1] CreditorPage - The correct Value is 61
+[INFO ] 2021-01-22 09:19:09.827 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '61' entered
+[INFO ] 2021-01-22 09:19:11.141 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-01-22 09:19:11.141 [TestNG-test=Document Signature Test-1] CreditorPage - Generate CR NAME is  :- AutomationCreditor - FR61ZZZ193979
+[INFO ] 2021-01-22 09:19:12.732 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[1]/a' clicked
+[INFO ] 2021-01-22 09:19:14.877 [TestNG-test=Document Signature Test-1] UserActions - Button: By.name: search clicked
+[INFO ] 2021-01-22 09:19:14.940 [TestNG-test=Document Signature Test-1] CreditorPage - SCI value istrue
+[INFO ] 2021-01-22 09:19:15.893 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: //*[@id='resultList']/div[2]/table/tbody/tr/td[5]/a[2]/img clicked
+[INFO ] 2021-01-22 09:19:16.738 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: creditorAdress-addressNumber'. Value '2223456' entered
+[INFO ] 2021-01-22 09:19:17.840 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: creditorAdress-addressPostCode'. Value '411017' entered
+[INFO ] 2021-01-22 09:19:18.554 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: creditorAdress-addressStreet'. Value 'kalewadi' entered
+[INFO ] 2021-01-22 09:19:19.029 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: creditorAdress-addressCity'. Value 'Pune' entered
+[INFO ] 2021-01-22 09:19:20.805 [TestNG-test=Document Signature Test-1] UserActions - Button: By.name: search2 clicked
+[INFO ] 2021-01-22 09:19:22.719 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[2]/a' clicked
+[INFO ] 2021-01-22 09:19:23.443 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditorTwo' entered
+[INFO ] 2021-01-22 09:19:23.964 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2021-01-22 09:19:24.493 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2021-01-22 09:19:25.033 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '188169' entered
+[INFO ] 2021-01-22 09:19:26.398 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-01-22 09:19:26.546 [TestNG-test=Document Signature Test-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [82].
+[INFO ] 2021-01-22 09:19:26.547 [TestNG-test=Document Signature Test-1] CreditorPage - 82
+[INFO ] 2021-01-22 09:19:26.547 [TestNG-test=Document Signature Test-1] CreditorPage - The correct Value is 82
+[INFO ] 2021-01-22 09:19:27.197 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '82' entered
+[INFO ] 2021-01-22 09:19:28.432 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-01-22 09:19:28.432 [TestNG-test=Document Signature Test-1] CreditorPage - Generate CR NAME is  :- AutomationCreditorTwo - FR82ZZZ188169
+[INFO ] 2021-01-22 09:19:30.823 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[1]/a' clicked
+[INFO ] 2021-01-22 09:19:32.793 [TestNG-test=Document Signature Test-1] UserActions - Button: By.name: search clicked
+[INFO ] 2021-01-22 09:19:32.892 [TestNG-test=Document Signature Test-1] CreditorPage - SCI value istrue
+[INFO ] 2021-01-22 09:19:38.176 [TestNG-test=Document Signature Test-1] RootPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Create Root')]
+[INFO ] 2021-01-22 09:19:38.180 [TestNG-test=Document Signature Test-1] RootPage - New Root name is :AutomationRoot_20210122091938
+[INFO ] 2021-01-22 09:19:39.222 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='label']'. Value 'AutomationRoot_20210122091938' entered
+[INFO ] 2021-01-22 09:19:39.913 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='contractInfoCreat']'. Value '0202234567' entered
+[INFO ] 2021-01-22 09:19:40.548 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='phoneNumberCreation']'. Value '+9881668002' entered
+[INFO ] 2021-01-22 09:19:40.844 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='schemes']' clicked
+[INFO ] 2021-01-22 09:19:41.098 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='sequences_0']' clicked
+[INFO ] 2021-01-22 09:19:41.539 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '23444' entered
+[INFO ] 2021-01-22 09:19:42.052 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'Mokai' entered
+[INFO ] 2021-01-22 09:19:42.688 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2021-01-22 09:19:43.295 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2021-01-22 09:19:47.119 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='divToHideContainer']/div[5]/input[1]' clicked
+[INFO ] 2021-01-22 09:19:49.448 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2021-01-22 09:19:51.518 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2021-01-22 09:19:53.469 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2021-01-22 09:20:01.147 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:01.148 [TestNG-test=Document Signature Test-1] RootPage - bs value sis ABC
+[INFO ] 2021-01-22 09:20:01.608 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2021-01-22 09:20:03.217 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[2]'. Value 'ABC' entered
+[INFO ] 2021-01-22 09:20:05.564 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[5]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:05.911 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2021-01-22 09:20:07.762 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[3]'. Value 'XYZ' entered
+[INFO ] 2021-01-22 09:20:10.227 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[6]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:10.569 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_0']' clicked
+[INFO ] 2021-01-22 09:20:11.615 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'iban')]'. Value 'FR7618206000103056966400117' entered
+[INFO ] 2021-01-22 09:20:12.280 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'desc')]'. Value 'BankAccount1' entered
+[INFO ] 2021-01-22 09:20:12.794 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'bic')]'. Value 'AGRIFRPP882' entered
+[INFO ] 2021-01-22 09:20:14.885 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='bankAccountForm']/div[4]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:15.126 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_1']' clicked
+[INFO ] 2021-01-22 09:20:16.273 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'email')]'. Value 'test@worldline.com' entered
+[INFO ] 2021-01-22 09:20:18.718 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='emailAddressesForm']/div[4]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:18.719 [TestNG-test=Document Signature Test-1] RootPage - Root save sucessfully ...
+[INFO ] 2021-01-22 09:20:21.213 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='btbartop']/div/a[contains(text(),'Back to Organizations Management')]' clicked
+[INFO ] 2021-01-22 09:20:22.631 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: .//*[@id='btbartop']/div[2]/a[contains(text(),'Create sub-entity')] clicked
+[INFO ] 2021-01-22 09:20:22.660 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-22 09:20:23.394 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: label'. Value 'ChildNode_20210122092022' entered
+[INFO ] 2021-01-22 09:20:24.012 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '2223456' entered
+[INFO ] 2021-01-22 09:20:24.584 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'kalewadi' entered
+[INFO ] 2021-01-22 09:20:25.120 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2021-01-22 09:20:25.669 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2021-01-22 09:20:29.317 [TestNG-test=Document Signature Test-1] UserActions - Button: By.name: submit clicked
+[INFO ] 2021-01-22 09:20:30.564 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciList-avail']/option[1]' clicked
+[INFO ] 2021-01-22 09:20:30.844 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2021-01-22 09:20:32.205 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:32.527 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-avail']/option[1]' clicked
+[INFO ] 2021-01-22 09:20:32.829 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-select']' clicked
+[INFO ] 2021-01-22 09:20:34.211 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeForm']/div[3]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:34.563 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-avail']/option' clicked
+[INFO ] 2021-01-22 09:20:34.869 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-select']' clicked
+[INFO ] 2021-01-22 09:20:36.259 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='bankAccountForm']/div[6]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:38.827 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='btbartop']/div/a[contains(text(),'Back to Organizations Management')]' clicked
+[INFO ] 2021-01-22 09:20:39.724 [TestNG-test=Document Signature Test-1] UserActions - Button: By.xpath: .//*[@id='btbartop']/div[2]/a[contains(text(),'Create sub-entity')] clicked
+[INFO ] 2021-01-22 09:20:39.749 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-01-22 09:20:40.465 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: label'. Value 'ChildNode_20210122092039' entered
+[INFO ] 2021-01-22 09:20:41.001 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '2223456' entered
+[INFO ] 2021-01-22 09:20:41.612 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'kalewadi' entered
+[INFO ] 2021-01-22 09:20:42.163 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2021-01-22 09:20:42.781 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2021-01-22 09:20:46.869 [TestNG-test=Document Signature Test-1] UserActions - Button: By.name: submit clicked
+[INFO ] 2021-01-22 09:20:48.060 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciList-avail']/option[1]' clicked
+[INFO ] 2021-01-22 09:20:48.345 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2021-01-22 09:20:49.728 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:50.253 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-avail']/option[1]' clicked
+[INFO ] 2021-01-22 09:20:50.554 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeList-select']' clicked
+[INFO ] 2021-01-22 09:20:51.990 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='businessCodeForm']/div[3]/input[1]' clicked
+[INFO ] 2021-01-22 09:20:52.351 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-avail']/option' clicked
+[INFO ] 2021-01-22 09:20:52.668 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='accountList-select']' clicked
+[INFO ] 2021-01-22 09:20:53.930 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.xpath: .//*[@id='bankAccountForm']/div[6]/input[1]' clicked

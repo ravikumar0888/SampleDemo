@@ -1,0 +1,20 @@
+[INFO ] 2020-11-24 09:11:48.383 [TestNG-test=Regression for SPS-sanity Test-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-24 09:11:50.875 [TestNG-test=Regression for SPS-sanity Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-24 09:11:50.918 [TestNG-test=Regression for SPS-sanity Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-24 09:11:50.933 [TestNG-test=Regression for SPS-sanity Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-24 09:12:21.361 [TestNG-test=Regression for SPS-sanity Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-24 09:12:29.030 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-24 09:12:29.578 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-24 09:12:29.931 [TestNG-test=Regression for SPS-sanity Test-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-24 09:12:33.409 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-24 09:12:36.638 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-24 09:12:36.639 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-24 09:12:42.210 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-24 09:12:44.854 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-24 09:12:45.747 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-24 09:12:46.294 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '24/11/2020' entered
+[INFO ] 2020-11-24 09:12:47.743 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-24 09:12:48.376 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '100301' entered
+[INFO ] 2020-11-24 09:12:49.038 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '170886' entered
+[INFO ] 2020-11-24 09:12:49.286 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-24 09:12:51.532 [TestNG-test=Regression for SPS-sanity Test-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked

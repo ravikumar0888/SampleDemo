@@ -1,0 +1,59 @@
+# To execute this docker-compose yml file use `docker-compose -f <file_name> up`
+# Add the `-d` flag at the end for detached execution
+version: "3"
+services:
+  selenium-hub:
+    image: selenium/hub:latest
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+  chrome:
+    image: selenium/node-chrome-debug:latest
+    user: root
+    volumes:
+     - /dev/shm:/dev/shm
+     - downloads:/home/seluser/Downloads
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+      - HUB_PORT_4444_TCP_ADDR=selenium-hub
+      - HUB_PORT_4444_TCP_PORT=4444
+
+#    ports:
+#      - "5900:5900"
+  firefox:
+    image: selenium/node-firefox-debug:latest
+#    user: root
+    volumes:
+      - /dev/shm:/dev/shm
+      - downloads:/home/seluser/Downloads
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+      - HUB_PORT_4444_TCP_ADDR=selenium-hub
+      - HUB_PORT_4444_TCP_PORT=4444
+
+#    ports:
+#      - "5901:5900"
+
+  testng-module:
+    image: awl/localdockerimage:demo
+    container_name: testng-module
+    volumes:
+#      - firefoxdownloads:/root/Downloads
+      - downloads:/root/Downloads
+      
+    depends_on:
+      - firefox
+      - chrome
+    environment:
+      - MODULE=testng.xml
+      - BROWSER=firefox
+      - SELENIUM_HUB=selenium-hub
+volumes:
+  downloads:
+

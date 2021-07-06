@@ -1,0 +1,983 @@
+[INFO ] 2020-12-07 17:45:37.070 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:45:37.070 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:45:38.192 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:45:38.192 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:45:38.196 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:45:38.197 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:45:38.198 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:45:38.198 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:45:56.355 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:45:58.502 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:45:59.851 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-789B955705AE7EC39616073433595355"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soapenv urn urn1 urn2 urn3 urn4"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-789B955705AE7EC39616073433593464"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="urn urn1 urn2 urn3 urn4"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>1DZ73Gn06d3CNh7yEdBJEwL0+Nk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>HSYuWwRzLH/FcjwPQGtmE69ObXEs0PJL449StcZB3u56Y0wAl6huIMulzarwgwoeKT4QtHAyogLG
+/g9TOHtvFZ7JmoQTViord9PFZELnnm4yrrTIc5og0cFDLLyEBPSqaM2OuXAE0dF8+qXmnk4UwHHr
+1EdUAG+9C0/wZezeXN51iDu2r46rfShJsHOv7A3nuTez+RhGLAkDBYWFSTrGzjuzsVu9Ja3e9ZBC
+zgyDIP+8NC8jBsH8kok9aYMgzuB9XiRi/7P8Mts/5IAtl2benl+FBLSeYUG+ZsnmiO498ajoB93k
+N4vy+c1Jz0Hcp93JHjSUXB6Utjpd0ovZZP7wjw==</ds:SignatureValue><ds:KeyInfo Id="KI-789B955705AE7EC39616073433593002"><wsse:SecurityTokenReference wsu:Id="STR-789B955705AE7EC39616073433593183"><wsse:KeyIdentifier EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:KeyIdentifier></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature></wsse:Security></soapenv:Header>
+	<soapenv:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="id-789B955705AE7EC39616073433593464">
+		<urn:InitSessionRequest>
+			<urn1:creditorId>S_Money_Signature</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>192354</urn1:transactionId>
+				<urn1:validation>true</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+				<urn1:agreementScheme>SMS</urn1:agreementScheme>
+				<urn1:bankAccount>
+					<urn2:AcctId>
+						<urn2:IBAN>FR7610907000469731913138073</urn2:IBAN>
+					</urn2:AcctId>
+					<urn2:FinInstnId>
+						<urn2:BIC>CCBPFRPPBDX</urn2:BIC>
+					</urn2:FinInstnId>
+				</urn1:bankAccount>
+				<urn1:customerId>Known</urn1:customerId>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+				<urn3:Phone>+33612345678</urn3:Phone>
+				<urn3:Email>prakhar.suhane@atos.net</urn3:Email>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[INFO ] 2020-12-07 17:46:10.787 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:46:14.550 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:14.560 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:14.560 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:14.561 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:46:14.984 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:14.984 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:14.984 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:14.984 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:46:23.470 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:46:24.077 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:46:27.612 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:27.613 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:27.613 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:27.614 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:46:28.482 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:28.482 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:28.482 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:28.482 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:46:36.663 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:46:37.165 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:46:40.243 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:40.244 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:40.244 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:40.244 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:46:40.304 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:40.304 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:40.305 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:40.305 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:46:48.150 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:46:49.498 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:46:52.095 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:52.104 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:52.105 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:52.105 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:46:52.106 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:46:52.106 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:46:52.138 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:46:52.138 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:00.134 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:02.637 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:05.290 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:05.291 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:05.291 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:05.291 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:05.704 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:05.705 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:05.705 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:05.705 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:14.314 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:15.335 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:17.464 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:17.475 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:17.476 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:17.476 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:18.540 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:18.540 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:18.549 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:18.550 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:23.999 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:27.824 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:28.114 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:47:28.426 [TestNG-test=Regression for SPS-SDD Event Report-1] GetSessionSoapSPSSignTest - <?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-789B955705AE7EC396160734344828610"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soapenv urn urn1 urn2 urn3 urn4"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-789B955705AE7EC39616073434481769"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="urn urn1 urn2 urn3 urn4"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>tDsYeJHiYRQyu3My6ZY4/jHktFQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>P34SWGfvIRdEbZSCDCTJyGsjr3eaoe8xrRSN4tV0UFZ7GyIhFe0rdkE6e1YBEK5n5373IMb9E7cCnPUL0pTbioOcqxCnVXs9XSS94vqb5zNrIkWEvKuKCbdPoQ9hgVETMYJ45H49wMsQ4Mgo+gssuljy5/zHZ0I/fLit3Wpm8dckzDIIaJfjQKYA0p5Yr5u2QTo+6VFtw7UbnIhlH6x1199Kzv10nme8/qlWqpaqTqQe/0aitNpaPey1j2/8Is63kgDEljDzI3KrGMEUx4iFvhDSAo0RNhGT7+uEnoodN0/JYoRNlhItl0Ikax4FBhtCHkmXVd87Z68dZ++XzaGqqw==</ds:SignatureValue><ds:KeyInfo Id="KI-789B955705AE7EC39616073434481617"><wsse:SecurityTokenReference wsu:Id="STR-789B955705AE7EC39616073434481618"><wsse:KeyIdentifier EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:KeyIdentifier></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature></wsse:Security></soapenv:Header>
+	<soapenv:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="id-789B955705AE7EC39616073434481769">
+		<urn:InitSessionRequest>
+			<urn1:creditorId>S_Money_Signature</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>124695</urn1:transactionId>
+				<urn1:validation>true</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+				<urn1:agreementScheme>SMS</urn1:agreementScheme>
+				<urn1:bankAccount>
+					<urn2:AcctId>
+						<urn2:IBAN>FR7610907000469731913138073</urn2:IBAN>
+					</urn2:AcctId>
+					<urn2:FinInstnId>
+						<urn2:BIC>CCBPFRPPBDX</urn2:BIC>
+					</urn2:FinInstnId>
+				</urn1:bankAccount>
+				<urn1:customerId>Known</urn1:customerId>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+				<urn3:Phone>+33612345678</urn3:Phone>
+				<urn3:Email>prakhar.suhane@atos.net</urn3:Email>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[INFO ] 2020-12-07 17:47:32.704 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:32.704 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:32.705 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:32.705 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:33.624 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:33.624 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:33.624 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:33.639 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:42.079 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:42.455 [TestNG-test=Regression for SPS-SDD Event Report-2] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:47:44.726 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:44.936 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:47:47.405 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:47.406 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:47.406 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:47.407 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:47.517 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:47.518 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:47.518 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:47.519 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:55.594 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:57.141 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:47:59.814 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:59.824 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:59.824 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:59.825 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:47:59.901 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:47:59.901 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:47:59.901 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:47:59.901 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:48:08.144 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:48:11.235 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:48:13.310 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:48:13.311 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:48:13.312 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:48:13.313 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:48:13.699 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:48:13.700 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:48:13.702 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:48:13.702 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:48:21.845 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:48:24.723 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:48:27.521 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:48:27.522 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:48:27.523 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:48:27.523 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:48:27.654 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:48:27.657 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:48:27.667 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:48:27.667 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:48:42.481 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:51:16.785 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:51:16.785 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:51:18.468 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:51:18.472 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:51:18.473 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:51:18.479 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:51:18.481 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:51:18.482 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:51:44.100 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:52:15.432 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:52:15.971 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:52:16.927 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-2C2B4AEBCC87CFB94716073437366455"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soapenv urn urn1 urn2 urn3 urn4"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-2C2B4AEBCC87CFB94716073437365524"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="urn urn1 urn2 urn3 urn4"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>P0el9d7igIHbhvjLSUBFEOJHoEE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Ap5yX1rnB1Gt2lVz3Qmo3QWbXDP2p/hh41bLgKnf28YL2zDfP5FkJtXFKV/tf/kQUqcIKJTjchdV
+C7j23kxOiqeThvmUSMMnk+8EW4Jc+/hDkG9QcGMCTyR0zwvk9CKkw+HSP7CvCbDpWLSzaHyXVbOW
+aDLHQ9jKOA7/UMitW5k/UUkL9OjLpPN+DKs9PeDy2Jt6R9aPmlZ8rQdP6VRtzQS4i4DOklAAzMA+
+OeNAPa7A8vNI6j0IgzH9uBs/SuA8/RXBY9uMPwsrxQ+4F483TFcZYloE8xhewpVrKn01Bz4FozZm
+XG7l2NuS3pTuA7VCv+EpduWANPWsgmrbQ3TZow==</ds:SignatureValue><ds:KeyInfo Id="KI-2C2B4AEBCC87CFB94716073437365362"><wsse:SecurityTokenReference wsu:Id="STR-2C2B4AEBCC87CFB94716073437365363"><wsse:KeyIdentifier EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:KeyIdentifier></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature></wsse:Security></soapenv:Header>
+	<soapenv:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="id-2C2B4AEBCC87CFB94716073437365524">
+		<urn:InitSessionRequest>
+			<urn1:creditorId>S_Money_Signature</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>152012</urn1:transactionId>
+				<urn1:validation>true</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+				<urn1:agreementScheme>SMS</urn1:agreementScheme>
+				<urn1:bankAccount>
+					<urn2:AcctId>
+						<urn2:IBAN>FR7610907000469731913138073</urn2:IBAN>
+					</urn2:AcctId>
+					<urn2:FinInstnId>
+						<urn2:BIC>CCBPFRPPBDX</urn2:BIC>
+					</urn2:FinInstnId>
+				</urn1:bankAccount>
+				<urn1:customerId>Known</urn1:customerId>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+				<urn3:Phone>+33612345678</urn3:Phone>
+				<urn3:Email>prakhar.suhane@atos.net</urn3:Email>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[INFO ] 2020-12-07 17:52:25.020 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns7:InitSessionResponse xmlns:ns7="urn:net:awl:sps:sign:ws.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:ws:xsd:Session.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf></ns3:StsInf></ns2:response><ns2:url>https://ssl-sps-sign-service.vm-rct.stg.as8677.net/signature/?t=a0ebe1d9-15aa3-3f3f-1343e93-4d09-5349474e-b160-c0f974601392&amp;tCh=hmShd73A1GnJewsYrkWs2KmMxe7SOSwuSQnA3PPqN%2BE%3D</ns2:url></ns7:InitSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 17:52:25.145 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:52:26.805 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:52:26.821 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:52:26.824 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:52:26.830 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:52:29.219 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns8:CancelSessionResponse xmlns:ns8="urn:net:awl:sps:sign:wsutils.v10" xmlns:ns7="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:wsutils:xsd:Status.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf>Sign Session Cancelled</ns3:StsInf></ns2:response></ns8:CancelSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 17:52:35.824 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:52:44.075 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:52:44.078 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:52:44.079 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:52:44.079 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:52:45.077 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:52:45.087 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:52:45.088 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:52:45.088 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:52:54.417 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:52:55.183 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:53:09.079 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:53:09.079 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:53:09.079 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:53:09.079 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:53:10.105 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:53:10.118 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:53:10.118 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:53:10.118 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:53:20.239 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:53:22.497 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:53:30.117 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:53:30.117 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:53:30.117 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:53:30.117 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:53:32.927 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:53:32.940 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:53:32.941 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:53:32.941 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:53:37.426 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:53:42.191 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:53:51.030 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:53:51.042 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:53:51.043 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:53:51.043 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:53:51.404 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:53:51.404 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:53:51.404 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:53:51.404 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:54:01.675 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:54:10.005 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:54:16.039 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:54:16.039 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:54:16.039 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:54:16.039 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:54:22.645 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:54:23.206 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:54:23.206 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:54:23.206 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:54:23.206 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:54:29.687 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:54:39.507 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:54:39.507 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:54:39.507 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:54:39.507 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:54:42.953 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:54:42.962 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:54:42.965 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:54:42.965 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:54:46.685 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:54:47.198 [TestNG-test=Regression for SPS-SDD Event Report-2] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:54:47.292 [TestNG-test=Regression for SPS-SDD Event Report-2] GetSessionSoapSPSSignTest - <?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-2C2B4AEBCC87CFB947160734388727315"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soapenv urn urn1 urn2 urn3 urn4"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-2C2B4AEBCC87CFB947160734388720014"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="urn urn1 urn2 urn3 urn4"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>RXfRrnbUMf/EnT/jlMV9NASb4VY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ERvlJQkY2UXHMckOS5su9iOQESznIpf+rYDdFlpAUgJYcOWh4r88gr4ZchSx0Lvp9csl8skrDKLoDwHEAjE7nApupqsH9fBHFJrXmQ27jxPeP4HwOycul1vOWUmEhUIYgIgIwtjas08Pon+jhcMFw/J5UCiaU2AhJYuBQQBKSzDUY265mok9UpYV2F4awWdNJm86Er2uBfCslW2qLZl+d+cxldpGUgovFQnzGetEMLkWykKKNlLwNm8gZ/4JqK/sOWKqMPqfK8xbiPpgGPt+jWiiin0NkDRx6M/QPo5YPeAv+A/2k4MST1gMvyeEP607BDKcdf8DUo3vQyKgY7Borg==</ds:SignatureValue><ds:KeyInfo Id="KI-2C2B4AEBCC87CFB947160734388719912"><wsse:SecurityTokenReference wsu:Id="STR-2C2B4AEBCC87CFB947160734388720013"><wsse:KeyIdentifier EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:KeyIdentifier></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature></wsse:Security></soapenv:Header>
+	<soapenv:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="id-2C2B4AEBCC87CFB947160734388720014">
+		<urn:InitSessionRequest>
+			<urn1:creditorId>S_Money_Signature</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>100203</urn1:transactionId>
+				<urn1:validation>true</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+				<urn1:agreementScheme>SMS</urn1:agreementScheme>
+				<urn1:bankAccount>
+					<urn2:AcctId>
+						<urn2:IBAN>FR7610907000469731913138073</urn2:IBAN>
+					</urn2:AcctId>
+					<urn2:FinInstnId>
+						<urn2:BIC>CCBPFRPPBDX</urn2:BIC>
+					</urn2:FinInstnId>
+				</urn1:bankAccount>
+				<urn1:customerId>Known</urn1:customerId>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+				<urn3:Phone>+33612345678</urn3:Phone>
+				<urn3:Email>prakhar.suhane@atos.net</urn3:Email>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[INFO ] 2020-12-07 17:54:53.535 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:54:53.848 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:54:58.007 [TestNG-test=Regression for SPS-SDD Event Report-2] GetSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns7:InitSessionResponse xmlns:ns7="urn:net:awl:sps:sign:ws.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:ws:xsd:Session.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf></ns3:StsInf></ns2:response><ns2:url>https://ssl-sps-sign-service.vm-rct.stg.as8677.net/signature/?t=983fa7c7-15aa4-378e-1343e93-48da-5349474e-90b0-79315d69a4ec&amp;tCh=oL0Z%2FG0g%2BNqTca7JF2Xf%2FdDaBTjbQJ64f%2BDpZs%2BjTfQ%3D</ns2:url></ns7:InitSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 17:54:58.101 [TestNG-test=Regression for SPS-SDD Event Report-2] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:54:59.955 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:54:59.955 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:54:59.956 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:54:59.956 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:55:00.300 [TestNG-test=Regression for SPS-SDD Event Report-2] GetSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns8:SessionStatusResponse xmlns:ns8="urn:net:awl:sps:sign:wsutils.v10" xmlns:ns7="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:wsutils:xsd:Status.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>Initialized</ns3:StsCd><ns3:StsInf>Session-Initialized</ns3:StsInf></ns2:response></ns8:SessionStatusResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 17:55:06.260 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:55:06.261 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:55:06.262 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:55:06.262 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:55:06.774 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:55:07.038 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:55:12.272 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:55:22.346 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:55:22.346 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:55:22.346 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:55:22.346 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:55:27.928 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:55:30.836 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:55:30.836 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:55:30.836 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:55:30.836 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:55:38.556 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:55:45.626 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:55:45.633 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:55:45.634 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:55:45.634 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:55:46.469 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:55:46.469 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:55:46.469 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:55:46.469 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:55:55.805 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:55:56.942 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:56:03.523 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:56:03.531 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:56:03.532 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:56:03.532 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:56:04.310 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:56:04.310 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:56:04.310 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:56:04.310 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:56:09.984 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:56:12.444 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:56:28.071 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:56:28.075 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:56:28.075 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:56:28.075 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:56:28.859 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:56:28.859 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:56:28.859 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:56:28.859 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:56:38.631 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:56:40.217 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:56:45.047 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:56:45.047 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:56:45.048 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:56:45.048 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:56:51.480 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:56:59.295 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:56:59.296 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:56:59.296 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:56:59.297 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:57:06.899 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:57:07.376 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:57:25.834 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:57:25.835 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:57:25.836 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:57:25.836 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:57:32.196 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:57:58.448 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:57:58.449 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:57:58.451 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:57:58.452 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:58:04.281 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:58:04.603 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 17:58:17.914 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:58:17.915 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:58:17.916 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:58:17.916 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:58:25.022 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:58:56.185 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:58:56.186 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:58:56.186 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:58:56.186 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:59:02.670 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:59:15.093 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:59:15.093 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:59:15.094 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:59:15.094 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:59:21.443 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:59:32.784 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:59:32.784 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:59:32.784 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:59:32.785 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:59:38.783 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 17:59:49.961 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 17:59:49.962 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 17:59:49.962 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 17:59:49.962 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 17:59:55.889 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:00:41.746 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:00:41.747 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:00:41.747 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:00:41.748 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:00:49.308 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:00:49.828 [TestNG-test=Regression for SPS-SDD Event Report-2] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 18:00:58.651 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:00:58.652 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:00:58.653 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:00:58.653 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:01:05.955 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:01:44.211 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:01:44.212 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:01:44.212 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:01:44.212 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:01:51.622 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:01:51.975 [TestNG-test=Regression for SPS-SDD Event Report-2] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 18:01:54.437 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:01:54.438 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:01:54.442 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:01:54.453 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:02:02.493 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:02:54.537 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:02:54.547 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:02:54.547 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:02:54.548 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:02:54.643 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:02:54.643 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:02:54.643 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:02:54.643 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:03:06.092 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:03:06.290 [TestNG-test=Regression for SPS-SDD Event Report-2] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:03:08.118 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 18:38:21.918 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:38:23.670 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:38:23.677 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:38:23.677 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:38:39.661 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:38:40.500 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 18:38:41.297 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-A13D8589D4CF65A14316073465211415"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soapenv urn urn1 urn2 urn3 urn4"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-A13D8589D4CF65A14316073465210474"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="urn urn1 urn2 urn3 urn4"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>cVrJZY/yB+Zhx0Cl4LPRCRmVYRU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>NKbuE2S3BOZTuNv8Jn+OU3GKt797fIoKmF6W5N8kTzVjRCDXhEFX98TCW89h+RF8aEBKn/hwd4pK
+e4mrfm/fk4dMj/2bsQhplFiHuoen+yhh5TZVilD2ivXCSEkQprfHdECsoTDAgsUhgo1Mx+HB8aEO
++b6Jw75r76OoKb4it9b6UynZbfEAhpc3dNZ9yorcEKfvLpFrLXfy6A5qC0U0Sfs4AJQszsZvvOsd
+U+9OADwEKwSKRTRhFOwZtKSSpaNxYihvb4tdzAO61dMVhTe1Owu+10x56Ik6IJYNgH/OMmh2873r
+HUW5NR+ZMQpnoYn65se/GZtJdalP9rkyvW2fFw==</ds:SignatureValue><ds:KeyInfo Id="KI-A13D8589D4CF65A14316073465210322"><wsse:SecurityTokenReference wsu:Id="STR-A13D8589D4CF65A14316073465210323"><wsse:KeyIdentifier EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:KeyIdentifier></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature></wsse:Security></soapenv:Header>
+	<soapenv:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="id-A13D8589D4CF65A14316073465210474">
+		<urn:InitSessionRequest>
+			<urn1:creditorId>S_Money_Signature</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>108346</urn1:transactionId>
+				<urn1:validation>true</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+				<urn1:agreementScheme>SMS</urn1:agreementScheme>
+				<urn1:bankAccount>
+					<urn2:AcctId>
+						<urn2:IBAN>FR7610907000469731913138073</urn2:IBAN>
+					</urn2:AcctId>
+					<urn2:FinInstnId>
+						<urn2:BIC>CCBPFRPPBDX</urn2:BIC>
+					</urn2:FinInstnId>
+				</urn1:bankAccount>
+				<urn1:customerId>Known</urn1:customerId>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+				<urn3:Phone>+33612345678</urn3:Phone>
+				<urn3:Email>prakhar.suhane@atos.net</urn3:Email>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[INFO ] 2020-12-07 18:38:56.674 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns7:InitSessionResponse xmlns:ns7="urn:net:awl:sps:sign:ws.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:ws:xsd:Session.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf></ns3:StsInf></ns2:response><ns2:url>https://ssl-sps-sign-service.vm-rct.stg.as8677.net/signature/?t=11ae34c9-15aaa-1ad5-1343e93-4354-5349474e-b2fb-631f94f84726&amp;tCh=tYJ5I2GnmKEtLJC1XEbnTwf1N%2F3y%2FDQBXwRYqAZHHrU%3D</ns2:url></ns7:InitSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 18:38:56.833 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 18:39:01.417 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns8:CancelSessionResponse xmlns:ns8="urn:net:awl:sps:sign:wsutils.v10" xmlns:ns7="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:wsutils:xsd:Status.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf>Sign Session Cancelled</ns3:StsInf></ns2:response></ns8:CancelSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 18:39:04.716 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:39:04.730 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:39:04.731 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:39:04.731 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:39:14.715 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 18:39:25.016 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 18:39:25.026 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 18:39:25.026 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 18:39:25.028 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 18:39:32.114 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:48:11.593 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:48:12.521 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:48:12.525 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:48:12.525 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:48:27.099 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:48:28.322 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:48:29.187 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-AFCE8146110C65A6EC16073507090035"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soapenv urn urn1 urn2 urn3 urn4"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-AFCE8146110C65A6EC16073507089034"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="urn urn1 urn2 urn3 urn4"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>KFKAc3+cGcZlR45An0OwNxXpdt0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>UcqhduTLRRC6Pi+qLs1CaVq4cudKWJVvKoAjXxN3p8eC8CFlgL9Vw5fkqVbJucVXj3TdTR9nzkk5
+QE3lTwHPi4ru1YRBa8hAYX8yHHhXkVyikl/nTYeieKzS/zXgHDQHLiS8KhWKlsvJlpnR8xa24333
+DevboGSveHXEQnOzE5VEe+IH/9BeSjiJKof1ke+5Owt4aamq9fN/5l9H2kHmfYgduNGjGKWY0oi6
+1odBww9oMLR/v09UAltYo4lEwyGgxjWazESZwuyb/fGLrQrNM5Zi+qFS7BpfbBouG2XgVBHUktxz
+HLc4AuynB5kOfUI8wvLyqpUC00vitHhjsWG3SA==</ds:SignatureValue><ds:KeyInfo Id="KI-AFCE8146110C65A6EC16073507088752"><wsse:SecurityTokenReference wsu:Id="STR-AFCE8146110C65A6EC16073507088873"><wsse:KeyIdentifier EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:KeyIdentifier></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature></wsse:Security></soapenv:Header>
+	<soapenv:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="id-AFCE8146110C65A6EC16073507089034">
+		<urn:InitSessionRequest>
+			<urn1:creditorId>S_Money_Signature</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>180095</urn1:transactionId>
+				<urn1:validation>true</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+				<urn1:agreementScheme>SMS</urn1:agreementScheme>
+				<urn1:bankAccount>
+					<urn2:AcctId>
+						<urn2:IBAN>FR7610907000469731913138073</urn2:IBAN>
+					</urn2:AcctId>
+					<urn2:FinInstnId>
+						<urn2:BIC>CCBPFRPPBDX</urn2:BIC>
+					</urn2:FinInstnId>
+				</urn1:bankAccount>
+				<urn1:customerId>Known</urn1:customerId>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+				<urn3:Phone>+33612345678</urn3:Phone>
+				<urn3:Email>prakhar.suhane@atos.net</urn3:Email>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[INFO ] 2020-12-07 19:48:44.480 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns7:InitSessionResponse xmlns:ns7="urn:net:awl:sps:sign:ws.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:ws:xsd:Session.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf></ns3:StsInf></ns2:response><ns2:url>https://ssl-sps-sign-service.vm-rct.stg.as8677.net/signature/?t=e6de885a-15aac-3669-1343e93-4dab-5349474e-8ba0-f3c9b6dd14de&amp;tCh=TEt%2FVxgVwohzTXVGeYTBUSx3sW4vvmeShuIc58YoyWY%3D</ns2:url></ns7:InitSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 19:48:44.701 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:48:48.894 [TestNG-test=Regression for SPS-SDD Event Report-1] CancelSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns8:CancelSessionResponse xmlns:ns8="urn:net:awl:sps:sign:wsutils.v10" xmlns:ns7="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:wsutils:xsd:Status.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf>Sign Session Cancelled</ns3:StsInf></ns2:response></ns8:CancelSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 19:48:52.497 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:48:52.499 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:48:52.499 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:48:52.500 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:49:03.082 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:49:17.718 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:49:17.722 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:49:17.722 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:49:17.722 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:49:25.497 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:49:34.747 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:49:34.751 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:49:34.751 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:49:34.751 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:49:41.620 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:49:55.292 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:49:55.296 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:49:55.296 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:49:55.296 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:50:02.178 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:50:14.414 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:50:14.414 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:50:14.414 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:50:14.414 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:50:18.829 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:50:28.914 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:50:28.918 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:50:28.918 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:50:28.918 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:50:35.307 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:50:45.472 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:50:45.476 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:50:45.476 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:50:45.478 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:50:51.343 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:51:01.285 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:51:01.285 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:51:01.286 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:51:01.287 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:51:07.506 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:51:16.929 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:51:16.929 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:51:16.929 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:51:16.933 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:51:24.025 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:51:34.081 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:51:34.084 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:51:34.085 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:51:34.085 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:51:40.269 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:51:49.579 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:51:49.580 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:51:49.580 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:51:49.581 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:51:55.495 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:52:04.181 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:52:04.181 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:52:04.181 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:52:04.181 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:52:10.699 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:52:20.267 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:52:20.272 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:52:20.272 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:52:20.272 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:52:26.505 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:52:27.074 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:52:27.194 [TestNG-test=Regression for SPS-SDD Event Report-1] GetSessionSoapSPSSignTest - <?xml version="1.0" encoding="UTF-8" standalone="no"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+	<soapenv:Header><wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" soapenv:mustUnderstand="1"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="SIG-AFCE8146110C65A6EC160735094715415"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="soapenv urn urn1 urn2 urn3 urn4"/></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI="#id-AFCE8146110C65A6EC160735094707814"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"><ec:InclusiveNamespaces xmlns:ec="http://www.w3.org/2001/10/xml-exc-c14n#" PrefixList="urn urn1 urn2 urn3 urn4"/></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>+4NNX8dfer0XGzDlUztlEdFI/UQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>IMu2NyBYyoXFpNCGCpoyqePJnjZI6+hph/RlOnFYZhsg4ojCfI0usZU2fUrhkOO3siIXUst7DHlKe448erhtc6JZ0nqbwdooXuZ5wYSkI197aDRMrh6XtOi80bJq9WBP6yhONXmFomaJIw6E4szUB1ZNJ3aUoBGhwOBFyaZLstDwFvOR2pb6FkdgnsJVidmM25345EUDpJ4wg5rR2aaeR1KmJa6RwWcJJK0bsqjrA45/FbpKuTYKMPbbiI0Qs3yChImA6Jf/UPuHYcnsXiiIUg3IbpkH6pVzWn1xuQQhvCmr0/+0ivvh28M7gDf6FwPSFLkE9sFa9VTjj8zHxejODw==</ds:SignatureValue><ds:KeyInfo Id="KI-AFCE8146110C65A6EC160735094707812"><wsse:SecurityTokenReference wsu:Id="STR-AFCE8146110C65A6EC160735094707813"><wsse:KeyIdentifier EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">MIIHYjCCBkqgAwIBAgIRAJHR3gen7cloAAAAAFECsNowDQYJKoZIhvcNAQELBQAwgboxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1FbnRydXN0LCBJbmMuMSgwJgYDVQQLEx9TZWUgd3d3LmVudHJ1c3QubmV0L2xlZ2FsLXRlcm1zMTkwNwYDVQQLEzAoYykgMjAxMiBFbnRydXN0LCBJbmMuIC0gZm9yIGF1dGhvcml6ZWQgdXNlIG9ubHkxLjAsBgNVBAMTJUVudHJ1c3QgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBMMUswHhcNMjAwNDE2MDczMzExWhcNMjIwNDE2MDgwMzEwWjCBhTELMAkGA1UEBhMCRlIxDzANBgNVBAcTBlNFQ0xJTjESMBAGA1UEChMJV29ybGRsaW5lMSQwIgYDVQQLExthdXRoZW50aWZpY2F0aW9uIGNsaWVudCBPVFUxKzApBgNVBAMTImF1dGgucWxmLnNwc1NpZ24ub3R1LndvcmxkbGluZS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC6hW2xvuXze1U9aqXGu3qIg21WNzdIRafT04+R3FxaPgGctySRKMUGmHmOZ/eAmC0d+ibfmgPzwpoj95LifK8kfE+98JTvwbmhgG5Zk7fhtOyvZYptM4pvih+3ye+4zv0OFBbagXK/VINTGmho1RuOlcO+RJMP40B0jiJ0rTzpXUgWT+o3Iqvn4TKMwTETQB1EXK+jRD09EdgRS8xGJ2QtL1q1ZVRi1BMdjLApdte/LDgYRd9iixi/mYhpRK7VQC1IqKGlH0VXFtcf3sSmEaTL0nTuAmDCgSOhdL6tt0eVCIHjuAOfvzd5B95e4kKWisGYMt/1VoIznUChmHAAlxyJAgMBAAGjggOUMIIDkDAtBgNVHREEJjAkgiJhdXRoLnFsZi5zcHNTaWduLm90dS53b3JsZGxpbmUuY29tMIIB9wYKKwYBBAHWeQIEAgSCAecEggHjAeEAdgBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAlCBcvo6odBxPTDAAAAXGCA2TiAAAEAwBHMEUCIDLDF/DsFbNcijKfvCSsQOchwCNtBRuizoC6WTlY0EssAiEAl+JSRn6WbCFOQBPoRSOTaoQdIdT/ukkUZbr6MI9Q7bMAdwBWFAaaL9fC7NP14b1Esj7HRna5vJkRXMDvlJhV1onQ3QAAAXGCA2UHAAAEAwBIMEYCIQCOz6/nqWPesJ4f0hLiL1MzMGtQzE5I1MPtdzRXj80POAIhAN/ggsyjQyTLzt5iNNAK04zdrCnVg+ED79axl6kJciC8AHYAh3W/51l8+IxDmV+9827/Vo1HVjb/SrVgwbTq/16ggw8AAAFxggNlGQAABAMARzBFAiBaCOVK3ghQAQMeGGYHIHF3fuagfVFiXWiH5+hJbgbWnQIhALYj6vpa0Mlj9GnnSvd2/KC+5lxC0TrDDsOBSLc1wb2bAHYARqVV63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAFxggNnMwAABAMARzBFAiBjoqePNGwoudpKEgLoNHKTJul/CBWKhcMmJa2QqdTMeQIhAN2o2m2DGlI4WCuKtikhKZQh8apI8GPcpZ19kh3PIoyhMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwMwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5ldC9sZXZlbDFrLmNybDBLBgNVHSAERDBCMDYGCmCGSAGG+mwKAQUwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lbnRydXN0Lm5ldC9ycGEwCAYGZ4EMAQICMGgGCCsGAQUFBwEBBFwwWjAjBggrBgEFBQcwAYYXaHR0cDovL29jc3AuZW50cnVzdC5uZXQwMwYIKwYBBQUHMAKGJ2h0dHA6Ly9haWEuZW50cnVzdC5uZXQvbDFrLWNoYWluMjU2LmNlcjAfBgNVHSMEGDAWgBSConB03bxTP8971PfNf6dgxgpMvzAdBgNVHQ4EFgQU9luO66VI8F/01EXwYgDYOQwJAnEwCQYDVR0TBAIwADANBgkqhkiG9w0BAQsFAAOCAQEAU2ecNXp3KhzMBwPD7PEW296F+1KwAPmcPRTYjDqNZnnfXZw1pB2ASPvQHL4PpvsaHP5cJVO73wMqoRpaK3MSnQT48SLRcTfWMrEToAQxwtJl+XjBxW8eyLI5cialu0X/+M1BYj4WwfeIow8ENZEbKF9dsQ5JrjvWlI1yq12XhKdkHvYYvrWZ4erVR9Ez75YeGfhq4BI2hasQkLyaMboU1ZSQd5iyguTBNDRqTnjQnNBPbwSox9LQMZizJ3OPkiL3Vn9YHNecP4OZ9HCD9iyXOzjUQBzN/Q1ebkHcglIIAdyV0CYkgHNk0M9cj5Db+FqGvKWu2LCANkFHe6NEkOMTTw==</wsse:KeyIdentifier></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature></wsse:Security></soapenv:Header>
+	<soapenv:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="id-AFCE8146110C65A6EC160735094707814">
+		<urn:InitSessionRequest>
+			<urn1:creditorId>S_Money_Signature</urn1:creditorId>
+			<urn1:parameters>
+				<urn1:transactionId>119540</urn1:transactionId>
+				<urn1:validation>true</urn1:validation>
+				<urn1:skipFirstPage>false</urn1:skipFirstPage>
+				<urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+				<urn1:agreementScheme>SMS</urn1:agreementScheme>
+				<urn1:bankAccount>
+					<urn2:AcctId>
+						<urn2:IBAN>FR7610907000469731913138073</urn2:IBAN>
+					</urn2:AcctId>
+					<urn2:FinInstnId>
+						<urn2:BIC>CCBPFRPPBDX</urn2:BIC>
+					</urn2:FinInstnId>
+				</urn1:bankAccount>
+				<urn1:customerId>Known</urn1:customerId>
+				<urn1:language>EN</urn1:language>
+			</urn1:parameters>
+			<urn1:postalAddress>
+				<urn2:BldngNm>12</urn2:BldngNm>
+				<urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+				<urn2:PstCd>411112</urn2:PstCd>
+				<urn2:City>Lyon</urn2:City>
+				<urn2:Ctry>FR</urn2:Ctry>
+			</urn1:postalAddress>
+			<urn3:SignerInfos>
+				<urn3:LastName>John</urn3:LastName>
+				<urn3:FirstName>Rab</urn3:FirstName>
+				<urn3:Gender>M</urn3:Gender>
+				<urn3:Phone>+33612345678</urn3:Phone>
+				<urn3:Email>prakhar.suhane@atos.net</urn3:Email>
+			</urn3:SignerInfos>
+		</urn:InitSessionRequest>
+	</soapenv:Body>
+</soapenv:Envelope>
+[INFO ] 2020-12-07 19:52:32.262 [TestNG-test=Regression for SPS-SDD Event Report-1] GetSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns7:InitSessionResponse xmlns:ns7="urn:net:awl:sps:sign:ws.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:ws:xsd:Session.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>OK</ns3:StsCd><ns3:StsInf></ns3:StsInf></ns2:response><ns2:url>https://ssl-sps-sign-service.vm-rct.stg.as8677.net/signature/?t=7c864027-15aad-041b-1343e93-435e-5349474e-b8cf-a9723159581a&amp;tCh=Au03YE7ndoa8hn8NUWPXsIjoJdqo04Q6nl%2BCIO8Xr8U%3D</ns2:url></ns7:InitSessionResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 19:52:32.362 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:52:35.164 [TestNG-test=Regression for SPS-SDD Event Report-1] GetSessionSoapSPSSignTest - <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns8:SessionStatusResponse xmlns:ns8="urn:net:awl:sps:sign:wsutils.v10" xmlns:ns7="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:ns6="urn:com:mediacert:signer:otu:xsd:subject:pre-identified:v20" xmlns:ns5="urn:com:mediacert:signer:otu:xsd:v20" xmlns:ns4="urn:com:mediacert:signer:otu:xsd:v10" xmlns:ns3="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:ns2="urn:net:awl:sps:sign:wsutils:xsd:Status.v10"><ns2:response><ns3:Sts>ACCT</ns3:Sts><ns3:StsCd>Initialized</ns3:StsCd><ns3:StsInf>Session-Initialized</ns3:StsInf></ns2:response></ns8:SessionStatusResponse></soap:Body></soap:Envelope>
+[INFO ] 2020-12-07 19:52:37.101 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:52:37.101 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:52:37.101 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:52:37.105 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:52:44.072 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:52:44.455 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:52:49.107 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:52:49.110 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:52:49.110 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:52:49.111 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:52:55.581 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:52:55.908 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:53:02.411 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:53:02.415 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:53:02.415 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:53:02.415 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:53:08.664 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:53:18.423 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:53:18.423 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:53:18.423 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:53:18.423 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:53:24.706 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:53:37.561 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:53:37.565 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:53:37.565 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:53:37.566 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:53:43.879 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:53:53.114 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:53:53.118 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:53:53.119 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:53:53.119 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:53:59.208 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:54:08.235 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:54:08.235 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:54:08.238 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:54:08.238 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:54:15.076 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:54:24.361 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:54:24.361 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:54:24.363 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:54:24.363 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:54:30.582 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:54:39.503 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:54:39.507 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:54:39.508 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:54:39.508 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:54:45.991 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:54:56.252 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:54:56.252 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:54:56.252 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:54:56.256 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:55:02.779 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:55:08.857 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:55:08.861 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:55:08.861 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:55:08.861 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:55:14.682 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:55:20.740 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-12-07 19:55:21.546 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-12-07 19:55:22.195 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-12-07 19:55:28.593 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-12-07 19:55:34.007 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-12-07 19:55:34.007 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-12-07 19:55:43.713 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-12-07 19:55:47.324 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-12-07 19:55:47.397 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text found at webelement MANDATE-REFERENCE000000000000000734 
+[INFO ] 2020-12-07 19:55:47.455 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text found at webelement 3692-142389 
+[INFO ] 2020-12-07 19:55:53.829 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:55:53.831 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:55:53.831 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:55:53.831 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:55:59.900 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:56:08.549 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:56:08.549 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:56:08.552 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:56:08.552 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:56:14.610 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:56:15.106 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:56:45.299 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:56:45.299 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:56:45.303 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:56:45.303 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:56:51.596 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:57:02.162 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2020-12-07 19:57:02.632 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '116678' entered
+[INFO ] 2020-12-07 19:57:02.860 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2020-12-07 19:57:03.516 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '139542' entered
+[INFO ] 2020-12-07 19:57:04.032 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2020-12-07 19:57:04.460 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2020-12-07 19:57:04.960 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2020-12-07 19:57:05.402 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2020-12-07 19:57:05.834 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2020-12-07 19:57:06.398 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-12-07 19:57:06.937 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-12-07 19:57:17.664 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-12-07 19:57:29.907 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2020-12-07 19:57:42.443 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:57:42.443 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:57:42.443 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:57:42.443 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:57:48.607 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:57:48.836 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 19:59:11.600 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 19:59:11.600 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 19:59:11.601 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 19:59:11.601 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 19:59:18.503 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 19:59:30.362 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2020-12-07 19:59:31.374 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '175387' entered
+[INFO ] 2020-12-07 19:59:31.787 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2020-12-07 19:59:32.281 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2020-12-07 19:59:32.305 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-12-07 19:59:33.245 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '115226' entered
+[INFO ] 2020-12-07 19:59:34.029 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610278019000002036500145' entered
+[INFO ] 2020-12-07 19:59:34.624 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2020-12-07 19:59:35.288 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2020-12-07 19:59:35.984 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2020-12-07 19:59:36.550 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2020-12-07 19:59:37.092 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2020-12-07 19:59:37.629 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-12-07 19:59:38.205 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-12-07 19:59:39.002 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2020-12-07 19:59:39.630 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2020-12-07 19:59:40.262 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2020-12-07 19:59:50.069 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-12-07 20:00:00.310 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2020-12-07 20:01:05.673 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:01:05.673 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:01:05.675 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:01:05.675 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:01:12.389 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:01:23.524 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:01:23.528 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:01:23.528 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:01:23.528 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:01:29.360 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:01:38.116 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: creditorDisableReturnMandateInputPageButton' clicked
+[INFO ] 2020-12-07 20:01:42.569 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2020-12-07 20:01:47.448 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2020-12-07 20:01:47.999 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '173521' entered
+[INFO ] 2020-12-07 20:01:48.279 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2020-12-07 20:01:49.067 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '147288' entered
+[INFO ] 2020-12-07 20:01:49.589 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2020-12-07 20:01:50.021 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2020-12-07 20:01:50.445 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2020-12-07 20:01:50.878 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2020-12-07 20:01:51.414 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2020-12-07 20:01:51.854 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-12-07 20:01:52.325 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-12-07 20:02:00.407 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-12-07 20:02:10.071 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2020-12-07 20:02:29.022 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: creditorDisableReturnMandateInputPageButton' clicked
+[INFO ] 2020-12-07 20:02:32.029 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2020-12-07 20:02:35.089 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:02:35.089 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:02:35.092 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:02:35.092 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:02:41.386 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:02:53.554 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:02:53.554 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:02:53.554 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:02:53.554 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:02:59.200 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:03:08.944 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: creditorEmailMandatoryStep1' clicked
+[INFO ] 2020-12-07 20:03:12.414 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: confirm' clicked
+[INFO ] 2020-12-07 20:03:16.847 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'spsCreditorSG3' entered
+[INFO ] 2020-12-07 20:03:17.256 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '159359' entered
+[INFO ] 2020-12-07 20:03:17.465 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='skipSummaryPage']' clicked
+[INFO ] 2020-12-07 20:03:18.094 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '130752' entered
+[INFO ] 2020-12-07 20:03:18.509 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2020-12-07 20:03:18.932 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2020-12-07 20:03:19.369 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2020-12-07 20:03:19.778 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2020-12-07 20:03:20.299 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2020-12-07 20:03:20.781 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-12-07 20:03:21.303 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-12-07 20:03:28.734 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-12-07 20:03:38.398 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2020-12-07 20:03:50.862 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:03:50.864 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:03:50.864 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:03:50.864 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:03:57.196 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:03:57.480 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 20:05:16.455 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:05:16.455 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:05:16.455 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:05:16.455 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:05:23.248 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:05:30.522 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'S_Money_Signature' entered
+[INFO ] 2020-12-07 20:05:31.142 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '150563' entered
+[INFO ] 2020-12-07 20:05:31.401 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2020-12-07 20:05:31.417 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-12-07 20:05:32.127 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '188651' entered
+[INFO ] 2020-12-07 20:05:32.775 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610907000469731913138073' entered
+[INFO ] 2020-12-07 20:05:33.756 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2020-12-07 20:05:34.666 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2020-12-07 20:05:35.473 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2020-12-07 20:05:36.232 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2020-12-07 20:05:36.832 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2020-12-07 20:05:37.331 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-12-07 20:05:37.843 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-12-07 20:05:38.694 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2020-12-07 20:05:39.402 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2020-12-07 20:05:40.621 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2020-12-07 20:05:49.041 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-12-07 20:05:59.496 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2020-12-07 20:07:04.855 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:07:04.860 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:07:04.860 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:07:04.860 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:07:11.600 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:07:11.861 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 20:07:40.180 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:07:40.180 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:07:40.181 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:07:40.181 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:07:45.985 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:07:55.651 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'S_Money_Signature' entered
+[INFO ] 2020-12-07 20:07:56.161 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '162352' entered
+[INFO ] 2020-12-07 20:07:56.397 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2020-12-07 20:07:57.324 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '162352' entered
+[INFO ] 2020-12-07 20:07:57.927 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610907000469731913138073' entered
+[INFO ] 2020-12-07 20:07:58.376 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-12-07 20:07:58.795 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-12-07 20:07:59.419 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2020-12-07 20:07:59.944 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2020-12-07 20:08:00.516 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2020-12-07 20:08:06.768 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-12-07 20:08:17.585 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked
+[INFO ] 2020-12-07 20:08:29.661 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:08:29.661 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:08:29.664 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:08:29.664 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:08:34.740 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:08:35.183 [TestNG-test=Regression for SPS-SDD Event Report-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2020-12-07 20:09:57.076 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-07 20:09:57.080 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-07 20:09:57.080 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-07 20:09:57.080 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-07 20:10:02.900 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-07 20:10:10.588 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'S_Money_Signature' entered
+[INFO ] 2020-12-07 20:10:11.123 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '136714' entered
+[INFO ] 2020-12-07 20:10:11.416 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: validation' clicked
+[INFO ] 2020-12-07 20:10:11.448 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-12-07 20:10:12.251 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: UIR'. Value '169630' entered
+[INFO ] 2020-12-07 20:10:12.816 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='IBAN']'. Value 'FR7610907000469731913138073' entered
+[INFO ] 2020-12-07 20:10:13.340 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='bldngNm']'. Value '12' entered
+[INFO ] 2020-12-07 20:10:13.789 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='strtNm']'. Value '23' entered
+[INFO ] 2020-12-07 20:10:14.237 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='pstCd']'. Value '411112' entered
+[INFO ] 2020-12-07 20:10:14.673 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='city']'. Value 'Lyon' entered
+[INFO ] 2020-12-07 20:10:15.106 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='ctry']'. Value 'FR' entered
+[INFO ] 2020-12-07 20:10:15.578 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='lastName']'. Value 'John' entered
+[INFO ] 2020-12-07 20:10:16.002 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='firstName']'. Value 'Rab' entered
+[INFO ] 2020-12-07 20:10:16.702 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='address']'. Value 'Lotus laxmi' entered
+[INFO ] 2020-12-07 20:10:17.182 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='phone']'. Value '+33612345678' entered
+[INFO ] 2020-12-07 20:10:17.676 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='email']'. Value 'prakhar.suhane@atos.net' entered
+[INFO ] 2020-12-07 20:10:25.738 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2020-12-07 20:10:37.450 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Button: By.xpath: //div[@id='homeContent']/a clicked

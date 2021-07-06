@@ -1,0 +1,152 @@
+[INFO ] 2021-03-17 10:59:13.699 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2021-03-17 10:59:14.884 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-03-17 10:59:14.895 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-03-17 10:59:14.895 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-03-17 10:59:24.985 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-03-17 10:59:30.821 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-03-17 10:59:31.890 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-03-17 10:59:32.348 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-03-17 10:59:35.892 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-03-17 10:59:39.407 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 10:59:39.407 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Creditor')]
+[INFO ] 2021-03-17 10:59:40.245 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditor' entered
+[INFO ] 2021-03-17 10:59:40.812 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2021-03-17 10:59:41.352 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2021-03-17 10:59:41.888 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '149638' entered
+[INFO ] 2021-03-17 10:59:43.189 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-03-17 10:59:43.308 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [94].
+[INFO ] 2021-03-17 10:59:43.308 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - 94
+[INFO ] 2021-03-17 10:59:43.308 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - The correct Value is 94
+[INFO ] 2021-03-17 10:59:44.072 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '94' entered
+[INFO ] 2021-03-17 10:59:45.493 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-03-17 10:59:45.493 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - Generate CR NAME is  :- AutomationCreditor - FR94ZZZ149638
+[INFO ] 2021-03-17 10:59:46.993 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[2]/a' clicked
+[INFO ] 2021-03-17 10:59:47.765 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorNameField']'. Value 'AutomationCreditorTwo' entered
+[INFO ] 2021-03-17 10:59:48.365 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='creditorSciField-countryIso']'. Value 'FR' entered
+[INFO ] 2021-03-17 10:59:48.965 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '15' entered
+[INFO ] 2021-03-17 10:59:49.548 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-nationalIdentifier']'. Value '165915' entered
+[INFO ] 2021-03-17 10:59:52.308 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-03-17 10:59:52.549 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - The correct Creditor ID is The checkdigit to be used for the selected country and creditor ID is [25].
+[INFO ] 2021-03-17 10:59:52.549 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - 25
+[INFO ] 2021-03-17 10:59:52.549 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - The correct Value is 25
+[INFO ] 2021-03-17 10:59:53.784 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorSciField-checkDigit']'. Value '25' entered
+[INFO ] 2021-03-17 10:59:55.136 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-03-17 10:59:55.136 [TestNG-test=Sanity Tests for SPS-1] CreditorPage - Generate CR NAME is  :- AutomationCreditorTwo - FR25ZZZ165915
+[INFO ] 2021-03-17 11:00:01.406 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:00:01.406 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Create Root')]
+[INFO ] 2021-03-17 11:00:01.411 [TestNG-test=Sanity Tests for SPS-1] RootPage - New Root name is :AutomationRoot_20210317110001
+[INFO ] 2021-03-17 11:00:02.160 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='label']'. Value 'AutomationRoot_20210317110001' entered
+[INFO ] 2021-03-17 11:00:02.804 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='contractInfoCreat']'. Value '0202234567' entered
+[INFO ] 2021-03-17 11:00:03.494 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='phoneNumberCreation']'. Value '+9881668002' entered
+[INFO ] 2021-03-17 11:00:03.884 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='schemes']' clicked
+[INFO ] 2021-03-17 11:00:04.256 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sequences_0']' clicked
+[INFO ] 2021-03-17 11:00:05.063 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressNumber']'. Value '23444' entered
+[INFO ] 2021-03-17 11:00:05.784 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressStreet']'. Value 'Mokai' entered
+[INFO ] 2021-03-17 11:00:06.398 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressPostCode']'. Value '411017' entered
+[INFO ] 2021-03-17 11:00:07.050 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='addresseditor-addressCity']'. Value 'Pune' entered
+[INFO ] 2021-03-17 11:00:12.681 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='divToHideContainer']/div[5]/input[1]' clicked
+[INFO ] 2021-03-17 11:00:15.274 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2021-03-17 11:00:17.553 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2021-03-17 11:00:20.452 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='sciList-select']' clicked
+[INFO ] 2021-03-17 11:00:22.498 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='sciForm']/div[3]/input[1]' clicked
+[INFO ] 2021-03-17 11:00:22.506 [TestNG-test=Sanity Tests for SPS-1] RootPage - bs value sis ABC
+[INFO ] 2021-03-17 11:00:22.857 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2021-03-17 11:00:24.551 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[2]'. Value 'ABC' entered
+[INFO ] 2021-03-17 11:00:26.754 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[5]/input[1]' clicked
+[INFO ] 2021-03-17 11:00:27.028 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: addrowlink' clicked
+[INFO ] 2021-03-17 11:00:28.356 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: (//label[contains(text(),'Business Code')]//following-sibling::input)[3]'. Value 'XYZ' entered
+[INFO ] 2021-03-17 11:00:31.742 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='businessCodeForm']/div[6]/input[1]' clicked
+[INFO ] 2021-03-17 11:00:32.076 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_0']' clicked
+[INFO ] 2021-03-17 11:00:33.743 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'iban')]'. Value 'FR7618206000103056966400117' entered
+[INFO ] 2021-03-17 11:00:34.696 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'desc')]'. Value 'BankAccount1' entered
+[INFO ] 2021-03-17 11:00:35.579 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'bic')]'. Value 'AGRIFRPP882' entered
+[INFO ] 2021-03-17 11:00:37.761 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='bankAccountForm']/div[4]/input[1]' clicked
+[INFO ] 2021-03-17 11:00:38.084 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='addrowlink_1']' clicked
+[INFO ] 2021-03-17 11:00:40.236 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //input[contains(@id,'email')]'. Value 'test@worldline.com' entered
+[INFO ] 2021-03-17 11:00:43.097 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='emailAddressesForm']/div[4]/input[1]' clicked
+[INFO ] 2021-03-17 11:00:43.097 [TestNG-test=Sanity Tests for SPS-1] RootPage - Root save sucessfully ...
+[INFO ] 2021-03-17 11:00:45.984 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:00:45.984 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'')]
+[INFO ] 2021-03-17 11:00:47.263 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[1]/a' clicked
+[INFO ] 2021-03-17 11:00:50.629 [TestNG-test=Sanity Tests for SPS-1] UserActions - Button: By.name: search clicked
+[INFO ] 2021-03-17 11:08:34.521 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2021-03-17 11:08:35.499 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-03-17 11:08:35.499 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-03-17 11:08:35.499 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-03-17 11:08:45.259 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-03-17 11:08:51.263 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-03-17 11:08:51.964 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-03-17 11:08:52.356 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-03-17 11:08:58.640 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-03-17 11:09:10.721 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:09:10.721 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Mandate')]
+[INFO ] 2021-03-17 11:09:24.723 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:09:24.839 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:09:27.648 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: create' clicked
+[INFO ] 2021-03-17 11:09:42.938 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:09:42.938 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Mandate Search')]
+[INFO ] 2021-03-17 11:09:46.628 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='umr']'. Value 'MANDATE-REFERENCE000000000000005662' entered
+[INFO ] 2021-03-17 11:09:49.493 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2021-03-17 11:09:49.521 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:09:51.227 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr/td[11]/a[1]/img' clicked
+[INFO ] 2021-03-17 11:09:51.250 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:09:53.109 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='btbartop']/div[7]/a' clicked
+[INFO ] 2021-03-17 11:14:19.113 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2021-03-17 11:14:20.599 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-03-17 11:14:20.614 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-03-17 11:14:20.614 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-03-17 11:14:31.138 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-03-17 11:14:33.500 [TestNG-test=Sanity Tests for SPS-1] MinimumImportMandateFIleCSV007Test - the file is C:\Users\A687416\AppData\Local\Temp\mandate5937778661048182900.csv
+[INFO ] 2021-03-17 11:14:37.379 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-03-17 11:14:38.264 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-03-17 11:14:38.624 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-03-17 11:14:41.908 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-03-17 11:14:47.160 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:14:47.160 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Upload File')]
+[INFO ] 2021-03-17 11:15:08.719 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='submitUploadFile']' clicked
+[INFO ] 2021-03-17 11:15:08.793 [TestNG-test=Sanity Tests for SPS-1] FileSupervisionPage - File name is atos.427.mandate59377786610481829001615959906794.csv-ext-mdt.csv
+[INFO ] 2021-03-17 11:15:12.809 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:15:12.809 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[2]/a' clicked
+[INFO ] 2021-03-17 11:15:15.191 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:15:15.191 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: reset' clicked
+[INFO ] 2021-03-17 11:15:16.380 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='fileName']'. Value 'atos.427.mandate59377786610481829001615959906794.csv-ext-mdt.csv' entered
+[INFO ] 2021-03-17 11:15:18.557 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='searchButtons']/input[1]' clicked
+[INFO ] 2021-03-17 11:15:34.774 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='searchButtons']/input[1]' clicked
+[INFO ] 2021-03-17 11:15:35.990 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:15:35.990 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[9]/a[1]/img' clicked
+[INFO ] 2021-03-17 11:25:48.467 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2021-03-17 11:25:49.505 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-03-17 11:25:49.519 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-03-17 11:25:49.519 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-03-17 11:25:59.504 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-03-17 11:26:01.190 [TestNG-test=Sanity Tests for SPS-1] MinimumImportMandateFIleCSV007Test - the file is C:\Users\A687416\AppData\Local\Temp\mandate4215520277665961854.csv
+[INFO ] 2021-03-17 11:26:05.499 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-03-17 11:26:06.300 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-03-17 11:26:06.691 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-03-17 11:26:10.115 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-03-17 11:26:15.872 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:26:15.872 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Upload File')]
+[INFO ] 2021-03-17 11:26:56.788 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2021-03-17 11:26:57.725 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-03-17 11:26:57.725 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-03-17 11:26:57.725 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-03-17 11:27:06.748 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-03-17 11:27:09.287 [TestNG-test=Sanity Tests for SPS-1] MinimumImportMandateFIleCSV007Test - the file is C:\Users\A687416\AppData\Local\Temp\mandate1496493005758413477.csv
+[INFO ] 2021-03-17 11:27:13.785 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2021-03-17 11:27:14.367 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2021-03-17 11:27:14.741 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2021-03-17 11:27:17.673 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-03-17 11:27:23.026 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:27:23.026 [TestNG-test=Sanity Tests for SPS-1] UserActions - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'Upload File')]
+[INFO ] 2021-03-17 11:27:45.723 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='submitUploadFile']' clicked
+[INFO ] 2021-03-17 11:27:45.799 [TestNG-test=Sanity Tests for SPS-1] FileSupervisionPage - File name is atos.427.mandate14964930057584134771615960663807.csv-ext-mdt.csv
+[INFO ] 2021-03-17 11:27:49.746 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:27:49.746 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/ul/li[2]/a' clicked
+[INFO ] 2021-03-17 11:27:52.241 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:27:52.241 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: reset' clicked
+[INFO ] 2021-03-17 11:27:53.270 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='fileName']'. Value 'atos.427.mandate14964930057584134771615960663807.csv-ext-mdt.csv' entered
+[INFO ] 2021-03-17 11:27:55.916 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='searchButtons']/input[1]' clicked
+[INFO ] 2021-03-17 11:28:08.317 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='searchButtons']/input[1]' clicked
+[INFO ] 2021-03-17 11:28:22.409 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='searchButtons']/input[1]' clicked
+[INFO ] 2021-03-17 11:28:23.712 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-03-17 11:28:23.712 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='resultList']/div[2]/table/tbody/tr[1]/td[9]/a[1]/img' clicked

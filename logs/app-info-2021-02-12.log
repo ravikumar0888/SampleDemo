@@ -1,0 +1,26 @@
+[INFO ] 2021-02-12 13:31:43.658 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-02-12 13:31:45.063 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-02-12 13:31:45.072 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-02-12 13:31:45.074 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-02-12 13:31:58.417 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-02-12 13:32:22.685 [TestNG-test=Document Signature Test-1] SignHomePage - SPS SIGN Execution environment - RCI
+[INFO ] 2021-02-12 13:32:30.414 [TestNG-test=Document Signature Test-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2021-02-12 13:32:32.880 [TestNG-test=Document Signature Test-1] UserActions - Link: ' By.partialLinkText: Mandate Update Test' clicked
+[INFO ] 2021-02-12 13:32:32.880 [TestNG-test=Document Signature Test-1] SpsSignBackOfficePage - Clicked on Mandate Update Test Page
+[INFO ] 2021-02-12 13:32:33.645 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='transactionId']'. Value '181445' entered
+[INFO ] 2021-02-12 13:32:34.367 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.xpath: .//*[@id='creditorId']'. Value 'ztestDoS' entered
+[INFO ] 2021-02-12 13:32:35.208 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: UMR'. Value 'MANDATE-REFERENCE000000000000000054' entered
+[INFO ] 2021-02-12 13:32:35.878 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: language'. Value 'EN' entered
+[INFO ] 2021-02-12 13:32:36.779 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: urlOK'. Value 'https://en.wikipedia.org/wiki/OK' entered
+[INFO ] 2021-02-12 13:32:37.606 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: urlKO'. Value 'https://en.wikipedia.org/wiki/KO' entered
+[INFO ] 2021-02-12 13:32:38.392 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: urlCancel'. Value 'https://en.wikipedia.org/wiki/Cancel' entered
+[INFO ] 2021-02-12 13:32:39.050 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: country'. Value 'FR' entered
+[INFO ] 2021-02-12 13:32:39.679 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: checkDigit'. Value '10' entered
+[INFO ] 2021-02-12 13:32:40.289 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: businessCode'. Value 'ZZZ' entered
+[INFO ] 2021-02-12 13:32:40.969 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: nationalIdentifier'. Value '2345678' entered
+[INFO ] 2021-02-12 13:32:44.904 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: submitInitSession clicked
+[INFO ] 2021-02-12 13:32:45.013 [TestNG-test=Document Signature Test-1] UserActions - Text found at webelement OK 
+[INFO ] 2021-02-12 13:32:45.087 [TestNG-test=Document Signature Test-1] UserActions - Text found at webelement https://ssl-sps-rct-sign-service.aw.atos.net/signature/?t=9ce9a2e3-198-8b5b-13461c0-40c2-4d414e444154455f555044415445-bc83-da1d310b28cf&tCh=ubMed1IrDsNZRYTqRZL6lgJ0Ri%2BOl2l9pqm6Z0U9Cd8%3D 
+[INFO ] 2021-02-12 13:32:48.852 [TestNG-test=Document Signature Test-1] UserActions - Text found at webelement MANDATE-REFERENCE000000000000000054 
+[INFO ] 2021-02-12 13:32:49.821 [TestNG-test=Document Signature Test-1] UserActions - Text Field: 'By.id: iban'. Value 'FR7630003007200005026058893' entered
+[INFO ] 2021-02-12 13:32:52.036 [TestNG-test=Document Signature Test-1] UserActions - Button: By.id: confirm clicked

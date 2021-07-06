@@ -1,0 +1,232 @@
+[INFO ] 2020-11-30 11:08:32.244 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:08:34.101 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:08:34.105 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:08:34.106 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:08:57.001 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:11:22.541 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:11:24.341 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:11:24.344 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:11:24.345 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:11:46.090 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:11:54.263 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 11:11:55.247 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 11:11:55.671 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 11:12:00.733 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 11:12:05.980 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:12:05.980 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 11:12:16.425 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 11:12:21.044 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:12:22.845 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 11:12:23.637 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 11:12:25.864 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 11:12:26.550 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '159110' entered
+[INFO ] 2020-11-30 11:12:27.206 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '174082' entered
+[INFO ] 2020-11-30 11:12:27.841 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 11:12:31.511 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 11:16:06.763 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:16:08.701 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:16:08.705 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:16:08.709 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:16:27.653 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:16:37.801 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 11:16:38.360 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 11:30:42.010 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:30:42.946 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:30:42.947 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:30:42.947 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:30:58.427 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:31:08.693 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 11:31:09.807 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 11:31:10.278 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 11:31:34.304 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 11:31:49.323 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:31:49.323 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 11:32:05.701 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 11:32:10.278 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:32:13.289 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 11:32:14.469 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 11:32:16.509 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 11:32:17.192 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '141723' entered
+[INFO ] 2020-11-30 11:32:17.979 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '166288' entered
+[INFO ] 2020-11-30 11:32:18.376 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 11:32:21.714 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 11:37:25.339 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:37:26.311 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:37:26.315 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:37:26.319 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:37:38.280 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:37:45.060 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 11:37:46.145 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 11:37:46.575 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 11:37:51.560 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 11:37:55.105 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:37:55.105 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 11:38:02.162 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 11:38:06.142 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:38:08.159 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 11:38:09.023 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 11:38:10.924 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 11:38:11.668 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '166713' entered
+[INFO ] 2020-11-30 11:38:12.818 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '170952' entered
+[INFO ] 2020-11-30 11:38:13.997 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 11:38:16.764 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 11:40:54.104 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:40:55.659 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:40:55.662 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:40:55.662 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:41:08.956 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:41:17.033 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 11:41:17.923 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 11:41:18.358 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 11:41:23.941 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 11:41:31.019 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:41:31.019 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 11:41:39.129 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 11:41:41.821 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:41:43.605 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 11:41:44.279 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 11:41:45.630 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 11:41:46.200 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '127584' entered
+[INFO ] 2020-11-30 11:41:46.863 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '189618' entered
+[INFO ] 2020-11-30 11:41:47.185 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 11:41:49.618 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 11:52:02.586 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:52:03.442 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:52:03.446 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:52:03.446 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:52:17.457 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:52:24.740 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 11:52:25.886 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 11:52:26.353 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 11:52:30.958 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 11:52:34.952 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:52:34.952 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 11:52:42.037 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 11:52:45.302 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:52:47.270 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 11:52:47.938 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 11:52:49.504 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 11:52:50.027 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '106689' entered
+[INFO ] 2020-11-30 11:52:50.661 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '100110' entered
+[INFO ] 2020-11-30 11:52:50.940 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 11:52:53.382 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 11:56:44.970 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:56:46.612 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:56:46.615 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:56:46.617 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 11:57:03.128 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 11:57:11.137 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 11:57:12.254 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 11:57:12.783 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 11:57:18.138 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 11:57:23.081 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:57:23.082 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 11:57:31.190 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 11:57:34.089 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 11:57:36.080 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 11:57:36.735 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 11:57:38.450 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 11:57:39.281 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '160522' entered
+[INFO ] 2020-11-30 11:57:39.844 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '119443' entered
+[INFO ] 2020-11-30 11:57:40.116 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 11:57:42.456 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 11:59:41.190 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 11:59:42.301 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 11:59:42.304 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 11:59:42.306 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 12:00:01.033 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 12:00:11.265 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 12:00:12.361 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 12:00:12.826 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 12:00:17.069 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 12:00:21.735 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 12:00:21.735 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 12:00:30.684 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 12:00:34.009 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 12:00:36.508 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 12:00:37.567 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 12:00:39.480 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 12:00:40.081 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '178408' entered
+[INFO ] 2020-11-30 12:00:40.643 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '117749' entered
+[INFO ] 2020-11-30 12:00:40.945 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 12:00:43.812 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 12:06:01.457 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 12:06:02.674 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 12:06:02.679 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 12:06:02.680 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 12:06:19.852 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 12:06:27.571 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 12:06:28.551 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 12:06:29.180 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 12:06:34.349 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 12:06:39.701 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 12:06:39.701 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 12:06:48.189 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 12:06:50.782 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 12:06:53.042 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 12:06:54.138 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 12:06:56.401 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 12:06:57.108 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '172913' entered
+[INFO ] 2020-11-30 12:06:57.662 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '142453' entered
+[INFO ] 2020-11-30 12:06:57.937 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 12:07:00.325 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 12:14:12.047 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 12:14:13.316 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 12:14:13.319 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 12:14:13.320 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 12:14:32.424 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 12:14:40.339 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'atos' entered
+[INFO ] 2020-11-30 12:14:41.341 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'atosatos' entered
+[INFO ] 2020-11-30 12:14:41.965 [TestNG-test=Sanity Tests for SPS-1] LoginPage - User default logged sucessfully....
+[INFO ] 2020-11-30 12:14:46.242 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2020-11-30 12:14:50.693 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 12:14:50.694 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='pageMenu']/ul/li/a[contains(text(),'Mandates Management')]' clicked
+[INFO ] 2020-11-30 12:14:58.340 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.name: search' clicked
+[INFO ] 2020-11-30 12:15:01.649 [TestNG-test=Sanity Tests for SPS-1] UserActions - Page loaded sucessfully ......
+[INFO ] 2020-11-30 12:15:03.693 [TestNG-test=Sanity Tests for SPS-1] UserActions - click with JS : ' By.xpath: //div[@class='buttonBar']//a[contains(text(),'Create SDD')]' clicked
+[INFO ] 2020-11-30 12:15:04.663 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='dueDateField']'. Value '30/11/2020' entered
+[INFO ] 2020-11-30 12:15:06.176 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='amount']'. Value '22' entered
+[INFO ] 2020-11-30 12:15:06.737 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: //*[@id='endToEndId']'. Value '156990' entered
+[INFO ] 2020-11-30 12:15:07.410 [TestNG-test=Sanity Tests for SPS-1] UserActions - Text Field: 'By.xpath: .//*[@id='initiatorTxRef']'. Value '199045' entered
+[INFO ] 2020-11-30 12:15:07.800 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='generatePreNotification']' clicked
+[INFO ] 2020-11-30 12:15:10.184 [TestNG-test=Sanity Tests for SPS-1] UserActions - Link: ' By.xpath: .//*[@id='sddCreateForm']/div[3]/input[1]' clicked
+[INFO ] 2020-11-30 16:15:06.252 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 16:15:07.626 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 16:15:07.630 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 16:15:07.630 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 16:15:30.660 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 18:55:50.816 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 18:55:51.800 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 18:55:51.803 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 18:55:51.804 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 18:56:12.743 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 19:09:56.632 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 19:09:57.963 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 19:09:57.967 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 19:09:57.968 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 19:10:25.213 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 19:22:38.307 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 19:22:39.867 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 19:22:39.872 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 19:22:39.875 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 19:23:03.220 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 19:29:54.067 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 19:29:56.015 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 19:29:56.019 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 19:29:56.020 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 19:30:21.955 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 23:47:15.465 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 23:47:16.508 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 23:47:16.513 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 23:47:16.513 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 23:47:31.696 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 23:50:45.169 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 23:50:46.313 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 23:50:46.317 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 23:50:46.318 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 23:51:06.962 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-11-30 23:53:39.247 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution environment - RCI
+[INFO ] 2020-11-30 23:53:40.940 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-11-30 23:53:40.944 [TestNG-test=Sanity Tests for SPS-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-11-30 23:53:40.944 [TestNG-test=Sanity Tests for SPS-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-11-30 23:54:08.822 [TestNG-test=Sanity Tests for SPS-1] BasePage - Initialized chrome browser driver

@@ -1,0 +1,15 @@
+[INFO ] 2020-12-15 19:13:22.657 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-15 19:13:24.446 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-15 19:13:24.459 [TestNG-test=Regression for SPS-Mandate-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-15 19:13:24.459 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-15 19:13:45.048 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-15 19:15:09.144 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-15 19:15:09.957 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-15 19:15:09.957 [TestNG-test=Regression for SPS-Mandate-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-15 19:15:09.972 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-15 19:15:22.888 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Initialized chrome browser driver
+[INFO ] 2020-12-15 19:16:25.821 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution environment - RCI
+[INFO ] 2020-12-15 19:16:26.737 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2020-12-15 19:16:26.737 [TestNG-test=Regression for SPS-Mandate-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2020-12-15 19:16:26.737 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Execution browser - chromelocal
+[INFO ] 2020-12-15 19:16:39.572 [TestNG-test=Regression for SPS-Mandate-1] BasePage - Initialized chrome browser driver

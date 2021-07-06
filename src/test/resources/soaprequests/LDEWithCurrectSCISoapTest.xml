@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:ws.v10" xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10" xmlns:urn2="urn:net:awl:sps:sign:ws:xsd:common.v10" xmlns:urn3="urn:com:mediacert:signer:otu:xsd:v10" xmlns:urn4="urn:com:mediacert:signer:otu:xsd:v20">
+   <soapenv:Header />
+   <soapenv:Body>
+      <urn:InitSessionRequest>
+         <urn1:creditorId>LDESignature</urn1:creditorId>
+         <urn1:parameters>
+            <urn1:transactionId>${transactionId}</urn1:transactionId>
+            <urn1:validation>true</urn1:validation>
+            <urn1:skipFirstPage>false</urn1:skipFirstPage>
+            <urn1:skipSummaryPage>false</urn1:skipSummaryPage>
+            <urn1:agreementScheme>SMS</urn1:agreementScheme>
+            <urn1:bankAccount>
+               <urn2:AcctId>
+                  <urn2:IBAN>FR7630003041700002905732449</urn2:IBAN>
+               </urn2:AcctId>
+               <urn2:FinInstnId>
+                  <urn2:BIC>SOGEFRPPXXX</urn2:BIC>
+               </urn2:FinInstnId>
+            </urn1:bankAccount>
+            <!--Optional:-->
+            <urn1:SCI>
+               <urn1:country>FR</urn1:country>
+               <urn1:checkDigit>52</urn1:checkDigit>
+               <urn1:businessCode>ZZZ</urn1:businessCode>
+               <urn1:nationalIdentifier>512010</urn1:nationalIdentifier>
+            </urn1:SCI>
+            <urn1:customerId>Known</urn1:customerId>
+            <urn1:language>EN</urn1:language>
+         </urn1:parameters>
+         <urn1:postalAddress>
+            <urn2:BldngNm>12</urn2:BldngNm>
+            <urn2:StrtNm>Lotus laxmi</urn2:StrtNm>
+            <urn2:PstCd>411112</urn2:PstCd>
+            <urn2:City>Lyon</urn2:City>
+            <urn2:Ctry>FR</urn2:Ctry>
+         </urn1:postalAddress>
+         <urn3:SignerInfos>
+            <urn3:LastName>John</urn3:LastName>
+            <urn3:FirstName>Rab</urn3:FirstName>
+            <urn3:Gender>MALE</urn3:Gender>
+            <urn3:Phone>+33612345678</urn3:Phone>
+            <urn3:Email>ravikumar.murai@atos.net</urn3:Email>
+         </urn3:SignerInfos>
+      </urn:InitSessionRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

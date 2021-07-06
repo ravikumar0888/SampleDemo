@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:awl:emdd:tech:xsd:mndt.data.managmnt.001" xmlns:emdd="urn:awl:emdd:tech:xsd:common.001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:awl:emdd:tech:xsd:mndt.data.managmnt.001 emdd.mndt.data.managmnt.001.xsd">
+    <MndtData>
+        <GrpHdr>
+            <emdd:MsgId>XML-MANDATE-UPDATE-replace_id</emdd:MsgId>
+            <emdd:CreDtTm>2014-03-01T02:30:10</emdd:CreDtTm>
+            <emdd:NbOfTxs>2</emdd:NbOfTxs>
+        </GrpHdr>
+        <MndtDataTxInf idx="1">
+            <MndtUpd>
+                <OrgnlMdtPpInfo>
+                    <emdd:UMR>AAMFA10000DB47EFE9AFF92A96738E00000</emdd:UMR>
+                </OrgnlMdtPpInfo>
+                <OrgnCdtrId>
+                    <emdd:SCI>FR65ZZZ222522</emdd:SCI>
+                </OrgnCdtrId>
+                <CdtrId>
+                    <emdd:SCI>FR65ZZZ222522</emdd:SCI>
+                </CdtrId>
+                <MndtPpInfo>
+                    <emdd:UMR>AAMFA10000DB47EFE9AFF92A96738E00000</emdd:UMR>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <Cntrct>TGVPR00002739</Cntrct>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>AHR</Nm>
+                            <PrvtId ExtrId="79350"/>
+                        </DbtrId>
+                        <PstlAdr>
+                            <emdd:StrtNm>60 RUE DE TOMBLAINE</emdd:StrtNm>
+                            <emdd:PstCd>54421</emdd:PstCd>
+                            <emdd:City>SAULXURES Les NANCY</emdd:City>
+                            <emdd:Ctry>FR</emdd:Ctry>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <emdd:AcctId>
+                            <emdd:IBAN>FR7612280000030479335174714</emdd:IBAN>
+                        </emdd:AcctId>
+                        <emdd:FinInstnId>
+                            <emdd:BIC>SORMFR2NXXX</emdd:BIC>
+                        </emdd:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+            </MndtUpd>
+        </MndtDataTxInf>
+        <MndtDataTxInf idx="2">
+            <MndtUpd>
+                <OrgnlMdtPpInfo>
+                    <emdd:UMR>AAMFA1000041CF2D67C1589F7F9E2000000</emdd:UMR>
+                </OrgnlMdtPpInfo>
+                <OrgnCdtrId>
+                    <emdd:SCI>FR65ZZZ222522</emdd:SCI>
+                </OrgnCdtrId>
+                <CdtrId>
+                    <emdd:SCI>FR65ZZZ222522</emdd:SCI>
+                </CdtrId>
+                <MndtPpInfo>
+                    <emdd:UMR>AAMFA1000041CF2D67C1589F7F9E2000000</emdd:UMR>
+                </MndtPpInfo>
+                <MndtInfo>
+                    <Dbtr>
+                        <DbtrId>
+                            <Nm>Mr VAUBAN</Nm>
+                            <PrvtId ExtrId="199211"/>
+                        </DbtrId>
+                        <PstlAdr>
+                            <emdd:StrtNm>160 RUE MARX DORMOY;WATRELOT</emdd:StrtNm>
+                            <emdd:PstCd>59211</emdd:PstCd>
+                            <emdd:City>SANTES</emdd:City>
+                            <emdd:Ctry>FR</emdd:Ctry>
+                        </PstlAdr>
+                    </Dbtr>
+                    <DbtrAcct>
+                        <emdd:AcctId>
+                            <emdd:IBAN>FR7616106300198642343767424</emdd:IBAN>
+                        </emdd:AcctId>
+                        <emdd:FinInstnId>
+                            <emdd:BIC>AGRIFRPP861</emdd:BIC>
+                        </emdd:FinInstnId>
+                    </DbtrAcct>
+                </MndtInfo>
+            </MndtUpd>
+        </MndtDataTxInf>
+    </MndtData>
+</Document>

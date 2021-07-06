@@ -1,0 +1,284 @@
+[INFO ] 2021-01-20 09:08:04.364 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 09:08:05.185 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 09:08:05.187 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 09:08:05.188 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 09:08:15.095 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 09:08:20.638 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:08:21.114 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:08:21.477 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-20 09:08:30.732 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 09:08:57.592 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - No need to select sub menu option
+[INFO ] 2021-01-20 09:08:57.764 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Entered Login ID  as mevUser
+[INFO ] 2021-01-20 09:09:04.156 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on search button
+[INFO ] 2021-01-20 09:09:11.291 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - clicked on edit user button for userid mevUser
+[INFO ] 2021-01-20 09:09:16.448 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on edit group list button
+[INFO ] 2021-01-20 09:09:16.500 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - checkbox value is false
+[INFO ] 2021-01-20 09:09:16.724 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="maincol"][contains(text(),'Electronic validation of mandates: Access to the mandates creation by the signature module')] ' clicked
+[INFO ] 2021-01-20 09:10:31.121 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 09:10:31.872 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 09:10:31.875 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 09:10:31.876 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 09:10:40.236 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 09:10:44.889 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:10:45.328 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:10:45.685 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-20 09:10:56.080 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 09:11:24.690 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - No need to select sub menu option
+[INFO ] 2021-01-20 09:11:24.869 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Entered Login ID  as mevUser01
+[INFO ] 2021-01-20 09:11:33.038 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on search button
+[INFO ] 2021-01-20 09:11:41.454 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - clicked on edit user button for userid mevUser01
+[INFO ] 2021-01-20 09:11:46.962 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on edit group list button
+[INFO ] 2021-01-20 09:11:47.010 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - checkbox value is false
+[INFO ] 2021-01-20 09:11:47.228 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="maincol"][contains(text(),'Electronic validation of mandates: Access to the mandates creation by the signature module')] ' clicked
+[INFO ] 2021-01-20 09:20:58.901 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 09:20:59.894 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 09:20:59.896 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 09:20:59.897 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 09:21:08.612 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 09:21:14.365 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:21:14.810 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:21:48.718 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-20 09:21:58.071 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 09:22:25.783 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - No need to select sub menu option
+[INFO ] 2021-01-20 09:22:26.011 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Entered Login ID  as mevUser01
+[INFO ] 2021-01-20 09:22:34.227 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on search button
+[INFO ] 2021-01-20 09:22:40.785 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - clicked on edit user button for userid mevUser01
+[INFO ] 2021-01-20 09:22:46.023 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on edit group list button
+[INFO ] 2021-01-20 09:24:27.640 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 09:24:28.359 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 09:24:28.362 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 09:24:28.363 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 09:24:36.182 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 09:24:41.368 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:24:41.900 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:24:42.284 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-20 09:24:52.945 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 09:25:21.227 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - No need to select sub menu option
+[INFO ] 2021-01-20 09:25:21.413 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Entered Login ID  as mevUser01
+[INFO ] 2021-01-20 09:25:28.958 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on search button
+[INFO ] 2021-01-20 09:25:35.968 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - clicked on edit user button for userid mevUser01
+[INFO ] 2021-01-20 09:25:41.598 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on edit group list button
+[INFO ] 2021-01-20 09:25:41.645 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - checkbox value is false
+[INFO ] 2021-01-20 09:25:41.894 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[10]/div[2]/div/div[4]/div/div[1]/form/p[8]' clicked
+[INFO ] 2021-01-20 09:30:02.063 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 09:30:02.831 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 09:30:02.834 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 09:30:02.835 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 09:30:10.236 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 09:30:15.672 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:30:16.236 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'RM_AWL' entered
+[INFO ] 2021-01-20 09:30:16.614 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User admin logged sucessfully....
+[INFO ] 2021-01-20 09:30:28.080 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 09:30:58.170 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - No need to select sub menu option
+[INFO ] 2021-01-20 09:30:58.370 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Entered Login ID  as mevUser01
+[INFO ] 2021-01-20 09:31:07.643 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on search button
+[INFO ] 2021-01-20 09:31:15.156 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - clicked on edit user button for userid mevUser01
+[INFO ] 2021-01-20 09:31:21.609 [TestNG-test=Regression for SPS-SDD Event Report-1] UsersSearch - Clicked on edit group list button
+[INFO ] 2021-01-20 09:31:21.874 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[10]/div[2]/div/div[4]/div/div[1]/form/p[8]' clicked
+[INFO ] 2021-01-20 09:34:13.598 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 09:34:14.272 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 09:34:14.274 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 09:34:14.275 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 09:34:21.986 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 09:34:28.300 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'mevUser01' entered
+[INFO ] 2021-01-20 09:34:28.781 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'mevUser@12345678' entered
+[INFO ] 2021-01-20 09:34:29.125 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User mev logged sucessfully....
+[INFO ] 2021-01-20 09:34:32.047 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 09:34:34.401 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/li[7]/a' clicked
+[INFO ] 2021-01-20 09:34:34.652 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[6]/div[2]/div/div[2]/div[1]/div[1]/div/div/div[1]/div/div/div/span/a' clicked
+[INFO ] 2021-01-20 09:34:35.801 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div[7]/a[contains(text(),'Notification Templates')]' clicked
+[INFO ] 2021-01-20 09:34:43.723 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 09:34:44.351 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 09:34:46.094 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 09:37:30.018 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 09:37:30.861 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 09:37:30.864 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 09:37:30.865 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 09:37:38.690 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 09:37:44.981 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'mevUser01' entered
+[INFO ] 2021-01-20 09:37:45.838 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'mevUser@12345678' entered
+[INFO ] 2021-01-20 09:37:46.281 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User mev logged sucessfully....
+[INFO ] 2021-01-20 09:37:49.428 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 09:37:51.921 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/li[7]/a' clicked
+[INFO ] 2021-01-20 09:37:52.179 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[6]/div[2]/div/div[2]/div[1]/div[1]/div/div/div[1]/div/div/div/span/a' clicked
+[INFO ] 2021-01-20 09:37:53.536 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div[7]/a[contains(text(),'Notification Templates')]' clicked
+[INFO ] 2021-01-20 09:37:59.877 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 09:38:00.407 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 09:38:01.912 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 09:38:03.947 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 09:38:04.406 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 09:38:05.684 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:14:19.754 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 10:14:20.617 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 10:14:20.620 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 10:14:20.621 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 10:14:28.318 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 10:14:34.368 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'mevUser01' entered
+[INFO ] 2021-01-20 10:14:35.261 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'mevUser@12345678' entered
+[INFO ] 2021-01-20 10:14:35.661 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User mev logged sucessfully....
+[INFO ] 2021-01-20 10:14:38.767 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 10:14:41.148 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/li[7]/a' clicked
+[INFO ] 2021-01-20 10:14:41.376 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[6]/div[2]/div/div[2]/div[1]/div[1]/div/div/div[1]/div/div/div/span/a' clicked
+[INFO ] 2021-01-20 10:14:42.612 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div[7]/a[contains(text(),'Notification Templates')]' clicked
+[INFO ] 2021-01-20 10:14:51.523 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:14:52.033 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:14:53.507 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:14:55.429 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:14:55.916 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:14:57.583 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:17:37.917 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 10:17:39.168 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 10:17:39.171 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 10:17:39.172 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 10:17:48.968 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 10:17:55.631 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'mevUser01' entered
+[INFO ] 2021-01-20 10:17:56.198 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'mevUser@12345678' entered
+[INFO ] 2021-01-20 10:17:56.551 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User mev logged sucessfully....
+[INFO ] 2021-01-20 10:17:59.857 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 10:18:02.717 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/li[7]/a' clicked
+[INFO ] 2021-01-20 10:18:02.987 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[6]/div[2]/div/div[2]/div[1]/div[1]/div/div/div[1]/div/div/div/span/a' clicked
+[INFO ] 2021-01-20 10:18:04.438 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div[7]/a[contains(text(),'Notification Templates')]' clicked
+[INFO ] 2021-01-20 10:18:11.768 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:18:12.393 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:18:13.911 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:18:16.261 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:18:16.987 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:18:18.652 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:18:19.893 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div/a' clicked
+[INFO ] 2021-01-20 10:18:22.204 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='btbartop']/div[4]/a[contains(text(),'Modify entity')]' clicked
+[INFO ] 2021-01-20 10:18:22.928 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: spsSignId'. Value 'ztestDoS' entered
+[INFO ] 2021-01-20 10:18:24.472 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='divToHideContainer']/div[5]/input[1]' clicked
+[INFO ] 2021-01-20 10:18:28.655 [TestNG-test=Regression for SPS-SDD Event Report-1] RootPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Request')]
+[INFO ] 2021-01-20 10:18:29.247 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: mr' clicked
+[INFO ] 2021-01-20 10:19:35.349 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 10:19:36.726 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 10:19:36.730 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 10:19:36.732 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 10:19:47.442 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 10:19:54.294 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'mevUser01' entered
+[INFO ] 2021-01-20 10:19:55.330 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'mevUser@12345678' entered
+[INFO ] 2021-01-20 10:19:55.736 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User mev logged sucessfully....
+[INFO ] 2021-01-20 10:19:58.242 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 10:20:00.744 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/li[7]/a' clicked
+[INFO ] 2021-01-20 10:20:01.217 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[6]/div[2]/div/div[2]/div[1]/div[1]/div/div/div[1]/div/div/div/span/a' clicked
+[INFO ] 2021-01-20 10:20:02.782 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div[7]/a[contains(text(),'Notification Templates')]' clicked
+[INFO ] 2021-01-20 10:20:13.316 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:20:13.963 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:20:16.177 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:20:18.691 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:20:19.386 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:20:20.758 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:20:22.246 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div/a' clicked
+[INFO ] 2021-01-20 10:20:23.973 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='btbartop']/div[4]/a[contains(text(),'Modify entity')]' clicked
+[INFO ] 2021-01-20 10:20:24.854 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: spsSignId'. Value 'ztestDoS' entered
+[INFO ] 2021-01-20 10:20:26.806 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='divToHideContainer']/div[5]/input[1]' clicked
+[INFO ] 2021-01-20 10:20:30.782 [TestNG-test=Regression for SPS-SDD Event Report-1] RootPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Request')]
+[INFO ] 2021-01-20 10:20:31.240 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: mr' clicked
+[INFO ] 2021-01-20 10:20:31.887 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorLastName'. Value 'John' entered
+[INFO ] 2021-01-20 10:20:32.528 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorFirstName'. Value 'Smith' entered
+[INFO ] 2021-01-20 10:20:32.815 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: email' clicked
+[INFO ] 2021-01-20 10:20:33.451 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:20:34.037 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorPhoneField'. Value '+61212345678' entered
+[INFO ] 2021-01-20 10:24:45.758 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 10:24:49.050 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 10:24:49.054 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 10:24:49.055 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 10:25:01.048 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 10:25:15.477 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[1]/input'. Value 'mevUser01' entered
+[INFO ] 2021-01-20 10:25:16.229 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.xpath: .//*[@id='wrapper']/fieldset/form/p[2]/input'. Value 'mevUser@12345678' entered
+[INFO ] 2021-01-20 10:25:29.326 [TestNG-test=Regression for SPS-SDD Event Report-1] LoginPage - User mev logged sucessfully....
+[INFO ] 2021-01-20 10:25:32.145 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: bthp' clicked
+[INFO ] 2021-01-20 10:25:34.938 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='pageMenu']/ul/li[7]/a' clicked
+[INFO ] 2021-01-20 10:25:35.205 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: /html/body/div[6]/div[2]/div/div[2]/div[1]/div[1]/div/div/div[1]/div/div/div/span/a' clicked
+[INFO ] 2021-01-20 10:25:36.631 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div[7]/a[contains(text(),'Notification Templates')]' clicked
+[INFO ] 2021-01-20 10:25:48.034 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:25:48.713 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:25:50.431 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:25:52.880 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: senderEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:25:53.499 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: subjectField'. Value 'Automation Test' entered
+[INFO ] 2021-01-20 10:25:54.860 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: Create' clicked
+[INFO ] 2021-01-20 10:25:56.161 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id="btbartop"]/div/a' clicked
+[INFO ] 2021-01-20 10:25:59.743 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: //*[@id='btbartop']/div[4]/a[contains(text(),'Modify entity')]' clicked
+[INFO ] 2021-01-20 10:26:00.554 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: spsSignId'. Value 'ztestDoS' entered
+[INFO ] 2021-01-20 10:26:02.794 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.xpath: .//*[@id='divToHideContainer']/div[5]/input[1]' clicked
+[INFO ] 2021-01-20 10:26:07.279 [TestNG-test=Regression for SPS-SDD Event Report-1] RootPage - SubMenu is Present By.xpath: .//*[@id='pageMenu']/ul/ul/li/a[contains(text(),'New Request')]
+[INFO ] 2021-01-20 10:26:07.526 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: mr' clicked
+[INFO ] 2021-01-20 10:26:08.041 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorLastName'. Value 'John' entered
+[INFO ] 2021-01-20 10:26:08.497 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorFirstName'. Value 'Smith' entered
+[INFO ] 2021-01-20 10:26:08.762 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: email' clicked
+[INFO ] 2021-01-20 10:26:09.368 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorEmailField'. Value 'ravikumar.murai@atos.net' entered
+[INFO ] 2021-01-20 10:26:10.012 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorPhoneField'. Value '+61212345678' entered
+[INFO ] 2021-01-20 10:26:10.774 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: socialReason'. Value 'Test reason' entered
+[INFO ] 2021-01-20 10:26:11.258 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: siretNo'. Value '14' entered
+[INFO ] 2021-01-20 10:26:11.781 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorAddress-addressStreet'. Value 'Mokai Road' entered
+[INFO ] 2021-01-20 10:26:12.288 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Text Field: 'By.id: debtorAddress-addressCity'. Value 'Pune' entered
+[INFO ] 2021-01-20 10:26:12.545 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.id: optionGenerateUMR' clicked
+[INFO ] 2021-01-20 10:26:12.987 [TestNG-test=Regression for SPS-SDD Event Report-1] UserActions - Link: ' By.name: create' clicked
+[INFO ] 2021-01-20 14:39:43.466 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 14:39:44.641 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 14:39:44.648 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 14:39:44.649 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 14:39:54.363 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 14:41:13.208 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 14:41:14.123 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 14:41:14.127 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 14:41:14.128 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 14:41:23.350 [TestNG-test=Regression for SPS-SDD Event Report-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:06:49.982 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:06:50.879 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:06:50.882 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:06:50.883 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:06:59.398 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:07:02.110 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 17:10:24.160 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:10:24.913 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:10:24.915 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:10:24.916 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:10:33.331 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:14:10.310 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:14:11.156 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:14:11.159 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:14:11.160 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:14:19.138 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:14:40.817 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 17:18:52.176 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:18:53.057 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:18:53.060 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:18:53.061 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:19:00.354 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:19:02.148 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 17:19:33.414 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:19:34.081 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:19:34.085 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:19:34.085 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:19:41.826 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:19:43.344 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 17:22:30.401 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:22:31.187 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:22:31.190 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:22:31.191 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:22:39.564 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:22:40.918 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 17:24:21.119 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:24:21.792 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:24:21.795 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:24:21.795 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:24:30.030 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:24:31.519 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 17:25:20.909 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:25:21.902 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:25:21.905 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:25:21.906 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:25:30.121 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:26:12.735 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 17:56:27.727 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 17:56:28.396 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 17:56:28.399 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 17:56:28.400 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 17:56:36.415 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver
+[INFO ] 2021-01-20 17:56:38.043 [TestNG-test=Document Signature Test-1] XMLManager - Going to sign ORG request with Private Key CN=auth.qlf.spsSign.otu.worldline.com, OU=authentification client OTU, O=Worldline, L=SECLIN, C=FR
+[INFO ] 2021-01-20 18:54:44.254 [TestNG-test=Document Signature Test-1] BasePage - Execution environment - RCI
+[INFO ] 2021-01-20 18:54:45.223 [TestNG-test=Document Signature Test-1] BasePage - Execution URL - https://ssl-product-creditor-web.vm-rct.stg.as8677.net/creditor/rm/login
+[INFO ] 2021-01-20 18:54:45.226 [TestNG-test=Document Signature Test-1] BasePage - hubURL - http://selenium-hub:4444/wd/hub
+[INFO ] 2021-01-20 18:54:45.227 [TestNG-test=Document Signature Test-1] BasePage - Execution browser - chromelocal
+[INFO ] 2021-01-20 18:54:53.180 [TestNG-test=Document Signature Test-1] BasePage - Initialized chrome browser driver

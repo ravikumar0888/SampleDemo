@@ -1,0 +1,31 @@
+{
+	"CreateRoot": {
+		"RootName": "AutomationRoot_",
+		"Root_Contractinformation": "0202234567",
+		"Root_PhoneNumber": "+9881668002",
+		"Root_Street_number": "23444",
+		"Root_StreetName":"Mokai",
+		"Root_PostalCode": "411017",
+		"Root_City": "Pune",
+		"Root_Country":"France",
+		"Root_BusinessCode1":"ABC",
+		"Root_BusinessCode2":"XYZ",
+		"Root_IBAN":"FR7618206000103056966400117",
+		"Root_BIC":"AGRIFRPP882",
+		"Root_Label":"BankAccount1",
+		"Root_Email":"test@worldline.com"
+	
+	},
+	"Creditor_Two": {
+		"Name": "AutomationCreditorTwo",
+		"SCI": "FR",
+		"Address_type": "94",
+		"Street_number": "2223456",
+		"PostalCode": "411017",
+		"StreetName": "Kiwale",
+		"City": "Pune",
+		"SCI_CountryCode":"15",
+		"SCI_Number":"2345612"
+	}
+}
+

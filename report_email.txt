@@ -1,0 +1,10 @@
+Hello,
+
+Please find attached the Automation Test Execution Report for SPS-Daily-automation project.
+
+If you need more information, please contact Ravi Murai.
+
+Thanks.
+
+Regards,
+Team SPS

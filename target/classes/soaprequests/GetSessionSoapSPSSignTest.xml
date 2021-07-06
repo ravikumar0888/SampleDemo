@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:sps:sign:wsutils.v10" xmlns:urn1="urn:net:awl:sps:sign:wsutils:xsd:Status.v10">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:SessionStatusRequest>
+         <urn1:creditorId>ztestDoS</urn1:creditorId>
+         <urn1:transactionId>PSE202005111701</urn1:transactionId>
+      </urn:SessionStatusRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

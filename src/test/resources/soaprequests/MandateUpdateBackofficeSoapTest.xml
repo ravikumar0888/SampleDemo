@@ -1,0 +1,24 @@
+<soapenv:Envelope
+	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:urn="urn:net:awl:sps:sign:ws.v10"
+	xmlns:urn1="urn:net:awl:sps:sign:ws:xsd:Session.v10">
+	<soapenv:Header />
+	<soapenv:Body>
+		<urn:InitSessionForMandateUpdateRequest>
+			<urn1:transactionId>PSE202005121838</urn1:transactionId>
+			<urn1:creditorId>ztestDoS</urn1:creditorId>
+			<urn1:UMR>MANDATE-REFERENCE000000000000000054</urn1:UMR>
+			<urn1:SCI>
+				<urn1:country>FR</urn1:country>
+				<urn1:checkDigit>10</urn1:checkDigit>
+				<urn1:businessCode>ZZZ</urn1:businessCode>
+				<urn1:nationalIdentifier>2345678</urn1:nationalIdentifier>
+			</urn1:SCI>
+			<urn1:language>EN</urn1:language>
+			<urn1:urlOK>https://en.wikipedia.org/wiki/OK</urn1:urlOK>
+			<urn1:urlKO>https://en.wikipedia.org/wiki/KO</urn1:urlKO>
+			<urn1:urlCancel>https://en.wikipedia.org/wiki/Cancel</urn1:urlCancel>
+
+		</urn:InitSessionForMandateUpdateRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

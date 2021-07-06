@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:net:awl:emdd:creditor:ws.001" xmlns:urn1="urn:net:awl:emdd:creditor:xsd:mandate.001" xmlns:urn2="urn:net:awl:emdd:creditor:xsd:common.001">
+   <soapenv:Header />
+   <soapenv:Body>
+      <urn:GetAttachmentsDataForMandateRequest>
+         <urn1:MndtId>
+            <urn2:SCI>abc</urn2:SCI>
+            <urn2:UMR>pqr</urn2:UMR>
+         </urn1:MndtId>
+         <urn1:GetContent>true</urn1:GetContent>
+      </urn:GetAttachmentsDataForMandateRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
